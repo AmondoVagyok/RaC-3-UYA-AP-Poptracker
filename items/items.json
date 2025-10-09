@@ -272,6 +272,11 @@
     "codes": "nanoPak"
   },
   {
+    "name": "Master Plan",
+    "type": "toggle",
+    "codes": "MasterPlan"
+  },
+  {
     "name": "Progressive Vid-Comic",
     "type": "progressive",
     "stages": [
