@@ -704,6 +704,9 @@
           {
             "name": "Beat Scorpio using only the wrench",
         "visibility_rules": [ "SkillMaster" ],
+            "access_rules": [
+             "Daxx, hyperShot"
+            ],
             "item_count": 1
           },
           {
@@ -1120,6 +1123,9 @@
         "sections": [
           {
             "name": "Received Bolt Grabber V2",
+            "access_rules": [
+             "hyperShot"
+            ],
             "item_count": 1
           },
           {
@@ -1257,6 +1263,9 @@
         "sections": [
           {
             "name": "Titanium Bolt",
+            "access_rules": [
+             "gravBoots"
+            ],
             "item_count": 1
           },
           {
@@ -1400,11 +1409,17 @@
           {
             "name": "Break the Dan o7",
         "visibility_rules": [ "SkillMaster", "SkillSimple" ],
+            "access_rules": [
+              "warpPad"
+            ],
             "item_count": 1
           },
           {
             "name": "Qwark trophy",
             "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
+            "access_rules": [
+              "warpPad"
+            ],
             "item_count": 1
           }
         ]
@@ -3169,6 +3184,9 @@
         "sections": [
           {
             "name": "Beat Scorpio using only the wrench",
+            "access_rules": [
+             "Daxx, hyperShot"
+            ],
             "item_count": 1
           }
         ]
@@ -5384,6 +5402,9 @@
         "sections": [
           {
             "name": "Received Bolt Grabber V2",
+            "access_rules": [
+             "hyperShot"
+            ],
             "item_count": 1
           }
         ]
@@ -5676,6 +5697,9 @@
         "sections": [
           {
             "name": "Titanium Bolt",
+            "access_rules": [
+             "gravBoots"
+            ],
             "item_count": 1
           }
         ]
@@ -5953,6 +5977,9 @@
         "sections": [
           {
             "name": "Break the Dan o7",
+            "access_rules": [
+              "warpPad"
+            ],
             "item_count": 1
           }
         ]
@@ -5970,6 +5997,9 @@
           {
             "name": "Qwark Trophy",
             "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
+            "access_rules": [
+              "warpPad"
+            ],
             "item_count": 1
           }
         ]
