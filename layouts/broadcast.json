@@ -6,12 +6,16 @@
     "content": [
       {
         "type": "array",
-        "orientation": "horizontal",
+        "orientation": "vertical",
         "margin": "0,0",
         "content": [
           {
             "type": "layout",
-            "key": "shared_item_grid"
+            "key": "items_grid"
+          },
+          {
+            "type": "layout",
+            "key": "planets_grid"
           }
         ]
       }
