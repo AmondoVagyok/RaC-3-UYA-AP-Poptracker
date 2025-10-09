@@ -52,6 +52,7 @@
           },
           {
             "name": "Ratchet trophy",
+            "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
             "item_count": 1
           },
           {
@@ -60,6 +61,7 @@
           },
           {
             "name": "Complete the Path of Death without a hit",
+        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
             "item_count": 1
           },
           {
@@ -95,6 +97,7 @@
           },
           {
             "name": "Beat Helga's Best Time (0:50) (SP)",
+            "visibility_rules": [ "SkillMaster", "SkillSimple" ],
             "access_rules": [
               "Tyhrranosis, hacker, hyperShot"
             ],
@@ -191,6 +194,7 @@
           },
           {
             "name": "Turn Up The Heat! (SP)",
+        "visibility_rules": [ "SkillMaster" ],
             "access_rules": [
              "Koros"
             ],
@@ -251,6 +255,7 @@
           },
           {
             "name": "VC1 - Set a new record for Qwark (2:40) (SP)",
+        "visibility_rules": [ "SkillMaster" ],
             "access_rules": [
              "vidComic"
             ],
@@ -272,6 +277,7 @@
           },
           {
             "name": "VC2 - Set a new record for Qwark (2:10) (SP)",
+        "visibility_rules": [ "SkillMaster" ],
             "access_rules": [
              "vidComic2"
             ],
@@ -293,6 +299,7 @@
           },
           {
             "name": "VC3 - Set a new record for Qwark (1:50) (SP)",
+        "visibility_rules": [ "SkillMaster" ],
             "access_rules": [
              "vidComic3"
             ],
@@ -314,6 +321,7 @@
           },
           {
             "name": "VC4 - Set a new record for Qwark (4:45) (SP)",
+        "visibility_rules": [ "SkillMaster" ],
             "access_rules": [
              "vidComic4"
             ],
@@ -335,6 +343,7 @@
           },
           {
             "name": "VC5 - Set a new record for Qwark (2:00) (SP)",
+        "visibility_rules": [ "SkillMaster" ],
             "access_rules": [
              "vidComic5"
             ],
@@ -349,6 +358,7 @@
           },
           {
             "name": "Strive for arcade perfection (SP)",
+        "visibility_rules": [ "SkillMaster" ],
             "access_rules": [
              "vidComic5"
             ],
@@ -356,6 +366,7 @@
           },
           {
             "name": "Hit n' Run",
+        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
             "access_rules": [
              "tyhrraGuise"
             ],
@@ -428,6 +439,7 @@
           },
           {
             "name": "Kill 25 enemies with the Refractor",
+        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
             "access_rules": [
              "refractor"
             ],
@@ -691,18 +703,22 @@
           },
           {
             "name": "Beat Scorpio using only the wrench",
+        "visibility_rules": [ "SkillMaster" ],
             "item_count": 1
           },
           {
             "name": "Beat all the Gauntlet challenges",
+        "visibility_rules": [ "SkillMaster" ],
             "item_count": 1
           },
           {
             "name": "Complete a Gauntlet without taking a hit",
+        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
             "item_count": 1
           },
           {
             "name": "Destroy 5 Floating Cameras in the gauntlet.",
+        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
             "item_count": 1
           }
         ]
@@ -734,6 +750,7 @@
           },
           {
             "name": "Blow up 40 underwater crates",
+        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
             "item_count": 1
           },
           {
@@ -775,6 +792,7 @@
           },
           {
             "name": "Hit the motherload (SP)",
+        "visibility_rules": [ "SkillMaster" ],
             "access_rules": [
               "gravBoots"
             ],
@@ -834,6 +852,7 @@
           },
           {
             "name": "Snipe 10 Tyhrranoids in the towers",
+        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
             "access_rules": [
              "FluxRifle"
             ],
@@ -852,6 +871,7 @@
           },
           {
             "name": "AL trophy",
+            "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
             "item_count": 1
           },
           {
@@ -895,6 +915,7 @@
           },
           {
             "name": "Plumber trophy",
+            "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
             "item_count": 1
           },
           {
@@ -927,6 +948,7 @@
           },
           {
             "name": "Turn 15 Floranian Blood Flies into ducks.",
+        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
             "access_rules": [
              "QwackORay"
             ],
@@ -960,6 +982,7 @@
           },
           {
             "name": "Get onto the floating asteroid ring",
+        "visibility_rules": [ "SkillMaster" ],
             "item_count": 1
           },
           {
@@ -987,6 +1010,7 @@
         "sections": [
           {
             "name": "Kill 20 enemies with the wrench",
+        "visibility_rules": [ "SkillMaster" ],
             "item_count": 1
           },
           {
@@ -1026,6 +1050,7 @@
         "sections": [
           {
             "name": "Win the jackpot",
+        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
             "item_count": 1
           },
           {
@@ -1034,6 +1059,7 @@
           },
           {
             "name": "Clank trophy",
+            "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
             "item_count": 1
           },
           {
@@ -1128,6 +1154,7 @@
         "sections": [
           {
             "name": "Destroy the blimp",
+        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
             "access_rules": [
              "FluxRifle",
              "Annihilator",
@@ -1146,6 +1173,7 @@
           },
           {
             "name": "Skrunch trophy",
+            "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
             "item_count": 1
           },
           {
@@ -1230,6 +1258,7 @@
           },
           {
             "name": "Dr Nefarious trophy",
+            "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
             "item_count": 1
           },
           {
@@ -1252,6 +1281,7 @@
           },
           {
             "name": "Kill 10 Skreeducks",
+        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
             "access_rules": [
              "FluxRifle"
             ],
@@ -1259,6 +1289,7 @@
           },
           {
             "name": "Kill 40 enemies using the Suck Cannon",
+        "visibility_rules": [ "SkillMaster" ],
             "access_rules": [
              "SuckCannon"
             ],
@@ -1323,10 +1354,12 @@
           },
           {
             "name": "Get 2 seconds of air with the Turbo Slider",
+        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
             "item_count": 1
           },
           {
             "name": "Kill 10 enemies with the Refractor",
+        "visibility_rules": [ "SkillMaster" ],
             "access_rules": [
               "refractor"
             ],
@@ -1363,10 +1396,12 @@
           },
           {
             "name": "Break the Dan o7",
+        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
             "item_count": 1
           },
           {
             "name": "Qwark trophy",
+            "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
             "item_count": 1
           }
         ]
@@ -1386,6 +1421,7 @@
         "sections": [
           {
             "name": "Courtney Gears trophy",
+            "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
             "item_count": 1
           },
           {
@@ -1398,6 +1434,7 @@
           },
           {
             "name": "Smash up the Robot Base",
+        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
             "access_rules": [
               "BoxBreaker"
             ],
@@ -1428,10 +1465,12 @@
           },
           {
             "name": "Lawrence trophy",
+            "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
             "item_count": 1
           },
           {
             "name": "Infect 30 enemies.",
+        "visibility_rules": [ "SkillMaster" ],
         "access_rules": [
           "Infector"
         ],
@@ -2138,6 +2177,7 @@
         "sections": [
           {
             "name": "Ratchet Trophy",
+            "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
             "item_count": 1
           }
         ]
@@ -2160,6 +2200,7 @@
       },
       {
         "name": "Stay Squeaky Clean (SP)",
+        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
         "map_locations": [
           {
             "map": "Florana",
@@ -2236,6 +2277,7 @@
           },
           {
             "name": "Beat Helga's Best Time (0:50) (SP)",
+        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
             "access_rules": [
               "Tyhrranosis, hacker, hyperShot"
             ],
@@ -2344,6 +2386,7 @@
           },
           {
             "name": "Turn Up The Heat! (SP)",
+        "visibility_rules": [ "SkillMaster" ],
             "access_rules": [
              "Koros"
             ],
@@ -2431,6 +2474,7 @@
           },
           {
             "name": "VC1 - Set a new record for Qwark (2:40) (SP)",
+        "visibility_rules": [ "SkillMaster" ],
             "access_rules": [
              "vidComic"
             ],
@@ -2452,6 +2496,7 @@
           },
           {
             "name": "VC2 - Set a new record for Qwark (2:10) (SP)",
+        "visibility_rules": [ "SkillMaster" ],
             "access_rules": [
              "vidComic2"
             ],
@@ -2473,6 +2518,7 @@
           },
           {
             "name": "VC3 - Set a new record for Qwark (1:50) (SP)",
+        "visibility_rules": [ "SkillMaster" ],
             "access_rules": [
              "vidComic3"
             ],
@@ -2494,6 +2540,7 @@
           },
           {
             "name": "VC4 - Set a new record for Qwark (4:45) (SP)",
+        "visibility_rules": [ "SkillMaster" ],
             "access_rules": [
              "vidComic4"
             ],
@@ -2515,6 +2562,7 @@
           },
           {
             "name": "VC5 - Set a new record for Qwark (2:00) (SP)",
+        "visibility_rules": [ "SkillMaster" ],
             "access_rules": [
              "vidComic5"
             ],
@@ -2522,6 +2570,7 @@
           },
           {
             "name": "Strive for arcade perfection (SP)",
+        "visibility_rules": [ "SkillMaster" ],
             "access_rules": [
              "vidComic5"
             ],
@@ -2545,6 +2594,7 @@
           },
           {
             "name": "Monkeying Around (SP)",
+        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
             "access_rules": [
              "tyhrraGuise"
             ],
@@ -2583,6 +2633,7 @@
         "sections": [
           {
             "name": "Titanium Collector",
+            "visibility_rules": [ "TrophiesAll" ],
             "access_rules": [
              "refractor, warpPad, hyperShot, vidComic5, hacker, tyhrraGuise, gravBoots, Marcadia, Annihilation, Aquatos, Tyhrranosis, Daxx, ObaniGemini, Blackwater, Holostar, ZeldrinStarport, Metropolis, CrashSite, Aridia, QwarksHideout, Koros, CommandCenter"
             ],
@@ -2590,6 +2641,7 @@
           },
           {
             "name": "Friend of the Rangers",
+            "visibility_rules": [ "TrophiesAll" ],
             "access_rules": [
              "refractor, gravBoots, Marcadia, Tyhrranosis, Blackwater, Metropolis, Aridia"
             ],
@@ -2597,6 +2649,7 @@
           },
           {
             "name": "Annihilation Nation Champion",
+            "visibility_rules": [ "TrophiesAll" ],
             "access_rules": [
              "Daxx, hyperShot, vidComic5, hacker, tyhrraGuise, gravBoots"
             ],
@@ -2604,6 +2657,7 @@
           },
           {
             "name": "Skill Master",
+            "visibility_rules": [ "TrophiesAll" ],
             "access_rules": [
              "refractor, warpPad, hyperShot, vidComic5, hacker, tyhrraGuise, gravBoots, Marcadia, Annihilation, Aquatos, Tyhrranosis, Daxx, ObaniGemini, Blackwater, Holostar, ZeldrinStarport, Metropolis, CrashSite, Aridia, QwarksHideout, Koros, CommandCenter, PlasmaWhip, SpittingHydra, SuckCannon, DiskBladeGun, FluxRifle, QwackORay, Annihilator, Infector"
             ],
@@ -2674,6 +2728,7 @@
       },
       {
         "name": "Reflect on how to score (SP)",
+        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
         "map_locations": [
           {
             "map": "Marcadia",
@@ -3100,6 +3155,7 @@
       },
       {
         "name": "Bash the bug (SP)",
+        "visibility_rules": [ "SkillMaster" ],
         "map_locations": [
           {
             "map": "Annihilation Nation",
@@ -3116,6 +3172,7 @@
       },
       {
         "name": "Be an eight time champ (SP)",
+        "visibility_rules": [ "SkillMaster" ],
         "map_locations": [
           {
             "map": "Annihilation Nation",
@@ -3132,6 +3189,7 @@
       },
       {
         "name": "Flee Flawlessly (SP)",
+        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
         "map_locations": [
           {
             "map": "Annihilation Nation",
@@ -3148,6 +3206,7 @@
       },
       {
         "name": "Lights, camera action! (SP)",
+        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
         "map_locations": [
           {
             "map": "Annihilation Nation",
@@ -3222,6 +3281,7 @@
       },
       {
         "name": "Search for sunken treasure (SP)",
+        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
         "map_locations": [
           {
             "map": "Aquatos",
@@ -3321,6 +3381,7 @@
           },
           {
             "name": "Hit the motherload (SP)",
+            "visibility_rules": [ "SkillMaster" ],
             "item_count": 1,
             "access_rules": [
               "gravBoots"
@@ -4731,6 +4792,7 @@
       },
       {
         "name": "Be a Sharpshooter (SP)",
+        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
         "map_locations": [
           {
             "map": "Tyhrranosis",
@@ -4760,6 +4822,7 @@
         "sections": [
           {
             "name": "Al Trophy",
+            "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
             "item_count": 1
           }
         ]
@@ -4869,6 +4932,7 @@
           },
           {
             "name": "Plumber Trophy",
+            "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
             "item_count": 1
           }
         ]
@@ -4951,6 +5015,7 @@
       },
       {
         "name": "Bugs to Birds (SP)",
+        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
         "map_locations": [
           {
             "map": "Daxx",
@@ -5015,6 +5080,7 @@
       },
       {
         "name": "Get to the belt (SP)",
+        "visibility_rules": [ "SkillMaster" ],
         "map_locations": [
           {
             "map": "Obani Gemini",
@@ -5073,6 +5139,7 @@
     "children": [
       {
         "name": "Bash the party (SP)",
+        "visibility_rules": [ "SkillMaster" ],
         "map_locations": [
           {
             "map": "Blackwater City",
@@ -5143,6 +5210,7 @@
     "children": [
       {
         "name": "Feeling Lucky (SP)",
+        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
         "map_locations": [
           {
             "map": "Holostar Studios Clank",
@@ -5206,6 +5274,7 @@
         "sections": [
           {
             "name": "Clank Trophy",
+            "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
             "item_count": 1
           }
         ]
@@ -5379,6 +5448,7 @@
     "children": [
       {
         "name": "2002 was a good year in the city (SP)",
+        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
         "map_locations": [
           {
             "map": "Metropolis",
@@ -5428,6 +5498,7 @@
         "sections": [
           {
             "name": "Skrunch Trophy",
+            "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
             "item_count": 1
           }
         ]
@@ -5582,6 +5653,7 @@
         "sections": [
           {
             "name": "Dr Nefarious Trophy",
+            "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
             "item_count": 1
           }
         ]
@@ -5639,6 +5711,7 @@
       },
       {
         "name": "Aim High (SP)",
+        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
         "map_locations": [
           {
             "map": "CrashSite",
@@ -5658,6 +5731,7 @@
       },
       {
         "name": "Suck it up! (SP)",
+        "visibility_rules": [ "SkillMaster" ],
         "map_locations": [
           {
             "map": "Crash Site",
@@ -5761,6 +5835,7 @@
       },
       {
         "name": "Go for hang time (SP)",
+        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
         "map_locations": [
           {
             "map": "Aridia",
@@ -5777,6 +5852,7 @@
       },
       {
         "name": "Zap back at ya' (SP)",
+        "visibility_rules": [ "SkillMaster" ],
         "map_locations": [
           {
             "map": "Aridia",
@@ -5860,6 +5936,7 @@
       },
       {
         "name": "Break the Dan (SP)",
+        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
         "map_locations": [
           {
             "map": "Qwarks Hideout",
@@ -5886,6 +5963,7 @@
         "sections": [
           {
             "name": "Qwark Trophy",
+            "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
             "item_count": 1
           }
         ]
@@ -5928,6 +6006,7 @@
         "sections": [
           {
             "name": "Courtny Gears Trophy",
+            "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
             "item_count": 1
           }
         ]
@@ -5950,6 +6029,7 @@
       },
       {
         "name": "You break it, you win it (SP)",
+        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
         "map_locations": [
           {
             "map": "Koros",
@@ -6021,12 +6101,14 @@
         "sections": [
           {
             "name": "Lawrence Trophy",
+            "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
             "item_count": 1
           }
         ]
       },
       {
         "name": "Spread Your Germs (SP)",
+        "visibility_rules": [ "SkillMaster" ],
         "access_rules": [
           "Infector"
         ],
