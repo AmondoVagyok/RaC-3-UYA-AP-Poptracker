@@ -1186,6 +1186,9 @@
           },
           {
             "name": "Infobot: Crash Site",
+        "access_rules": [
+        "refractor, gravBoots"
+        ],
             "item_count": 1
           },
           {
@@ -5569,6 +5572,9 @@
         "sections": [
           {
             "name": "Infobot: Crash Site",
+        "access_rules": [
+        "refractor, gravBoots"
+        ],
             "item_count": 1
           }
         ]
