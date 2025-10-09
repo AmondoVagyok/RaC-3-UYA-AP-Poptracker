@@ -1576,6 +1576,9 @@
       },
       {
         "name": "Nanotech Levels 21-25",
+    "access_rules": [
+      "NanoCount:1"
+    ],
         "map_locations": [
           {
             "map": "Galaxy",
@@ -1608,6 +1611,9 @@
       },
       {
         "name": "Nanotech Levels 26-30",
+    "access_rules": [
+      "NanoCount:2"
+    ],
         "map_locations": [
           {
             "map": "Galaxy",
@@ -1640,6 +1646,9 @@
       },
       {
         "name": "Nanotech Levels 31-35",
+    "access_rules": [
+      "NanoCount:3"
+    ],
         "map_locations": [
           {
             "map": "Galaxy",
@@ -1672,6 +1681,9 @@
       },
       {
         "name": "Nanotech Levels 36-40",
+    "access_rules": [
+      "NanoCount:4"
+    ],
         "map_locations": [
           {
             "map": "Galaxy",
@@ -1704,6 +1716,9 @@
       },
       {
         "name": "Nanotech Levels 41-45",
+    "access_rules": [
+      "NanoCount:5"
+    ],
         "map_locations": [
           {
             "map": "Galaxy",
@@ -1736,6 +1751,9 @@
       },
       {
         "name": "Nanotech Levels 46-50",
+    "access_rules": [
+      "NanoCount:6"
+    ],
         "map_locations": [
           {
             "map": "Galaxy",
@@ -1768,6 +1786,9 @@
       },
       {
         "name": "Nanotech Levels 51-55",
+    "access_rules": [
+      "NanoCount:7"
+    ],
         "map_locations": [
           {
             "map": "Galaxy",
@@ -1800,6 +1821,9 @@
       },
       {
         "name": "Nanotech Levels 56-60",
+    "access_rules": [
+      "NanoCount:8"
+    ],
         "map_locations": [
           {
             "map": "Galaxy",
@@ -1832,6 +1856,9 @@
       },
       {
         "name": "Nanotech Levels 61-65",
+    "access_rules": [
+      "NanoCount:9"
+    ],
         "map_locations": [
           {
             "map": "Galaxy",
@@ -1864,6 +1891,9 @@
       },
       {
         "name": "Nanotech Levels 66-70",
+    "access_rules": [
+      "NanoCount:10"
+    ],
         "map_locations": [
           {
             "map": "Galaxy",
@@ -1896,6 +1926,9 @@
       },
       {
         "name": "Nanotech Levels 71-75",
+    "access_rules": [
+      "NanoCount:11"
+    ],
         "map_locations": [
           {
             "map": "Galaxy",
@@ -1928,6 +1961,9 @@
       },
       {
         "name": "Nanotech Levels 76-80",
+    "access_rules": [
+      "NanoCount:12"
+    ],
         "map_locations": [
           {
             "map": "Galaxy",
@@ -1960,6 +1996,9 @@
       },
       {
         "name": "Nanotech Levels 81-85",
+    "access_rules": [
+      "NanoCount:13"
+    ],
         "map_locations": [
           {
             "map": "Galaxy",
@@ -1992,6 +2031,9 @@
       },
       {
         "name": "Nanotech Levels 86-90",
+    "access_rules": [
+      "NanoCount:14"
+    ],
         "map_locations": [
           {
             "map": "Galaxy",
@@ -2024,6 +2066,9 @@
       },
       {
         "name": "Nanotech Levels 91-95",
+    "access_rules": [
+      "NanoCount:15"
+    ],
         "map_locations": [
           {
             "map": "Galaxy",
@@ -2056,6 +2101,9 @@
       },
       {
         "name": "Nanotech Levels 96-100",
+    "access_rules": [
+      "NanoCount:16"
+    ],
         "map_locations": [
           {
             "map": "Galaxy",

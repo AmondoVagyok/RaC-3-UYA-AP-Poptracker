@@ -344,7 +344,7 @@
       },
       {
         "img": "images/items/planet/Marcadia.png",
-        "codes": "Marcadia"
+        "codes": "Marcadia, NanoCount"
       }
     ]
   },
@@ -363,7 +363,7 @@
       },
       {
         "img": "images/items/planet/Annihilation.png",
-        "codes": "Annihilation"
+        "codes": "Annihilation, NanoCount"
       }
     ]
   },
@@ -382,7 +382,7 @@
       },
       {
         "img": "images/items/planet/Aquatos.png",
-        "codes": "Aquatos"
+        "codes": "Aquatos, NanoCount"
       }
     ]
   },
@@ -401,7 +401,7 @@
       },
       {
         "img": "images/items/planet/Tyhrranosis.png",
-        "codes": "Tyhrranosis"
+        "codes": "Tyhrranosis, NanoCount"
       }
     ]
   },
@@ -420,7 +420,7 @@
       },
       {
         "img": "images/items/planet/Daxx.png",
-        "codes": "Daxx"
+        "codes": "Daxx, NanoCount"
       }
     ]
   },
@@ -439,7 +439,7 @@
       },
       {
         "img": "images/items/planet/ObaniGemini.png",
-        "codes": "ObaniGemini"
+        "codes": "ObaniGemini, NanoCount"
       }
     ]
   },
@@ -458,7 +458,7 @@
       },
       {
         "img": "images/items/planet/Blackwater.png",
-        "codes": "Blackwater"
+        "codes": "Blackwater, NanoCount"
       }
     ]
   },
@@ -477,7 +477,7 @@
       },
       {
         "img": "images/items/planet/Holostar.png",
-        "codes": "Holostar"
+        "codes": "Holostar, NanoCount"
       }
     ]
   },
@@ -496,7 +496,7 @@
       },
       {
         "img": "images/items/planet/ObaniDraco.png",
-        "codes": "ObaniDraco"
+        "codes": "ObaniDraco, NanoCount"
       }
     ]
   },
@@ -515,7 +515,7 @@
       },
       {
         "img": "images/items/planet/ZeldrinStarport.png",
-        "codes": "ZeldrinStarport"
+        "codes": "ZeldrinStarport, NanoCount"
       }
     ]
   },
@@ -534,7 +534,7 @@
       },
       {
         "img": "images/items/planet/Metropolis.png",
-        "codes": "Metropolis"
+        "codes": "Metropolis, NanoCount"
       }
     ]
   },
@@ -553,7 +553,7 @@
       },
       {
         "img": "images/items/planet/CrashSite.png",
-        "codes": "CrashSite"
+        "codes": "CrashSite, NanoCount"
       }
     ]
   },
@@ -572,7 +572,7 @@
       },
       {
         "img": "images/items/planet/Aridia.png",
-        "codes": "Aridia"
+        "codes": "Aridia, NanoCount"
       }
     ]
   },
@@ -591,7 +591,7 @@
       },
       {
         "img": "images/items/planet/QwarksHideout.png",
-        "codes": "QwarksHideout"
+        "codes": "QwarksHideout, NanoCount"
       }
     ]
   },
@@ -610,7 +610,7 @@
       },
       {
         "img": "images/items/planet/Koros.png",
-        "codes": "Koros"
+        "codes": "Koros, NanoCount"
       }
     ]
   },
@@ -629,7 +629,7 @@
       },
       {
         "img": "images/items/planet/CommandCenter.png",
-        "codes": "CommandCenter"
+        "codes": "CommandCenter, NanoCount"
       }
     ]
   },
