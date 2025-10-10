@@ -15,7 +15,7 @@
           },
           {
             "type": "layout",
-            "key": "planets_grid"
+            "key": "broadcast_planets_grid"
           }
         ]
       }
