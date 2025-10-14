@@ -19,6 +19,7 @@ if Highlight then
 end
 
 CUR_INDEX = -1
+SLOT_DATA = nil
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
 
@@ -160,6 +161,20 @@ function onClear(slot_data)
 			end
 		end
 	end
+    if slot_data['options']['skill_points'] then
+        local obj = Tracker:FindObjectForCode("SkillSanity")
+        local stage = slot_data['options']['skill_points']
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
+    if slot_data['options']['trophies'] then
+        local obj = Tracker:FindObjectForCode("TrophySanity")
+        local stage = slot_data['options']['trophies']
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
 	apply_slot_data(slot_data)
 	LOCAL_ITEMS = {}
 	GLOBAL_ITEMS = {}

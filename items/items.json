@@ -642,8 +642,7 @@
       {
           "img": "images/items/settings/SkillDisabled.png",
           "name": "Skill Points - Off",
-          "codes": "SkillSanity,SkillDisabled",
-          "inherit_codes": false
+          "codes": "SkillSanity,SkillDisabled"
       },
       {
         "img": "images/items/settings/SkillSimple.png",
@@ -666,8 +665,7 @@
       {
           "img": "images/items/settings/TrophiesDisabled.png",
           "name": "Trophies - Off",
-          "codes": "TrophySanity,TrophiesDisabled",
-          "inherit_codes": false
+          "codes": "TrophySanity,TrophiesDisabled"
       },
       {
         "img": "images/items/settings/TrophiesCollect.png",
