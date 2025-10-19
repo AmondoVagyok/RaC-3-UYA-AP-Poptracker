@@ -15,15 +15,15 @@
         ],
         "sections": [
           {
-            "name": "Received Shock Blaster",
+            "name": "First Ranger",
             "item_count": 1
           },
           {
-            "name": "Received Nitro Launcher",
+            "name": "Second Ranger",
             "item_count": 1
           },
           {
-            "name": "Infobot: Florana",
+            "name": "Save Veldin",
             "item_count": 1
           }
         ]
@@ -43,25 +43,27 @@
             "item_count": 1
           },
           {
-            "name": "Received, N60 Storm",
+            "name": "Received N60 Storm",
             "item_count": 1
           },
           {
-            "name": "Titanium Bolt 1",
+            "name": "T-Bolt: Below Gadgetron Vendor",
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           },
           {
-            "name": "Ratchet trophy",
+            "name": "Trophy: 2nd Building Upstairs North-East",
             "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
             "item_count": 1
           },
           {
-            "name": "Titanium Bolt 2",
+            "name": "T-Bolt: Path of Death",
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           },
           {
-            "name": "Complete the Path of Death without a hit",
-        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
+            "name": "SP: Stay Squeaky Clean",
+            "visibility_rules": [ "SkillMaster", "SkillSimple" ],
             "item_count": 1
           },
           {
@@ -89,82 +91,72 @@
             "item_count": 1
           },
           {
-            "name": "Gadget Training Titanium Bolt",
-            "access_rules": [
-              "Tyhrranosis, hacker, hyperShot"
-            ],
+            "name": "T-Bolt: VR Gadget Training",
+            "access_rules": [ "Tyhrranosis, hacker, hyperShot" ],
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           },
           {
-            "name": "Beat Helga's Best Time (0:50) (SP)",
+            "name": "SP: Beat Helga's Best Time (0:50)",
             "visibility_rules": [ "SkillMaster", "SkillSimple" ],
-            "access_rules": [
-              "Tyhrranosis, hacker, hyperShot"
-            ],
+            "access_rules": [ "Tyhrranosis, hacker, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "VR Gadget Training",
-            "access_rules": [
-              "Tyhrranosis, hacker, hyperShot"
-            ],
+            "access_rules": [ "Tyhrranosis, hacker, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "Received Hacker",
-            "access_rules": [
-              "Tyhrranosis, hacker, hyperShot"
-            ],
+            "access_rules": [ "Tyhrranosis, hacker, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "Received Hypershot",
-            "access_rules": [
-              "Tyhrranosis, hacker, hyperShot"
-            ],
+            "access_rules": [ "Tyhrranosis, hacker, hyperShot" ],
             "item_count": 1
           },
           {
-            "name": "Infobot: Daxx",
-            "access_rules": [
-              "Tyhrranosis, hacker, hyperShot"
-            ],
+            "name": "VR Training after Noid Queen",
+            "access_rules": [ "Tyhrranosis, hacker, hyperShot"  ],
             "item_count": 1
           },
           {
-            "name": "Warm Up",
+            "name": "VR: Warm Up",
             "item_count": 1
           },
           {
-            "name": "Don't Look Down",
+            "name": "VR: Don't Look Down",
             "item_count": 1
           },
           {
-            "name": "Speed Round",
+            "name": "VR: Speed Round",
             "item_count": 1
           },
           {
-            "name": "Hot Stepper",
+            "name": "VR: Hot Stepper",
             "item_count": 1
           },
           {
-            "name": "90 Second Slayer",
+            "name": "VR: 90 Second Slayer",
             "item_count": 1
           },
           {
-            "name": "The Shocker",
+            "name": "VR: The Shocker",
             "item_count": 1
           },
           {
-            "name": "Wrench Beatdown",
+            "name": "VR: Wrench Beatdown",
             "item_count": 1
           },
           {
-            "name": "Nerves of Titanium",
+            "name": "VR: Nerves of Titanium",
             "item_count": 1
           },
           {
-            "name": "Nerves Titanium Bolt",
+            "name": "T-Bolt: VR Nerves of Titanium",
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           },
           {
@@ -173,247 +165,190 @@
           },
           {
             "name": "Received Adamantine Armor",
-            "access_rules": [
-             "Aquatos"
-            ],
+            "access_rules": [ "Aquatos" ],
             "item_count": 1
           },
           {
             "name": "Received Aegis Mark V Armor",
-            "access_rules": [
-             "ZeldrinStarport"
-            ],
+            "access_rules": [ "ZeldrinStarport" ],
             "item_count": 1
           },
           {
             "name": "Received Infernox Armor",
-            "access_rules": [
-             "Koros"
-            ],
+            "access_rules": [ "Koros" ],
             "item_count": 1
           },
           {
-            "name": "Turn Up The Heat! (SP)",
-        "visibility_rules": [ "SkillMaster" ],
-            "access_rules": [
-             "Koros"
-            ],
+            "name": "SP: Turn Up The Heat!",
+            "visibility_rules": [ "SkillMaster" ],
+            "access_rules": [ "Koros" ],
             "item_count": 1
           },
           {
-            "name": "Infobot: Marcadia",
+            "name": "Meet Sasha on the Bridge",
             "item_count": 1
           },
           {
-            "name": "Infobot: Annihilation Nation",
-            "access_rules": [
-             "vidComic"
-            ],
+            "name": "Play VidComic 1",
+            "access_rules": [ "vidComic" ],
             "item_count": 1
           },
           {
-            "name": "Infobot: Aquatos",
-            "access_rules": [
-             "Annihilation"
-            ],
+            "name": "Return after winning Grand Prize Bout",
+            "access_rules": [ "Annihilation" ],
             "item_count": 1
           },
           {
-            "name": "Infobot: Tyhrranosis",
-            "access_rules": [
-             "Aquatos"
-            ],
+            "name": "Return after Aquatos Base",
+            "access_rules": [ "Aquatos" ],
             "item_count": 1
           },
           {
-            "name": "Infobot: Metropolis",
-            "access_rules": [
-             "vidComic4"
-            ],
+            "name": "Play VidComic 4",
+            "access_rules": [ "vidComic4" ],
             "item_count": 1
           },
           {
-            "name": "Infobot: Qwarks Hideout",
-            "access_rules": [
-             "MasterPlan"
-            ],
+            "name": "Give Al the Master Plan",
+            "access_rules": [ "MasterPlan" ],
             "item_count": 1
           },
           {
-            "name": "Qwark Vidcomic 5",
-            "access_rules": [
-             "vidComic5"
-            ],
+            "name": "Play VidComic 5",
+            "access_rules": [ "vidComic5" ],
             "item_count": 1
           },
           {
             "name": "Qwark Vidcomic 1 Clear",
-            "access_rules": [
-             "vidComic"
-            ],
+            "access_rules": [ "vidComic" ],
             "item_count": 1
           },
           {
-            "name": "VC1 - Set a new record for Qwark (2:40) (SP)",
-        "visibility_rules": [ "SkillMaster" ],
-            "access_rules": [
-             "vidComic"
-            ],
+            "name": "SP: Pirate Booty - Set a new record for Qwark (2:40)",
+            "visibility_rules": [ "SkillMaster" ],
+            "access_rules": [ "vidComic" ],
             "item_count": 1
           },
           {
-            "name": "VC1 - All Tokens Titanium Bolt",
-            "access_rules": [
-             "vidComic"
-            ],
+            "name": "T-Bolt: VidComic 1 100%",
+            "access_rules": [ "vidComic" ],
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           },
           {
             "name": "Qwark Vidcomic 2 Clear",
-            "access_rules": [
-             "vidComic2"
-            ],
+            "access_rules": [ "vidComic2" ],
             "item_count": 1
           },
           {
-            "name": "VC2 - Set a new record for Qwark (2:10) (SP)",
-        "visibility_rules": [ "SkillMaster" ],
-            "access_rules": [
-             "vidComic2"
-            ],
+            "name": "SP: Arriba Amoeba! - Set a new record for Qwark (2:10)",
+            "visibility_rules": [ "SkillMaster" ],
+            "access_rules": [ "vidComic2" ],
             "item_count": 1
           },
           {
-            "name": "VC2 - All Tokens Titanium Bolt",
-            "access_rules": [
-             "vidComic2"
-            ],
+            "name": "T-Bolt: VidComic 2 100%",
+            "access_rules": [ "vidComic2" ],
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           },
           {
             "name": "Qwark Vidcomic 3 Clear",
-            "access_rules": [
-             "vidComic3"
-            ],
+            "access_rules": [ "vidComic3" ],
             "item_count": 1
           },
           {
-            "name": "VC3 - Set a new record for Qwark (1:50) (SP)",
-        "visibility_rules": [ "SkillMaster" ],
-            "access_rules": [
-             "vidComic3"
-            ],
+            "name": "SP: Shadow of the Robot - Set a new record for Qwark (1:50)",
+            "visibility_rules": [ "SkillMaster" ],
+            "access_rules": [ "vidComic3" ],
             "item_count": 1
           },
           {
-            "name": "VC3 - All Tokens Titanium Bolt",
-            "access_rules": [
-             "vidComic3"
-            ],
+            "name": "T-Bolt: VidComic 3 100%",
+            "access_rules": [ "vidComic3" ],
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           },
           {
             "name": "Qwark Vidcomic 4 Clear",
-            "access_rules": [
-             "vidComic4"
-            ],
+            "access_rules": [ "vidComic4" ],
             "item_count": 1
           },
           {
-            "name": "VC4 - Set a new record for Qwark (4:45) (SP)",
-        "visibility_rules": [ "SkillMaster" ],
-            "access_rules": [
-             "vidComic4"
-            ],
+            "name": "SP: Deja Q All Over Again - Set a new record for Qwark (4:45)",
+            "visibility_rules": [ "SkillMaster" ],
+            "access_rules": [ "vidComic4" ],
             "item_count": 1
           },
           {
-            "name": "VC4 - All Tokens Titanium Bolt",
-            "access_rules": [
-             "vidComic4"
-            ],
+            "name": "T-Bolt: VidComic 4 100%",
+            "access_rules": [ "vidComic4" ],
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           },
           {
             "name": "Qwark Vidcomic 5 Clear",
-            "access_rules": [
-             "vidComic5"
-            ],
+            "access_rules": [ "vidComic5" ],
             "item_count": 1
           },
           {
-            "name": "VC5 - Set a new record for Qwark (2:00) (SP)",
-        "visibility_rules": [ "SkillMaster" ],
-            "access_rules": [
-             "vidComic5"
-            ],
+            "name": "SP: The Shaming of the Q - Set a new record for Qwark (2:00)",
+            "visibility_rules": [ "SkillMaster" ],
+            "access_rules": [ "vidComic5" ],
             "item_count": 1
           },
           {
-            "name": "VC5 - All Tokens Titanium Bolt",
-            "access_rules": [
-             "vidComic5"
-            ],
+            "name": "T-Bolt: VidComic 5 100%",
+            "access_rules": [ "vidComic5" ],
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           },
           {
-            "name": "Strive for arcade perfection (SP)",
-        "visibility_rules": [ "SkillMaster" ],
-            "access_rules": [
-             "vidComic5"
-            ],
+            "name": "SP: Strive for Arcade Perfection",
+            "visibility_rules": [ "SkillMaster" ],
+            "access_rules": [ "vidComic5" ],
             "item_count": 1
           },
           {
-            "name": "Hit n' Run",
-        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
-            "access_rules": [
-             "tyhrraGuise"
-            ],
+            "name": "SP: Monkeying Around",
+            "visibility_rules": [ "SkillMaster", "SkillSimple" ],
+            "access_rules": [ "tyhrraGuise" ],
             "item_count": 1
           },
           {
-            "name": "Infobot: Koros",
-            "access_rules": [
-             "QwarksHideout, refractor, warpPad, hyperShot"
-            ],
+            "name": "Post Hideout Assault",
+            "access_rules": [ "QwarksHideout, refractor, warpPad, hyperShot" ],
             "item_count": 1
           },
           {
-            "name": "Titanium Collector",
-            "access_rules": [
-             "refractor, warpPad, hyperShot, vidComic5, hacker, tyhrraGuise, gravBoots, Marcadia, Annihilation, Aquatos, Tyhrranosis, Daxx, ObaniGemini, Blackwater, Holostar, ZeldrinStarport, Metropolis, CrashSite, Aridia, QwarksHideout, Koros, CommandCenter"
-            ],
+            "name": "Long Term Trophy: Titanium Collector",
+            "access_rules": [ "refractor, warpPad, hyperShot, vidComic5, hacker, tyhrraGuise, gravBoots, Marcadia, Annihilation, Aquatos, Tyhrranosis, Daxx, ObaniGemini, Blackwater, Holostar, ZeldrinStarport, Metropolis, CrashSite, Aridia, QwarksHideout, Koros, CommandCenter"],
+            "visibility_rules": [ "TrophiesAll" ],
             "item_count": 1
           },
           {
-            "name": "Friend of the Rangers",
-            "access_rules": [
-             "refractor, gravBoots, Marcadia, Tyhrranosis, Blackwater, Metropolis, Aridia"
-            ],
+            "name": "Long Term Trophy: Friend of the Rangers",
+            "access_rules": [ "refractor, gravBoots, Marcadia, Tyhrranosis, Blackwater, Metropolis, Aridia" ],
+            "visibility_rules": [ "TrophiesAll" ],
             "item_count": 1
           },
           {
-            "name": "Annihilation Nation Champion",
-            "access_rules": [
-             "Daxx, hyperShot, vidComic5, hacker, tyhrraGuise, gravBoots"
-            ],
+            "name": "Long Term Trophy: Annihilation Nation Champion",
+            "access_rules": [ "Daxx, hyperShot, vidComic5, hacker, tyhrraGuise, gravBoots, refractor, CommandCenter" ],
+            "visibility_rules": [ "TrophiesAll" ],
             "item_count": 1
           },
           {
-            "name": "Skill Master",
-            "access_rules": [
-             "refractor, warpPad, hyperShot, vidComic5, hacker, tyhrraGuise, gravBoots, Marcadia, Annihilation, Aquatos, Tyhrranosis, Daxx, ObaniGemini, Blackwater, Holostar, ZeldrinStarport, Metropolis, CrashSite, Aridia, QwarksHideout, Koros, CommandCenter, PlasmaWhip, SpittingHydra, SuckCannon, DiskBladeGun, FluxRifle, QwackORay, Annihilator, Infector"
-            ],
+            "name": "Long Term Trophy: Skill Master",
+            "access_rules": [ "refractor, warpPad, hyperShot, vidComic5, hacker, tyhrraGuise, gravBoots, Marcadia, Annihilation, Aquatos, Tyhrranosis, Daxx, ObaniGemini, Blackwater, Holostar, ZeldrinStarport, Metropolis, CrashSite, Aridia, QwarksHideout, Koros, CommandCenter, PlasmaWhip, SpittingHydra, SuckCannon, DiskBladeGun, FluxRifle, QwackORay, Annihilator, Infector" ],
+            "visibility_rules": [ "TrophiesAll" ],
             "item_count": 1
           }
         ]
       },
       {
         "name": "Marcadia",
-    "access_rules": [
-      "Marcadia"
-    ],
+        "access_rules": [ "Marcadia" ],
         "map_locations": [
           {
             "map": "Galaxy",
@@ -431,65 +366,62 @@
             "item_count": 1
           },
           {
-            "name": "Qwark Vidcomic 1",
-            "access_rules": [
-             "refractor"
-            ],
+            "name": "Meet Al",
+            "access_rules": [ "refractor" ],
             "item_count": 1
           },
           {
-            "name": "Kill 25 enemies with the Refractor",
+            "name": "SP: Reflect on how to score",
         "visibility_rules": [ "SkillMaster", "SkillSimple" ],
-            "access_rules": [
-             "refractor"
-            ],
+            "access_rules": [ "refractor" ],
             "item_count": 1
           },
           {
-            "name": "Titanium Bolt 1",
+            "name": "T-Bolt: After Pool of Water",
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           },
           {
-            "name": "Titanium Bolt 2",
-            "access_rules": [
-             "refractor, gravBoots"
-            ],
-            "item_count": 1
-          },
-          {
-            "name": "Titanium Bolt 3",
+            "name": "T-Bolt: Last Refractor Room",
+            "visibility_rules": [ "Bolt" ],
             "access_rules": [
              "refractor, gravBoots"
             ],
             "item_count": 1
           },
           {
-            "name": "Secure the Area",
+            "name": "T-Bolt: Ceiling just before Al",
+            "visibility_rules": [ "Bolt" ],
+            "access_rules": [
+             "refractor, gravBoots"
+            ],
             "item_count": 1
           },
           {
-            "name": "Air Assault",
+            "name": "IRON SHIELD: Secure the Area",
             "item_count": 1
           },
           {
-            "name": "Turret Command",
+            "name": "IRON SHIELD: Air Assault",
             "item_count": 1
           },
           {
-            "name": "Under the Gun",
+            "name": "IRON SHIELD: Turret Command",
             "item_count": 1
           },
           {
-            "name": "Hit n' Run",
+            "name": "IRON SHIELD: Under the Gun",
+            "item_count": 1
+          },
+          {
+            "name": "IRON SHIELD: Hit n' Run",
             "item_count": 1
           }
         ]
       },
       {
         "name": "Annihilation Nation",
-    "access_rules": [
-      "Annihilation"
-    ],
+        "access_rules": [ "Annihilation" ],
         "map_locations": [
           {
             "map": "Galaxy",
@@ -507,14 +439,14 @@
             "item_count": 1
           },
           {
-            "name": "Titanium Bolt 1",
+            "name": "T-Bolt: Heat Street",
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           },
           {
-            "name": "Titanium Bolt 2",
-            "access_rules": [
-             "Daxx, hyperShot"
-            ],
+            "name": "T-Bolt: Maze of Blaze",
+            "access_rules": [ "Daxx, hyperShot" ],
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           },
           {
@@ -535,30 +467,22 @@
           },
           {
             "name": "BBQ Boulevard",
-            "access_rules": [
-             "Daxx, hyperShot"
-            ],
+            "access_rules": [ "Daxx, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "Maze of Blaze",
-            "access_rules": [
-             "Daxx, hyperShot"
-            ],
+            "access_rules": [ "Daxx, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "Cremation Station",
-            "access_rules": [
-             "Daxx, hyperShot"
-            ],
+            "access_rules": [ "Daxx, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "The Annihilator",
-            "access_rules": [
-             "Daxx, hyperShot"
-            ],
+            "access_rules": [ "Daxx, hyperShot" ],
             "item_count": 1
           },
           {
@@ -587,16 +511,12 @@
           },
           {
             "name": "Whip it Good",
-            "access_rules": [
-             "PlasmaWhip"
-            ],
+            "access_rules": [ "PlasmaWhip" ],
             "item_count": 1
           },
           {
             "name": "Hydra'n Seek",
-            "access_rules": [
-             "SpittingHydra"
-            ],
+            "access_rules": [ "SpittingHydra" ],
             "item_count": 1
           },
           {
@@ -605,122 +525,92 @@
           },
           {
             "name": "Meet Courtney - Arena",
-            "access_rules": [
-             "Daxx, hyperShot"
-            ],
+            "access_rules": [ "Daxx, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "Ninja Challenge",
-            "access_rules": [
-             "Daxx, hyperShot"
-            ],
+            "access_rules": [ "Daxx, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "Counting Ducks",
-            "access_rules": [
-             "Daxx, hyperShot"
-            ],
+            "access_rules": [ "Daxx, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "Cycling Weapons",
-            "access_rules": [
-             "Daxx, hyperShot"
-            ],
+            "access_rules": [ "Daxx, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "One Hit Wonder",
-            "access_rules": [
-             "Daxx, hyperShot"
-            ],
+            "access_rules": [ "Daxx, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "Time to Suck",
-            "access_rules": [
-             "Daxx, hyperShot, SuckCannon"
-            ],
+            "access_rules": [ "Daxx, hyperShot, SuckCannon" ],
             "item_count": 1
           },
           {
             "name": "Naptime",
-            "access_rules": [
-             "Daxx, hyperShot"
-            ],
+            "access_rules": [ "Daxx, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "More Cycling Weapons",
-            "access_rules": [
-             "Daxx, hyperShot"
-            ],
+            "access_rules": [ "Daxx, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "Dodge the Twins",
-            "access_rules": [
-             "Daxx, hyperShot"
-            ],
+            "access_rules": [ "Daxx, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "Chop Chop",
-            "access_rules": [
-             "Daxx, hyperShot, DiskBladeGun"
-            ],
+            "access_rules": [ "Daxx, hyperShot, DiskBladeGun" ],
             "item_count": 1
           },
           {
             "name": "Sleep Inducer",
-            "access_rules": [
-             "Daxx, hyperShot, RiftInducer"
-            ],
+            "access_rules": [ "Daxx, hyperShot, RiftInducer" ],
             "item_count": 1
           },
           {
             "name": "The Other White Meat",
-            "access_rules": [
-             "Daxx, hyperShot, QwackORay"
-            ],
+            "access_rules": [ "Daxx, hyperShot, QwackORay" ],
             "item_count": 1
           },
           {
             "name": "Championship Bout II",
-            "access_rules": [
-             "Daxx, hyperShot"
-            ],
+            "access_rules": [ "Daxx, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "It's Qwarktastic!",
-            "access_rules": [
-             "Daxx, hyperShot, vidComic5, hacker, tyhrraGuise, gravBoots"
-            ],
+            "access_rules": [ "Daxx, hyperShot, vidComic5, hacker, tyhrraGuise, gravBoots, refractor, CommandCenter" ],
             "item_count": 1
           },
           {
-            "name": "Beat Scorpio using only the wrench",
+            "name": "SP: Bash the Bug",
         "visibility_rules": [ "SkillMaster" ],
-            "access_rules": [
-             "Daxx, hyperShot"
-            ],
+            "access_rules": [ "Daxx, hyperShot" ],
             "item_count": 1
           },
           {
-            "name": "Beat all the Gauntlet challenges",
+            "name": "SP: Be an eight time champ",
         "visibility_rules": [ "SkillMaster" ],
             "item_count": 1
           },
           {
-            "name": "Complete a Gauntlet without taking a hit",
+            "name": "SP: Flee Flawlessly",
         "visibility_rules": [ "SkillMaster", "SkillSimple" ],
             "item_count": 1
           },
           {
-            "name": "Destroy 5 Floating Cameras in the gauntlet.",
+            "name": "SP: Lights, camera action!",
         "visibility_rules": [ "SkillMaster", "SkillSimple" ],
             "item_count": 1
           }
@@ -728,9 +618,7 @@
       },
       {
         "name": "Aquatos",
-    "access_rules": [
-      "Aquatos"
-    ],
+        "access_rules": [ "Aquatos" ],
         "map_locations": [
           {
             "map": "Galaxy",
@@ -744,37 +632,36 @@
             "item_count": 1
           },
           {
-            "name": "Titanium Bolt 1",
+            "name": "T-Bolt: Under the Bridge",
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           },
           {
-            "name": "Titanium Bolt 2",
+            "name": "T-Bolt: Underwater Bolt",
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           },
           {
-            "name": "Blow up 40 underwater crates",
-        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
+            "name": "SP: Search for Sunken Treasure",
+            "visibility_rules": [ "SkillMaster", "SkillSimple" ],
             "item_count": 1
           },
           {
-            "name": "Titanium Bolt 3",
-            "access_rules": [
-             "hacker"
-            ],
+            "name": "T-Bolt: Behind the Locked Gate",
+            "access_rules": [ "hacker" ],
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           },
           {
-            "name": "Titanium Bolt 4",
-        "access_rules": [
-          "gravBoots"
-        ],
+            "name": "T-Bolt: Top Left Bolt",
+            "access_rules": [ "gravBoots" ],
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           },
           {
-            "name": "Titanium Bolt 5",
-        "access_rules": [
-          "gravBoots, hyperShot"
-        ],
+            "name": "T-Bolt Swinging Bolt",
+            "access_rules": [ "gravBoots, hyperShot" ],
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           },
           {
@@ -794,11 +681,9 @@
             "item_count": 1
           },
           {
-            "name": "Hit the motherload (SP)",
-        "visibility_rules": [ "SkillMaster" ],
-            "access_rules": [
-              "gravBoots"
-            ],
+            "name": "SP: Hit the Motherload",
+            "visibility_rules": [ "SkillMaster" ],
+            "access_rules": [ "gravBoots" ],
             "item_count": 1
           },
           {
@@ -811,32 +696,24 @@
           },
           {
             "name": "Received Bouncer",
-            "access_rules": [
-             "QwarksHideout"
-            ],
+            "access_rules": [ "QwarksHideout" ],
             "item_count": 1
           },
           {
             "name": "Received Plasma Coil",
-            "access_rules": [
-             "Koros"
-            ],
+            "access_rules": [ "Koros" ],
             "item_count": 1
           },
           {
             "name": "Received Shield Charger",
-            "access_rules": [
-             "CommandCenter"
-            ],
+            "access_rules": [ "CommandCenter" ],
             "item_count": 1
           }
         ]
       },
       {
         "name": "Tyhrranosis",
-    "access_rules": [
-      "Tyhrranosis"
-    ],
+        "access_rules": [ "Tyhrranosis" ],
         "map_locations": [
           {
             "map": "Galaxy",
@@ -854,56 +731,52 @@
             "item_count": 1
           },
           {
-            "name": "Snipe 10 Tyhrranoids in the towers",
-        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
-            "access_rules": [
-             "FluxRifle"
-            ],
+            "name": "SP: Be a Sharpshooter",
+            "visibility_rules": [ "SkillMaster", "SkillSimple" ],
+            "access_rules": [ "FluxRifle" ],
             "item_count": 1
           },
           {
-            "name": "Titanium Bolt 1",
+            "name": "T-Bolt: South East Cannon",
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           },
           {
-            "name": "Titanium Bolt 2",
-            "access_rules": [
-             "hyperShot"
-            ],
+            "name": "T-Bolt: Underground Cave Bolt",
+            "access_rules": [ "hyperShot" ],
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           },
           {
-            "name": "AL trophy",
+            "name": "Trophy: North East Pillar",
             "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
             "item_count": 1
           },
           {
-            "name": "IRON. HARD. ABS.",
+            "name": "Destroy the Momma Tyhrranoid",
             "item_count": 1
           },
           {
-            "name": "Assault on Kavu Island",
+            "name": "ISLAND STRIKE: Assault on Kavu Island",
             "item_count": 1
           },
           {
-            "name": "Dogfight over Kavu Island",
+            "name": "ISLAND STRIKE: Dogfight over Kavu Island",
             "item_count": 1
           },
           {
-            "name": "Operation Thunderbolt",
+            "name": "ISLAND STRIKE: Operation Thunderbolt",
             "item_count": 1
           },
           {
-            "name": "The Final Battle",
+            "name": "ISLAND STRIKE: The Final Battle",
             "item_count": 1
           }
         ]
       },
       {
         "name": "Daxx",
-    "access_rules": [
-      "Daxx"
-    ],
+        "access_rules": [ "Daxx" ],
         "map_locations": [
           {
             "map": "Galaxy",
@@ -917,53 +790,43 @@
             "item_count": 1
           },
           {
-            "name": "Plumber trophy",
+            "name": "Trophy: Ledge overlooking Ship",
             "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
             "item_count": 1
           },
           {
-            "name": "Titanium Bolt 1",
-            "access_rules": [
-             "hyperShot"
-            ],
+            "name": "T-Bolt: Right of the Taxi",
+            "access_rules": [ "hyperShot" ],
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           },
           {
-            "name": "Titanium Bolt 2",
-            "access_rules": [
-             "hacker, hyperShot, chargeBoots"
-            ],
+            "name": "T-Bolt: Time Sensitive Door",
+            "access_rules": [ "hacker, hyperShot, chargeBoots" ],
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           },
           {
-            "name": "Courtney's Music Vid",
-            "access_rules": [
-             "hyperShot"
-            ],
+            "name": "Gunship",
+            "access_rules": [ "hyperShot" ],
             "item_count": 1
           },
           {
-            "name": "Infobot: Obani Gemini",
-            "access_rules": [
-             "hacker, hyperShot"
-            ],
+            "name": "Infiltrate Weapons Facility",
+            "access_rules": [ "hacker, hyperShot" ],
             "item_count": 1
           },
           {
-            "name": "Turn 15 Floranian Blood Flies into ducks.",
+            "name": "SP: Bugs to Birdie",
         "visibility_rules": [ "SkillMaster", "SkillSimple" ],
-            "access_rules": [
-             "QwackORay"
-            ],
+            "access_rules": [ "QwackORay" ],
             "item_count": 1
           }
         ]
       },
       {
         "name": "Obani Gemini",
-    "access_rules": [
-      "refractor, ObaniGemini"
-    ],
+        "access_rules": [ "refractor, ObaniGemini" ],
         "map_locations": [
           {
             "map": "Galaxy",
@@ -977,19 +840,19 @@
             "item_count": 1
           },
           {
-            "name": "Titanium Bolt 1",
-            "access_rules": [
-             "hyperShot"
-            ],
+            "name": "T-Bolt: Follow the Lava",
+            "access_rules": [ "hyperShot" ],
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           },
           {
-            "name": "Get onto the floating asteroid ring",
-        "visibility_rules": [ "SkillMaster" ],
+            "name": "SP: Get to the Belt",
+            "visibility_rules": [ "SkillMaster" ],
             "item_count": 1
           },
           {
-            "name": "Titanium Bolt 2",
+            "name": "T-Bolt: Between the Twin Towers",
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           },
           {
@@ -1000,9 +863,7 @@
       },
       {
         "name": "Blackwater",
-    "access_rules": [
-      "Blackwater"
-    ],
+        "access_rules": [ "Blackwater" ],
         "map_locations": [
           {
             "map": "Galaxy",
@@ -1012,8 +873,8 @@
         ],
         "sections": [
           {
-            "name": "Kill 20 enemies with the wrench",
-        "visibility_rules": [ "SkillMaster" ],
+            "name": "SP: Bash the Party",
+            "visibility_rules": [ "SkillMaster" ],
             "item_count": 1
           },
           {
@@ -1025,24 +886,22 @@
             "item_count": 1
           },
           {
-            "name": "The Battle of Blackwater City",
+            "name": "BLACK TIDE: The Battle of Blackwater City",
             "item_count": 1
           },
           {
-            "name": "The Bridge",
+            "name": "BLACK TIDE: The Bridge",
             "item_count": 1
           },
           {
-            "name": "Counterattack",
+            "name": "BLACK TIDE: Counterattack",
             "item_count": 1
           }
         ]
       },
       {
         "name": "Holostar",
-    "access_rules": [
-      "Holostar, hacker, hyperShot"
-    ],
+        "access_rules": [ "Holostar, hacker, hyperShot" ],
         "map_locations": [
           {
             "map": "Galaxy",
@@ -1052,8 +911,8 @@
         ],
         "sections": [
           {
-            "name": "Win the jackpot",
-        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
+            "name": "SP: Feeling Lucky?",
+            "visibility_rules": [ "SkillMaster", "SkillSimple" ],
             "item_count": 1
           },
           {
@@ -1061,39 +920,36 @@
             "item_count": 1
           },
           {
-            "name": "Clank trophy",
+            "name": "Trophy: After Tall Elevator",
             "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
             "item_count": 1
           },
           {
-            "name": "Titanium Bolt 1",
+            "name": "T-Bolt: Atop the Chairs",
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           },
           {
-            "name": "Titanium Bolt 2",
-            "access_rules": [
-             "gravBoots"
-            ],
+            "name": "T-Bolt: Lot 42's Grav Ramp",
+            "access_rules": [ "gravBoots" ],
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           },
           {
-            "name": "Titanium Bolt 3",
-            "access_rules": [
-             "gravBoots"
-            ],
+            "name": "T-Bolt: Kamikaze Noids",
+            "access_rules": [ "gravBoots" ],
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           },
           {
-            "name": "Infobot: Obani Draco",
+            "name": "Skidd is captured",
             "item_count": 1
           }
         ]
       },
       {
         "name": "Obani Draco",
-    "access_rules": [
-      "ObaniDraco, gravBoots"
-    ],
+        "access_rules": [ "ObaniDraco, gravBoots" ],
         "map_locations": [
           {
             "map": "Galaxy",
@@ -1103,16 +959,14 @@
         ],
         "sections": [
           {
-            "name": "Infobot: Zeldrin Starport",
+            "name": "Defeat Courtney Gears",
             "item_count": 1
           }
         ]
       },
       {
         "name": "Zeldrin Starport",
-    "access_rules": [
-      "ZeldrinStarport"
-    ],
+        "access_rules": [ "ZeldrinStarport" ],
         "map_locations": [
           {
             "map": "Galaxy",
@@ -1123,33 +977,29 @@
         "sections": [
           {
             "name": "Received Bolt Grabber V2",
-            "access_rules": [
-             "hyperShot"
-            ],
+            "access_rules": [ "hyperShot" ],
             "item_count": 1
           },
           {
-            "name": "Titanium Bolt 1",
+            "name": "T-Bolt: Inside the Second Ship",
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           },
           {
-            "name": "Titanium Bolt 2",
-            "access_rules": [
-             "hyperShot"
-            ],
+            "name": "T-Bolt: Atop the Twin Shooters",
+            "access_rules": [ "hyperShot" ],
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           },
           {
-            "name": "Qwark Vidcomic 4",
+            "name": "Escape the Exploding Ship",
             "item_count": 1
           }
         ]
       },
       {
         "name": "Metropolis",
-    "access_rules": [
-      "Metropolis"
-    ],
+        "access_rules": [ "Metropolis" ],
         "map_locations": [
           {
             "map": "Galaxy",
@@ -1159,100 +1009,77 @@
         ],
         "sections": [
           {
-            "name": "Destroy the blimp",
-        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
-            "access_rules": [
-             "FluxRifle",
-             "Annihilator",
-             "RY3NO",
-             "SuckCannon",
-             "DiskBladeGun"
-            ],
+            "name": "SP: 2002 was a good year in the city",
+            "visibility_rules": [ "SkillMaster", "SkillSimple" ],
+            "access_rules": [ "FluxRifle", "Annihilator", "RY3NO", "SuckCannon", "DiskBladeGun" ],
             "item_count": 1
           },
           {
-            "name": "Titanium Bolt 1",
-            "access_rules": [
-             "hyperShot"
-            ],
+            "name": "T-Bolt: Across the Gap",
+            "access_rules": [ "hyperShot" ],
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           },
           {
-            "name": "Skrunch trophy",
+            "name": "Trophy: 2nd Building Window",
             "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
             "item_count": 1
           },
           {
-            "name": "The AAAAGE OF ROBOTS!!!",
+            "name": "Metal-Noids",
             "item_count": 1
           },
           {
-            "name": "Titanium Bolt 2",
+            "name": "T-Bolt: Right of the Balcony",
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           },
           {
-            "name": "Infobot: Crash Site",
-        "access_rules": [
-        "refractor, gravBoots"
-        ],
+            "name": "Defeat Klunk",
+            "access_rules": [ "refractor, gravBoots" ],
             "item_count": 1
           },
           {
-            "name": "Titanium Bolt 3",
-        "access_rules": [
-        "refractor, gravBoots"
-        ],
+            "name": "T-Bolt: Tall Tower (Hovership)",
+            "access_rules": [ "refractor, gravBoots" ],
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           },
           {
-            "name": "Countdown",
-        "access_rules": [
-        "refractor, gravBoots"
-        ],
+            "name": "URBAN STORM: Countdown",
+            "access_rules": [ "refractor, gravBoots" ],
             "item_count": 1
           },
           {
-            "name": "Urban Combat",
-        "access_rules": [
-        "refractor, gravBoots"
-        ],
+            "name": "URBAN STORM: Urban Combat",
+            "access_rules": [ "refractor, gravBoots" ],
             "item_count": 1
           },
           {
-            "name": "Tower Attack",
-        "access_rules": [
-        "refractor, gravBoots"
-        ],
+            "name": "URBAN STORM: Tower Attack",
+            "access_rules": [ "refractor, gravBoots" ],
             "item_count": 1
           },
           {
-            "name": "Air Superiority",
-        "access_rules": [
-        "refractor, gravBoots"
-        ],
+            "name": "URBAN STORM: Air Superiority",
+            "access_rules": [ "refractor, gravBoots" ],
             "item_count": 1
           },
           {
-            "name": "Turret Command",
-        "access_rules": [
-        "refractor, gravBoots"
-        ],
+            "name": "URBAN STORM: Turret Command",
+            "access_rules": [ "refractor, gravBoots" ],
             "item_count": 1
           },
           {
             "name": "Received Map-O-Matic",
-        "access_rules": [
-        "refractor, gravBoots"
-        ],
+            "access_rules": [ "refractor, gravBoots" ],
             "item_count": 1
           }
         ]
       },
       {
         "name": "Crash Site",
-    "access_rules": [
-      "CrashSite"
-    ],
+        "access_rules": [ "CrashSite" ],
         "map_locations": [
           {
             "map": "Galaxy",
@@ -1262,58 +1089,47 @@
         ],
         "sections": [
           {
-            "name": "Titanium Bolt",
-            "access_rules": [
-             "gravBoots"
-            ],
+            "name": "T-Bolt: Turn Around",
+            "access_rules": [ "gravBoots" ],
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           },
           {
-            "name": "Dr Nefarious trophy",
+            "name": "Trophy: Near first corner",
             "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
             "item_count": 1
           },
           {
             "name": "Received Nano-Pak",
-            "access_rules": [
-             "hyperShot, gravBoots"
-            ],
+            "access_rules": [ "hyperShot, gravBoots" ],
             "item_count": 1
           },
           {
-            "name": "Master Plan",
+            "name": "Escape Pod",
             "item_count": 1
           },
           {
             "name": "Infobot: Aridia",
-            "access_rules": [
-             "gravBoots"
-            ],
+            "access_rules": [ "gravBoots" ],
             "item_count": 1
           },
           {
-            "name": "Kill 10 Skreeducks",
+            "name": "SP: Aim High",
         "visibility_rules": [ "SkillMaster", "SkillSimple" ],
-            "access_rules": [
-             "FluxRifle"
-            ],
+            "access_rules": [ "FluxRifle" ],
             "item_count": 1
           },
           {
-            "name": "Kill 40 enemies using the Suck Cannon",
+            "name": "SP: Suck it up!",
         "visibility_rules": [ "SkillMaster" ],
-            "access_rules": [
-             "SuckCannon"
-            ],
+            "access_rules": [ "SuckCannon" ],
             "item_count": 1
           }
         ]
       },
       {
         "name": "Aridia",
-    "access_rules": [
-      "Aridia"
-    ],
+        "access_rules": [ "Aridia" ],
         "map_locations": [
           {
             "map": "Galaxy",
@@ -1327,23 +1143,23 @@
             "item_count": 1
           },
           {
-            "name": "The Tunnels of Outpost X12",
+            "name": "DEATH VALLEY: The Tunnels of Outpost X12",
             "item_count": 1
           },
           {
-            "name": "Ambush in Red Rock Valley",
+            "name": "DEATH VALLEY: Ambush in Red Rock Valley",
             "item_count": 1
           },
           {
-            "name": "Assassination",
+            "name": "DEATH VALLEY: Assassination",
             "item_count": 1
           },
           {
-            "name": "Reclaim the Valley",
+            "name": "DEATH VALLEY: Reclaim the Valley",
             "item_count": 1
           },
           {
-            "name": "X12 Endgame",
+            "name": "DEATH VALLEY: X12 Endgame",
             "item_count": 1
           },
           {
@@ -1351,39 +1167,33 @@
             "item_count": 1
           },
           {
-            "name": "Titanium Bolt 1",
-            "access_rules": [
-              "gravBoots"
-            ],
+            "name": "T-Bolt: Under the Bridge (Assassination)",
+            "access_rules": [ "gravBoots" ],
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           },
           {
-            "name": "Titanium Bolt 2",
-            "access_rules": [
-              "gravBoots"
-            ],
+            "name": "T-Bolt: Behind the Base (X12 Endgame)",
+            "access_rules": [ "gravBoots" ],
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           },
           {
-            "name": "Get 2 seconds of air with the Turbo Slider",
-        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
+            "name": "SP: Go for hang time",
+            "visibility_rules": [ "SkillMaster", "SkillSimple" ],
             "item_count": 1
           },
           {
-            "name": "Kill 10 enemies with the Refractor",
-        "visibility_rules": [ "SkillMaster" ],
-            "access_rules": [
-              "refractor"
-            ],
+            "name": "SP: Zap back at ya'",
+            "visibility_rules": [ "SkillMaster" ],
+            "access_rules": [ "refractor" ],
             "item_count": 1
           }
         ]
       },
       {
         "name": "Hideout",
-    "access_rules": [
-      "QwarksHideout, refractor"
-    ],
+        "access_rules": [ "QwarksHideout, refractor" ],
         "map_locations": [
           {
             "map": "Galaxy",
@@ -1394,41 +1204,32 @@
         "sections": [
           {
             "name": "Received Gadgetron PDA",
-            "access_rules": [
-              "gravBoots"
-            ],
+            "access_rules": [ "gravBoots" ],
             "item_count": 1
           },
           {
-            "name": "Titanium Bolt",
-            "access_rules": [
-              "gravBoots"
-            ],
+            "name": "T-Bolt: Glide from the Ramp",
+            "access_rules": [ "gravBoots" ],
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           },
           {
-            "name": "Break the Dan o7",
-        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
-            "access_rules": [
-              "warpPad"
-            ],
+            "name": "SP: Break the Dan",
+            "visibility_rules": [ "SkillMaster", "SkillSimple" ],
+            "access_rules": [ "warpPad" ],
             "item_count": 1
           },
           {
-            "name": "Qwark trophy",
+            "name": "Trophy: Outside Qwarks Room",
             "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
-            "access_rules": [
-              "warpPad"
-            ],
+            "access_rules": [ "warpPad" ],
             "item_count": 1
           }
         ]
       },
       {
         "name": "Koros",
-    "access_rules": [
-      "Koros"
-    ],
+        "access_rules": [ "Koros" ],
         "map_locations": [
           {
             "map": "Galaxy",
@@ -1438,24 +1239,24 @@
         ],
         "sections": [
           {
-            "name": "Courtney Gears trophy",
+            "name": "Trophy: Glass House",
             "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
             "item_count": 1
           },
           {
-            "name": "Titanium Bolt 1",
+            "name": "T-Bolt: Behind the Metal Fence",
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           },
           {
-            "name": "Titanium Bolt 2",
+            "name": "T-Bolt: Pair of Towers",
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           },
           {
-            "name": "Smash up the Robot Base",
-        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
-            "access_rules": [
-              "BoxBreaker"
-            ],
+            "name": "SP: You break it, you win it",
+            "visibility_rules": [ "SkillMaster", "SkillSimple" ],
+            "access_rules": [ "BoxBreaker" ],
             "item_count": 1
           },
           {
@@ -1466,9 +1267,7 @@
       },
       {
         "name": "Command Center",
-    "access_rules": [
-      "CommandCenter, hyperShot, tyhrraGuise, gravBoots"
-    ],
+        "access_rules": [ "CommandCenter, hyperShot, tyhrraGuise, gravBoots" ],
         "map_locations": [
           {
             "map": "Galaxy",
@@ -1478,34 +1277,29 @@
         ],
         "sections": [
           {
-            "name": "Titanium Bolt",
+            "name": "T-Bolt: Behind the Forcefield",
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           },
           {
-            "name": "Lawrence trophy",
+            "name": "Trophy: Up a Ladder",
             "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
             "item_count": 1
           },
           {
-            "name": "Infect 30 enemies.",
-        "visibility_rules": [ "SkillMaster" ],
-        "access_rules": [
-          "Infector"
-        ],
+            "name": "SP: Spread Your Germs",
+            "visibility_rules": [ "SkillMaster" ],
+            "access_rules": [ "Infector" ],
             "item_count": 1
           },
           {
             "name": "Dr. Nefarious Defeated!",
-        "access_rules": [
-          "hacker, refractor"
-        ],
+            "access_rules": [ "hacker, refractor" ],
             "item_count": 1
           },
           {
             "name": "Biobliterator Defeated!",
-        "access_rules": [
-          "hacker, refractor"
-        ],
+            "access_rules": [ "hacker, refractor" ],
             "item_count": 1
           }
         ]
@@ -1522,22 +1316,27 @@
         "sections": [
           {
             "name": "Nanotech Milestone: 11",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 12",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 13",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 14",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 15",
+            "visibility_rules": [ "NanoAll", "Nano5" ],
             "item_count": 1
           }
         ]
@@ -1554,22 +1353,27 @@
         "sections": [
           {
             "name": "Nanotech Milestone: 16",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 17",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 18",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 19",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 20",
+            "visibility_rules": [ "NanoAll", "Nano5", "Nano10", "Nano20" ],
             "item_count": 1
           }
         ]
@@ -1589,22 +1393,27 @@
         "sections": [
           {
             "name": "Nanotech Milestone: 21",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 22",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 23",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 24",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 25",
+            "visibility_rules": [ "NanoAll", "Nano5" ],
             "item_count": 1
           }
         ]
@@ -1624,22 +1433,27 @@
         "sections": [
           {
             "name": "Nanotech Milestone: 26",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 27",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 28",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 29",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 30",
+            "visibility_rules": [ "NanoAll", "Nano5", "Nano10" ],
             "item_count": 1
           }
         ]
@@ -1659,22 +1473,27 @@
         "sections": [
           {
             "name": "Nanotech Milestone: 31",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 32",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 33",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 34",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 35",
+            "visibility_rules": [ "NanoAll", "Nano5" ],
             "item_count": 1
           }
         ]
@@ -1694,22 +1513,27 @@
         "sections": [
           {
             "name": "Nanotech Milestone: 36",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 37",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 38",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 39",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 40",
+            "visibility_rules": [ "NanoAll", "Nano5", "Nano10", "Nano20" ],
             "item_count": 1
           }
         ]
@@ -1729,22 +1553,27 @@
         "sections": [
           {
             "name": "Nanotech Milestone: 41",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 42",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 43",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 44",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 45",
+            "visibility_rules": [ "NanoAll", "Nano5" ],
             "item_count": 1
           }
         ]
@@ -1764,22 +1593,27 @@
         "sections": [
           {
             "name": "Nanotech Milestone: 46",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 47",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 48",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 49",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 50",
+            "visibility_rules": [ "NanoAll", "Nano5", "Nano10" ],
             "item_count": 1
           }
         ]
@@ -1799,22 +1633,27 @@
         "sections": [
           {
             "name": "Nanotech Milestone: 51",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 52",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 53",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 54",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 55",
+            "visibility_rules": [ "NanoAll", "Nano5" ],
             "item_count": 1
           }
         ]
@@ -1834,22 +1673,27 @@
         "sections": [
           {
             "name": "Nanotech Milestone: 56",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 57",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 58",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 59",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 60",
+            "visibility_rules": [ "NanoAll", "Nano5", "Nano10", "Nano20" ],
             "item_count": 1
           }
         ]
@@ -1869,22 +1713,27 @@
         "sections": [
           {
             "name": "Nanotech Milestone: 61",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 62",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 63",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 64",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 65",
+            "visibility_rules": [ "NanoAll", "Nano5" ],
             "item_count": 1
           }
         ]
@@ -1904,22 +1753,27 @@
         "sections": [
           {
             "name": "Nanotech Milestone: 66",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 67",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 68",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 69",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 70",
+            "visibility_rules": [ "NanoAll", "Nano5", "Nano10" ],
             "item_count": 1
           }
         ]
@@ -1939,22 +1793,27 @@
         "sections": [
           {
             "name": "Nanotech Milestone: 71",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 72",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 73",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 74",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 75",
+            "visibility_rules": [ "NanoAll", "Nano5" ],
             "item_count": 1
           }
         ]
@@ -1974,22 +1833,27 @@
         "sections": [
           {
             "name": "Nanotech Milestone: 76",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 77",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 78",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 79",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 80",
+            "visibility_rules": [ "NanoAll", "Nano5", "Nano10", "Nano20" ],
             "item_count": 1
           }
         ]
@@ -2009,22 +1873,27 @@
         "sections": [
           {
             "name": "Nanotech Milestone: 81",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 82",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 83",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 84",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 85",
+            "visibility_rules": [ "NanoAll", "Nano5" ],
             "item_count": 1
           }
         ]
@@ -2044,22 +1913,27 @@
         "sections": [
           {
             "name": "Nanotech Milestone: 86",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 87",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 88",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 89",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 90",
+            "visibility_rules": [ "NanoAll", "Nano5", "Nano10" ],
             "item_count": 1
           }
         ]
@@ -2079,22 +1953,27 @@
         "sections": [
           {
             "name": "Nanotech Milestone: 91",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 92",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 93",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 94",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 95",
+            "visibility_rules": [ "NanoAll", "Nano5" ],
             "item_count": 1
           }
         ]
@@ -2114,22 +1993,28 @@
         "sections": [
           {
             "name": "Nanotech Milestone: 96",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 97",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 98",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 99",
+            "visibility_rules": [ "NanoAll" ],
             "item_count": 1
           },
           {
-            "name": "Nanotech Milestone: 100"
+            "name": "Nanotech Milestone: 100",
+            "visibility_rules": [ "NanoAll", "Nano5", "Nano10", "Nano20" ],
+            "item_count":1
           }
         ]
       }
@@ -2216,7 +2101,7 @@
         ]
       },
       {
-        "name": "Below Vendor",
+        "name": "Below Gadgetron Vendor",
         "map_locations": [
           {
             "map": "Florana",
@@ -2227,6 +2112,7 @@
         "sections": [
           {
             "name": "Titanium Bolt",
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           }
         ]
@@ -2260,12 +2146,13 @@
         "sections": [
           {
             "name": "Titanium Bolt",
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           }
         ]
       },
       {
-        "name": "Stay Squeaky Clean (SP)",
+        "name": "Skill Point: Stay Squeaky Clean",
         "visibility_rules": [ "SkillMaster", "SkillSimple" ],
         "map_locations": [
           {
@@ -2335,46 +2222,35 @@
         ],
         "sections": [
           {
-            "name": "Gadget Training Titanium Bolt",
-            "access_rules": [
-              "Tyhrranosis, hacker, hyperShot"
-            ],
+            "name": "T-Bolt: VR Gadget Training",
+            "access_rules": [ "Tyhrranosis, hacker, hyperShot" ],
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           },
           {
-            "name": "Beat Helga's Best Time (0:50) (SP)",
+            "name": "Skill Point: Beat Helga's Best Time (0:50)",
         "visibility_rules": [ "SkillMaster", "SkillSimple" ],
-            "access_rules": [
-              "Tyhrranosis, hacker, hyperShot"
-            ],
+            "access_rules": [ "Tyhrranosis, hacker, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "VR Gadget Training",
-            "access_rules": [
-              "Tyhrranosis, hacker, hyperShot"
-            ],
+            "access_rules": [ "Tyhrranosis, hacker, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "Received Hacker",
-            "access_rules": [
-              "Tyhrranosis, hacker, hyperShot"
-            ],
+            "access_rules": [ "Tyhrranosis, hacker, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "Received Hypershot",
-            "access_rules": [
-              "Tyhrranosis, hacker, hyperShot"
-            ],
+            "access_rules": [ "Tyhrranosis, hacker, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "VR Training after Noid Queen",
-            "access_rules": [
-              "Tyhrranosis, hacker, hyperShot"
-            ],
+            "access_rules": [ "Tyhrranosis, hacker, hyperShot" ],
             "item_count": 1
           },
           {
@@ -2410,7 +2286,8 @@
             "item_count": 1
           },
           {
-            "name": "Nerves Titanium Bolt",
+            "name": "T-Bolt: Nerves of Titanium",
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           }
         ]
@@ -2431,31 +2308,23 @@
           },
           {
             "name": "Received Adamantine Armor",
-            "access_rules": [
-             "Aquatos"
-            ],
+            "access_rules": [ "Aquatos" ],
             "item_count": 1
           },
           {
             "name": "Received Aegis Mark V Armor",
-            "access_rules": [
-             "ZeldrinStarport"
-            ],
+            "access_rules": [ "ZeldrinStarport" ],
             "item_count": 1
           },
           {
             "name": "Received Infernox Armor",
-            "access_rules": [
-             "Koros"
-            ],
+            "access_rules": [ "Koros" ],
             "item_count": 1
           },
           {
-            "name": "Turn Up The Heat! (SP)",
+            "name": "Skill Point: Turn Up The Heat!",
         "visibility_rules": [ "SkillMaster" ],
-            "access_rules": [
-             "Koros"
-            ],
+            "access_rules": [ "Koros" ],
             "item_count": 1
           }
         ]
@@ -2472,44 +2341,32 @@
         "sections": [
           {
             "name": "Play VidComic 1",
-            "access_rules": [
-             "vidComic"
-            ],
+            "access_rules": [ "vidComic" ],
             "item_count": 1
           },
           {
             "name": "Return after winning Grand Prize Bout",
-            "access_rules": [
-             "Annihilation"
-            ],
+            "access_rules": [ "Annihilation" ],
             "item_count": 1
           },
           {
             "name": "Return after Aquatos Base",
-            "access_rules": [
-             "Aquatos"
-            ],
+            "access_rules": [ "Aquatos" ],
             "item_count": 1
           },
           {
             "name": "Play VidComic 4",
-            "access_rules": [
-             "vidComic4"
-            ],
+            "access_rules": [ "vidComic4" ],
             "item_count": 1
           },
           {
             "name": "Give Al the Master Plan",
-            "access_rules": [
-             "MasterPlan"
-            ],
+            "access_rules": [ "MasterPlan" ],
             "item_count": 1
           },
           {
             "name": "Play VidComic 5",
-            "access_rules": [
-             "vidComic5"
-            ],
+            "access_rules": [ "vidComic5" ],
             "item_count": 1
           }
         ]
@@ -2526,120 +2383,93 @@
         "sections": [
           {
             "name": "Qwark Vidcomic 1 Clear",
-            "access_rules": [
-             "vidComic"
-            ],
+            "access_rules": [ "vidComic" ],
             "item_count": 1
           },
           {
-            "name": "Vidcomic 1 100% Clear",
-            "access_rules": [
-             "vidComic"
-            ],
+            "name": "T-Bolt: Vidcomic 1 100% Clear",
+            "access_rules": [ "vidComic" ],
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           },
           {
-            "name": "VC1 - Set a new record for Qwark (2:40) (SP)",
+            "name": "SP: Pirate Booty - Set a new record for Qwark (2:40)",
         "visibility_rules": [ "SkillMaster" ],
-            "access_rules": [
-             "vidComic"
-            ],
+            "access_rules": [ "vidComic" ],
             "item_count": 1
           },
           {
             "name": "Qwark Vidcomic 2 Clear",
-            "access_rules": [
-             "vidComic2"
-            ],
+            "access_rules": [ "vidComic2" ],
             "item_count": 1
           },
           {
-            "name": "Vidcomic 2 100% Clear",
-            "access_rules": [
-             "vidComic2"
-            ],
+            "name": "T-Bolt: Vidcomic 2 100% Clear",
+            "access_rules": [ "vidComic2" ],
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           },
           {
-            "name": "VC2 - Set a new record for Qwark (2:10) (SP)",
+            "name": "SP: Arriba Amoeba! - Set a new record for Qwark (2:10)",
         "visibility_rules": [ "SkillMaster" ],
-            "access_rules": [
-             "vidComic2"
-            ],
+            "access_rules": [ "vidComic2" ],
             "item_count": 1
           },
           {
             "name": "Qwark Vidcomic 3 Clear",
-            "access_rules": [
-             "vidComic3"
-            ],
+            "access_rules": [ "vidComic3" ],
             "item_count": 1
           },
           {
-            "name": "Vidcomic 3 100% Clear",
-            "access_rules": [
-             "vidComic3"
-            ],
+            "name": "T-Bolt: Vidcomic 3 100% Clear",
+            "access_rules": [ "vidComic3" ],
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           },
           {
-            "name": "VC3 - Set a new record for Qwark (1:50) (SP)",
+            "name": "SP: Shadow of the Robot - Set a new record for Qwark (1:50)",
         "visibility_rules": [ "SkillMaster" ],
-            "access_rules": [
-             "vidComic3"
-            ],
+            "access_rules": [ "vidComic3" ],
             "item_count": 1
           },
           {
             "name": "Qwark Vidcomic 4 Clear",
-            "access_rules": [
-             "vidComic4"
-            ],
+            "access_rules": [ "vidComic4" ],
             "item_count": 1
           },
           {
-            "name": "Vidcomic 4 100% Clear",
-            "access_rules": [
-             "vidComic4"
-            ],
+            "name": "T-Bolt: Vidcomic 4 100% Clear",
+            "access_rules": [ "vidComic4" ],
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           },
           {
-            "name": "VC4 - Set a new record for Qwark (4:45) (SP)",
+            "name": "SP: Deja Q All Over Again - Set a new record for Qwark (4:45)",
         "visibility_rules": [ "SkillMaster" ],
-            "access_rules": [
-             "vidComic4"
-            ],
+            "access_rules": [ "vidComic4" ],
             "item_count": 1
           },
           {
             "name": "Qwark Vidcomic 5 Clear",
-            "access_rules": [
-             "vidComic5"
-            ],
+            "access_rules": [ "vidComic5" ],
             "item_count": 1
           },
           {
-            "name": "Vidcomic 5 100% Clear",
-            "access_rules": [
-             "vidComic5"
-            ],
+            "name": "T-Bolt: Vidcomic 5 100% Clear",
+            "access_rules": [ "vidComic5" ],
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           },
           {
-            "name": "VC5 - Set a new record for Qwark (2:00) (SP)",
+            "name": "SP: The Shaming of the Q - Set a new record for Qwark (2:00)",
         "visibility_rules": [ "SkillMaster" ],
-            "access_rules": [
-             "vidComic5"
-            ],
+            "access_rules": [ "vidComic5" ],
             "item_count": 1
           },
           {
-            "name": "Strive for arcade perfection (SP)",
+            "name": "Skill Point: Strive for Arcade Perfection",
         "visibility_rules": [ "SkillMaster" ],
-            "access_rules": [
-             "vidComic5"
-            ],
+            "access_rules": [ "vidComic5" ],
             "item_count": 1
           }
         ]
@@ -2659,11 +2489,9 @@
             "item_count": 1
           },
           {
-            "name": "Monkeying Around (SP)",
-        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
-            "access_rules": [
-             "tyhrraGuise"
-            ],
+            "name": "Skill Point: Monkeying Around",
+            "visibility_rules": [ "SkillMaster", "SkillSimple" ],
+            "access_rules": [ "tyhrraGuise" ],
             "item_count": 1
           }
         ]
@@ -2679,10 +2507,8 @@
         ],
         "sections": [
           {
-            "name": "Infobot: Koros",
-            "access_rules": [
-             "QwarksHideout, refractor, warpPad, hyperShot"
-            ],
+            "name": "Post Hideout Assault",
+            "access_rules": [ "QwarksHideout, refractor, warpPad, hyperShot" ],
             "item_count": 1
           }
         ]
@@ -2700,33 +2526,25 @@
           {
             "name": "Titanium Collector",
             "visibility_rules": [ "TrophiesAll" ],
-            "access_rules": [
-             "refractor, warpPad, hyperShot, vidComic5, hacker, tyhrraGuise, gravBoots, Marcadia, Annihilation, Aquatos, Tyhrranosis, Daxx, ObaniGemini, Blackwater, Holostar, ZeldrinStarport, Metropolis, CrashSite, Aridia, QwarksHideout, Koros, CommandCenter"
-            ],
+            "access_rules": [ "refractor, warpPad, hyperShot, vidComic5, hacker, tyhrraGuise, gravBoots, Marcadia, Annihilation, Aquatos, Tyhrranosis, Daxx, ObaniGemini, Blackwater, Holostar, ZeldrinStarport, Metropolis, CrashSite, Aridia, QwarksHideout, Koros, CommandCenter" ],
             "item_count": 1
           },
           {
             "name": "Friend of the Rangers",
             "visibility_rules": [ "TrophiesAll" ],
-            "access_rules": [
-             "refractor, gravBoots, Marcadia, Tyhrranosis, Blackwater, Metropolis, Aridia"
-            ],
+            "access_rules": [ "refractor, gravBoots, Marcadia, Tyhrranosis, Blackwater, Metropolis, Aridia" ],
             "item_count": 1
           },
           {
             "name": "Annihilation Nation Champion",
             "visibility_rules": [ "TrophiesAll" ],
-            "access_rules": [
-             "Daxx, hyperShot, vidComic5, hacker, tyhrraGuise, gravBoots"
-            ],
+            "access_rules": [ "Daxx, hyperShot, vidComic5, hacker, tyhrraGuise, gravBoots, refractor, CommandCenter" ],
             "item_count": 1
           },
           {
             "name": "Skill Master",
             "visibility_rules": [ "TrophiesAll" ],
-            "access_rules": [
-             "refractor, warpPad, hyperShot, vidComic5, hacker, tyhrraGuise, gravBoots, Marcadia, Annihilation, Aquatos, Tyhrranosis, Daxx, ObaniGemini, Blackwater, Holostar, ZeldrinStarport, Metropolis, CrashSite, Aridia, QwarksHideout, Koros, CommandCenter, PlasmaWhip, SpittingHydra, SuckCannon, DiskBladeGun, FluxRifle, QwackORay, Annihilator, Infector"
-            ],
+            "access_rules": [ "refractor, warpPad, hyperShot, vidComic5, hacker, tyhrraGuise, gravBoots, Marcadia, Annihilation, Aquatos, Tyhrranosis, Daxx, ObaniGemini, Blackwater, Holostar, ZeldrinStarport, Metropolis, CrashSite, Aridia, QwarksHideout, Koros, CommandCenter, PlasmaWhip, SpittingHydra, SuckCannon, DiskBladeGun, FluxRifle, QwackORay, Annihilator, Infector" ],
             "item_count": 1
           }
         ]
@@ -2737,9 +2555,7 @@
     "name": "Marcadia",
     "chest_unopened_img": "images/Question.png",
     "chest_opened_img": "images/Q_Force.png",
-    "access_rules": [
-      "Marcadia"
-    ],
+    "access_rules": [ "Marcadia" ],
     "children": [
       {
         "name": "Vendor",
@@ -2784,16 +2600,14 @@
         ],
         "sections": [
           {
-            "name": "Qwark Vidcomic 1",
-            "access_rules": [
-             "refractor"
-            ],
+            "name": "Meet Al",
+            "access_rules": [ "refractor" ],
             "item_count": 1
           }
         ]
       },
       {
-        "name": "Reflect on how to score (SP)",
+        "name": "Skill Point: Reflect on how to score",
         "visibility_rules": [ "SkillMaster", "SkillSimple" ],
         "map_locations": [
           {
@@ -2805,9 +2619,7 @@
         "sections": [
           {
             "name": "Kill 25 enemies with the Refractor",
-            "access_rules": [
-             "refractor"
-            ],
+            "access_rules": [ "refractor" ],
             "item_count": 1
           }
         ]
@@ -2824,6 +2636,7 @@
         "sections": [
           {
             "name": "Titanium Bolt",
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           }
         ]
@@ -2840,9 +2653,8 @@
         "sections": [
           {
             "name": "Titanium Bolt",
-            "access_rules": [
-             "refractor, gravBoots"
-            ],
+            "access_rules": [ "refractor, gravBoots" ],
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           }
         ]
@@ -2859,9 +2671,8 @@
         "sections": [
           {
             "name": "Titanium Bolt",
-            "access_rules": [
-             "refractor, gravBoots"
-            ],
+            "access_rules": [ "refractor, gravBoots" ],
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           }
         ]
@@ -2904,9 +2715,7 @@
     "name": "Annihilation Nation",
     "chest_unopened_img": "images/Question.png",
     "chest_opened_img": "images/Q_Force.png",
-    "access_rules": [
-      "Annihilation"
-    ],
+    "access_rules": [ "Annihilation" ],
     "children": [
       {
         "name": "Vendor",
@@ -2941,7 +2750,7 @@
         ]
       },
       {
-        "name": "Heat Street Bolt",
+        "name": "T-Bolt: Heat Street",
         "map_locations": [
           {
             "map": "Annihilation Nation",
@@ -2952,12 +2761,13 @@
         "sections": [
           {
             "name": "Titanium Bolt",
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           }
         ]
       },
       {
-        "name": "Maze of Blaze Bolt",
+        "name": "T-Bolt: Maze of Blaze",
         "map_locations": [
           {
             "map": "Annihilation Nation",
@@ -2968,9 +2778,8 @@
         "sections": [
           {
             "name": "Titanium Bolt",
-            "access_rules": [
-             "Daxx, hyperShot"
-            ],
+            "access_rules": [ "Daxx, hyperShot" ],
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           }
         ]
@@ -3015,30 +2824,22 @@
         "sections": [
           {
             "name": "BBQ Boulevard",
-            "access_rules": [
-             "Daxx, hyperShot"
-            ],
+            "access_rules": [ "Daxx, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "Maze of Blaze",
-            "access_rules": [
-             "Daxx, hyperShot"
-            ],
+            "access_rules": [ "Daxx, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "Cremation Station",
-            "access_rules": [
-             "Daxx, hyperShot"
-            ],
+            "access_rules": [ "Daxx, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "The Annihilator",
-            "access_rules": [
-             "Daxx, hyperShot"
-            ],
+            "access_rules": [ "Daxx, hyperShot" ],
             "item_count": 1
           }
         ]
@@ -3079,16 +2880,12 @@
           },
           {
             "name": "Whip it Good",
-            "access_rules": [
-             "PlasmaWhip"
-            ],
+            "access_rules": [ "PlasmaWhip" ],
             "item_count": 1
           },
           {
             "name": "Hydra'n Seek",
-            "access_rules": [
-             "SpittingHydra"
-            ],
+            "access_rules": [ "SpittingHydra" ],
             "item_count": 1
           },
           {
@@ -3109,93 +2906,67 @@
         "sections": [
           {
             "name": "Meet Courtney - Arena",
-            "access_rules": [
-             "Daxx, hyperShot"
-            ],
+            "access_rules": [ "Daxx, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "Ninja Challenge",
-            "access_rules": [
-             "Daxx, hyperShot"
-            ],
+            "access_rules": [ "Daxx, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "Counting Ducks",
-            "access_rules": [
-             "Daxx, hyperShot"
-            ],
+            "access_rules": [ "Daxx, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "Cycling Weapons",
-            "access_rules": [
-             "Daxx, hyperShot"
-            ],
+            "access_rules": [ "Daxx, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "One Hit Wonder",
-            "access_rules": [
-             "Daxx, hyperShot"
-            ],
+            "access_rules": [ "Daxx, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "Time to Suck",
-            "access_rules": [
-             "Daxx, hyperShot, SuckCannon"
-            ],
+            "access_rules": [ "Daxx, hyperShot, SuckCannon" ],
             "item_count": 1
           },
           {
             "name": "Naptime",
-            "access_rules": [
-             "Daxx, hyperShot"
-            ],
+            "access_rules": [ "Daxx, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "More Cycling Weapons",
-            "access_rules": [
-             "Daxx, hyperShot"
-            ],
+            "access_rules": [ "Daxx, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "Dodge the Twins",
-            "access_rules": [
-             "Daxx, hyperShot"
-            ],
+            "access_rules": [ "Daxx, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "Chop Chop",
-            "access_rules": [
-             "Daxx, hyperShot, DiskBladeGun"
-            ],
+            "access_rules": [ "Daxx, hyperShot, DiskBladeGun" ],
             "item_count": 1
           },
           {
             "name": "Sleep Inducer",
-            "access_rules": [
-             "Daxx, hyperShot, RiftInducer"
-            ],
+            "access_rules": [ "Daxx, hyperShot, RiftInducer" ],
             "item_count": 1
           },
           {
             "name": "The Other White Meat",
-            "access_rules": [
-             "Daxx, hyperShot, QwackORay"
-            ],
+            "access_rules": [ "Daxx, hyperShot, QwackORay" ],
             "item_count": 1
           },
           {
             "name": "Championship Bout II",
-            "access_rules": [
-             "Daxx, hyperShot"
-            ],
+            "access_rules": [ "Daxx, hyperShot" ],
             "item_count": 1
           }
         ]
@@ -3212,15 +2983,13 @@
         "sections": [
           {
             "name": "It's Qwarktastic!",
-            "access_rules": [
-             "Daxx, hyperShot, vidComic5, hacker, tyhrraGuise, gravBoots"
-            ],
+            "access_rules": [ "Daxx, hyperShot, vidComic5, hacker, tyhrraGuise, gravBoots, refractor, CommandCenter" ],
             "item_count": 1
           }
         ]
       },
       {
-        "name": "Bash the bug (SP)",
+        "name": "Skill Point: Bash the Bug",
         "visibility_rules": [ "SkillMaster" ],
         "map_locations": [
           {
@@ -3232,15 +3001,13 @@
         "sections": [
           {
             "name": "Beat Scorpio using only the wrench",
-            "access_rules": [
-             "Daxx, hyperShot"
-            ],
+            "access_rules": [ "Daxx, hyperShot" ],
             "item_count": 1
           }
         ]
       },
       {
-        "name": "Be an eight time champ (SP)",
+        "name": "Skill Point: Be an eight time champ",
         "visibility_rules": [ "SkillMaster" ],
         "map_locations": [
           {
@@ -3257,7 +3024,7 @@
         ]
       },
       {
-        "name": "Flee Flawlessly (SP)",
+        "name": "Skill Point: Flee Flawlessly",
         "visibility_rules": [ "SkillMaster", "SkillSimple" ],
         "map_locations": [
           {
@@ -3274,7 +3041,7 @@
         ]
       },
       {
-        "name": "Lights, camera action! (SP)",
+        "name": "Skill Point: Lights, camera action!",
         "visibility_rules": [ "SkillMaster", "SkillSimple" ],
         "map_locations": [
           {
@@ -3285,7 +3052,7 @@
         ],
         "sections": [
           {
-            "name": "Destroy 5 Floating Cameras in the gauntlet.",
+            "name": "Destroy 5 Floating Cameras in the gauntlet",
             "item_count": 1
           }
         ]
@@ -3296,9 +3063,7 @@
     "name": "Aquatos",
     "chest_unopened_img": "images/Question.png",
     "chest_opened_img": "images/Q_Force.png",
-    "access_rules": [
-      "Aquatos"
-    ],
+    "access_rules": [ "Aquatos" ],
     "children": [
       {
         "name": "Vendor",
@@ -3328,6 +3093,7 @@
         "sections": [
           {
             "name": "Titanium Bolt",
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           }
         ]
@@ -3344,12 +3110,13 @@
         "sections": [
           {
             "name": "Titanium Bolt",
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           }
         ]
       },
       {
-        "name": "Search for sunken treasure (SP)",
+        "name": "Skill Point: Search for Sunken Treasure",
         "visibility_rules": [ "SkillMaster", "SkillSimple" ],
         "map_locations": [
           {
@@ -3377,9 +3144,8 @@
         "sections": [
           {
             "name": "Titanium Bolt",
-            "access_rules": [
-             "hacker"
-            ],
+            "access_rules": [ "hacker" ],
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           }
         ]
@@ -3396,11 +3162,10 @@
         "sections": [
           {
             "name": "Titanium Bolt",
+            "access_rules": [ "gravBoots" ],
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           }
-        ],
-        "access_rules": [
-          "gravBoots"
         ]
       },
       {
@@ -3415,11 +3180,10 @@
         "sections": [
           {
             "name": "Titanium Bolt",
+            "access_rules": [ "gravBoots, hyperShot" ],
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           }
-        ],
-        "access_rules": [
-          "gravBoots, hyperShot"
         ]
       },
       {
@@ -3449,12 +3213,10 @@
             "item_count": 1
           },
           {
-            "name": "Hit the motherload (SP)",
+            "name": "Skill Point: Hit the Motherload",
             "visibility_rules": [ "SkillMaster" ],
             "item_count": 1,
-            "access_rules": [
-              "gravBoots"
-            ]
+            "access_rules": [ "gravBoots" ]
           }
         ]
       },
@@ -3478,23 +3240,17 @@
           },
           {
             "name": "Received Bouncer",
-            "access_rules": [
-             "QwarksHideout"
-            ],
+            "access_rules": [ "QwarksHideout" ],
             "item_count": 1
           },
           {
             "name": "Received Plasma Coil",
-            "access_rules": [
-             "Koros"
-            ],
+            "access_rules": [ "Koros" ],
             "item_count": 1
           },
           {
             "name": "Received Shield Charger",
-            "access_rules": [
-             "CommandCenter"
-            ],
+            "access_rules": [ "CommandCenter" ],
             "item_count": 1
           }
         ]
@@ -3506,9 +3262,7 @@
     "visibility_rules": [ "CrystalSanity" ],
     "chest_unopened_img": "images/Question.png",
     "chest_opened_img": "images/Q_Force.png",
-    "access_rules": [
-      "Aquatos"
-    ],
+    "access_rules": [ "Aquatos" ],
     "children": [
       {
         "name": "Sewer Crystal",
@@ -4257,9 +4011,7 @@
     "visibility_rules": [ "CrystalSanity" ],
     "chest_unopened_img": "images/Question.png",
     "chest_opened_img": "images/Q_Force.png",
-    "access_rules": [
-      "Aquatos, gravBoots"
-    ],
+    "access_rules": [ "Aquatos, gravBoots" ],
     "children": [
       {
         "name": "Sewer Crystal",
@@ -4835,9 +4587,7 @@
     "name": "Tyhrranosis",
     "chest_unopened_img": "images/Question.png",
     "chest_opened_img": "images/Q_Force.png",
-    "access_rules": [
-      "Tyhrranosis"
-    ],
+    "access_rules": [ "Tyhrranosis" ],
     "children": [
       {
         "name": "Vendor",
@@ -4860,7 +4610,7 @@
         ]
       },
       {
-        "name": "Be a Sharpshooter (SP)",
+        "name": "Skill Point: Be a Sharpshooter",
         "visibility_rules": [ "SkillMaster", "SkillSimple" ],
         "map_locations": [
           {
@@ -4872,9 +4622,7 @@
         "sections": [
           {
             "name": "Snipe 10 Tyhrranoids in the towers",
-            "access_rules": [
-             "FluxRifle"
-            ],
+            "access_rules": [ "FluxRifle" ],
             "item_count": 1
           }
         ]
@@ -4924,6 +4672,7 @@
         "sections": [
           {
             "name": "Titanium Bolt",
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           }
         ]
@@ -4940,9 +4689,8 @@
         "sections": [
           {
             "name": "Titanium Bolt",
-            "access_rules": [
-             "hyperShot"
-            ],
+            "access_rules": [ "hyperShot" ],
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           }
         ]
@@ -4981,9 +4729,7 @@
     "name": "Daxx",
     "chest_unopened_img": "images/Question.png",
     "chest_opened_img": "images/Q_Force.png",
-    "access_rules": [
-      "Daxx"
-    ],
+    "access_rules": [ "Daxx" ],
     "children": [
       {
         "name": "Around the Island",
@@ -5000,7 +4746,7 @@
             "item_count": 1
           },
           {
-            "name": "Plumber Trophy",
+            "name": "Trophy: Ledge overlooking Ship",
             "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
             "item_count": 1
           }
@@ -5018,9 +4764,8 @@
         "sections": [
           {
             "name": "Titanium Bolt",
-            "access_rules": [
-             "hyperShot"
-            ],
+            "access_rules": [ "hyperShot" ],
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           }
         ]
@@ -5037,9 +4782,8 @@
         "sections": [
           {
             "name": "Titanium Bolt",
-            "access_rules": [
-             "hacker, hyperShot, chargeBoots"
-            ],
+            "access_rules": [ "hacker, hyperShot, chargeBoots" ],
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           }
         ]
@@ -5055,16 +4799,14 @@
         ],
         "sections": [
           {
-            "name": "Courtney's Music Vid",
-            "access_rules": [
-             "hyperShot"
-            ],
+            "name": "Gunship",
+            "access_rules": [ "hyperShot" ],
             "item_count": 1
           }
         ]
       },
       {
-        "name": "Infiltrate the Weapons Facility",
+        "name": "Infiltrate Weapons Facility",
         "map_locations": [
           {
             "map": "Daxx",
@@ -5075,15 +4817,13 @@
         "sections": [
           {
             "name": "Infobot: Obani Gemini",
-            "access_rules": [
-             "hacker, hyperShot"
-            ],
+            "access_rules": [ "hacker, hyperShot" ],
             "item_count": 1
           }
         ]
       },
       {
-        "name": "Bugs to Birds (SP)",
+        "name": "Skill Point: Bugs to Birdie",
         "visibility_rules": [ "SkillMaster", "SkillSimple" ],
         "map_locations": [
           {
@@ -5094,10 +4834,8 @@
         ],
         "sections": [
           {
-            "name": "Turn 15 Floranian Blood Flies into ducks.",
-            "access_rules": [
-             "QwackORay"
-            ],
+            "name": "Turn 15 Floranian Blood Flies into ducks",
+            "access_rules": [ "QwackORay" ],
             "item_count": 1
           }
         ]
@@ -5108,9 +4846,7 @@
     "name": "Obani Moons",
     "chest_unopened_img": "images/Question.png",
     "chest_opened_img": "images/Q_Force.png",
-    "access_rules": [
-      "refractor, ObaniGemini"
-    ],
+    "access_rules": [ "refractor, ObaniGemini" ],
     "children": [
       {
         "name": "Vendor",
@@ -5140,15 +4876,14 @@
         "sections": [
           {
             "name": "Titanium Bolt",
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           }
         ],
-        "access_rules": [
-          "Hypershot"
-        ]
+        "access_rules": [ "Hypershot" ]
       },
       {
-        "name": "Get to the belt (SP)",
+        "name": "Skill Point: Get to the Belt",
         "visibility_rules": [ "SkillMaster" ],
         "map_locations": [
           {
@@ -5176,6 +4911,7 @@
         "sections": [
           {
             "name": "Titanium Bolt",
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           }
         ]
@@ -5202,12 +4938,10 @@
     "name": "Blackwater City",
     "chest_unopened_img": "images/Question.png",
     "chest_opened_img": "images/Q_Force.png",
-    "access_rules": [
-      "Blackwater"
-    ],
+    "access_rules": [ "Blackwater" ],
     "children": [
       {
-        "name": "Bash the party (SP)",
+        "name": "Skill Point: Bash the Party",
         "visibility_rules": [ "SkillMaster" ],
         "map_locations": [
           {
@@ -5273,12 +5007,10 @@
     "name": "Holostar Studios",
     "chest_unopened_img": "images/Question.png",
     "chest_opened_img": "images/Q_Force.png",
-    "access_rules": [
-      "Holostar, hacker, hyperShot"
-    ],
+    "access_rules": [ "Holostar, hacker, hyperShot" ],
     "children": [
       {
-        "name": "Feeling Lucky (SP)",
+        "name": "Skill Point: Feeling Lucky?",
         "visibility_rules": [ "SkillMaster", "SkillSimple" ],
         "map_locations": [
           {
@@ -5327,12 +5059,13 @@
         "sections": [
           {
             "name": "Titanium Bolt",
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           }
         ]
       },
       {
-        "name": "After the Tall Elevator",
+        "name": "After Tall Elevator",
         "map_locations": [
           {
             "map": "Holostar Studios",
@@ -5360,9 +5093,8 @@
         "sections": [
           {
             "name": "Titanium Bolt",
-            "access_rules": [
-             "gravBoots"
-            ],
+            "access_rules": [ "gravBoots" ],
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           }
         ]
@@ -5379,9 +5111,8 @@
         "sections": [
           {
             "name": "Titanium Bolt",
-            "access_rules": [
-             "gravBoots"
-            ],
+            "access_rules": [ "gravBoots" ],
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           }
         ]
@@ -5397,7 +5128,7 @@
         ],
         "sections": [
           {
-            "name": "Infobot: Obani Draco",
+            "name": "Skidd is captured",
             "item_count": 1
           }
         ]
@@ -5408,12 +5139,10 @@
     "name": "Obani Draco",
     "chest_unopened_img": "images/Question.png",
     "chest_opened_img": "images/Q_Force.png",
-    "access_rules": [
-      "ObaniDraco, gravBoots"
-    ],
+    "access_rules": [ "ObaniDraco, gravBoots" ],
     "children": [
       {
-        "name": "Beat Courtney Gears",
+        "name": "Defeat Courtney Gears",
         "map_locations": [
           {
             "map": "Obani Draco",
@@ -5434,9 +5163,7 @@
     "name": "Zeldrin Starport",
     "chest_unopened_img": "images/Question.png",
     "chest_opened_img": "images/Q_Force.png",
-    "access_rules": [
-      "ZeldrinStarport"
-    ],
+    "access_rules": [ "ZeldrinStarport" ],
     "children": [
       {
         "name": "Go to the Zeldrin Starport",
@@ -5450,9 +5177,7 @@
         "sections": [
           {
             "name": "Received Bolt Grabber V2",
-            "access_rules": [
-             "hyperShot"
-            ],
+            "access_rules": [ "hyperShot" ],
             "item_count": 1
           }
         ]
@@ -5469,6 +5194,7 @@
         "sections": [
           {
             "name": "Titanium Bolt",
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           }
         ]
@@ -5485,15 +5211,14 @@
         "sections": [
           {
             "name": "Titanium Bolt",
-            "access_rules": [
-             "hyperShot"
-            ],
+            "access_rules": [ "hyperShot" ],
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           }
         ]
       },
       {
-        "name": "Escape the Starship",
+        "name": "Escape the Exploding Ship",
         "map_locations": [
           {
             "map": "Zeldrin Starport",
@@ -5514,12 +5239,10 @@
     "name": "Metropolis",
     "chest_unopened_img": "images/Question.png",
     "chest_opened_img": "images/Q_Force.png",
-    "access_rules": [
-      "Metropolis"
-    ],
+    "access_rules": [ "Metropolis" ],
     "children": [
       {
-        "name": "2002 was a good year in the city (SP)",
+        "name": "Skill Point: 2002 was a good year in the city",
         "visibility_rules": [ "SkillMaster", "SkillSimple" ],
         "map_locations": [
           {
@@ -5530,14 +5253,8 @@
         ],
         "sections": [
           {
-            "name": "Destroy the blimp",
-            "access_rules": [
-             "FluxRifle",
-             "Annihilator",
-             "RY3NO",
-             "SuckCannon",
-             "DiskBladeGun"
-            ],
+            "name": "Destroy the Blimp",
+            "access_rules": [ "FluxRifle", "Annihilator", "RY3NO", "SuckCannon", "DiskBladeGun" ],
             "item_count": 1
           }
         ]
@@ -5587,9 +5304,8 @@
         "sections": [
           {
             "name": "Titanium Bolt",
-            "access_rules": [
-             "hyperShot"
-            ],
+            "access_rules": [ "hyperShot" ],
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           }
         ]
@@ -5606,9 +5322,8 @@
         "sections": [
           {
             "name": "Titanium Bolt",
-            "access_rules": [
-             "refractor, gravBoots"
-            ],
+            "access_rules": [ "refractor, gravBoots" ],
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           }
         ]
@@ -5625,12 +5340,13 @@
         "sections": [
           {
             "name": "Titanium Bolt",
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           }
         ]
       },
       {
-        "name": "Defeat Giant Klunk",
+        "name": "Defeat Klunk",
         "map_locations": [
           {
             "map": "Metropolis",
@@ -5641,18 +5357,14 @@
         "sections": [
           {
             "name": "Infobot: Crash Site",
-        "access_rules": [
-        "refractor, gravBoots"
-        ],
+            "access_rules": [ "refractor, gravBoots" ],
             "item_count": 1
           }
         ]
       },
       {
         "name": "Operation: URBAN STORM",
-        "access_rules": [
-        "refractor, gravBoots"
-        ],
+        "access_rules": [ "refractor, gravBoots" ],
         "map_locations": [
           {
             "map": "Metropolis: Mission",
@@ -5693,9 +5405,7 @@
     "name": "Crash Site",
     "chest_unopened_img": "images/Question.png",
     "chest_opened_img": "images/Q_Force.png",
-    "access_rules": [
-      "CrashSite"
-    ],
+    "access_rules": [ "CrashSite" ],
     "children": [
       {
         "name": "Side Route",
@@ -5709,9 +5419,7 @@
         "sections": [
           {
             "name": "Received Nano-Pak",
-            "access_rules": [
-             "hyperShot, gravBoots"
-            ],
+            "access_rules": [ "hyperShot, gravBoots" ],
             "item_count": 1
           }
         ]
@@ -5745,9 +5453,8 @@
         "sections": [
           {
             "name": "Titanium Bolt",
-            "access_rules": [
-             "gravBoots"
-            ],
+            "access_rules": [ "gravBoots" ],
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           }
         ]
@@ -5763,7 +5470,7 @@
         ],
         "sections": [
           {
-            "name": "Master Plan",
+            "name": "Escape Pod",
             "item_count": 1
           }
         ]
@@ -5780,15 +5487,13 @@
         "sections": [
           {
             "name": "Infobot: Aridia",
-            "access_rules": [
-             "gravBoots"
-            ],
+            "access_rules": [ "gravBoots" ],
             "item_count": 1
           }
         ]
       },
       {
-        "name": "Aim High (SP)",
+        "name": "Skill Point: Aim High",
         "visibility_rules": [ "SkillMaster", "SkillSimple" ],
         "map_locations": [
           {
@@ -5800,15 +5505,13 @@
         "sections": [
           {
             "name": "Kill 10 Skreeducks",
-            "access_rules": [
-             "FluxRifle"
-            ],
+            "access_rules": [ "FluxRifle" ],
             "item_count": 1
           }
         ]
       },
       {
-        "name": "Suck it up! (SP)",
+        "name": "Skill Point: Suck it up!",
         "visibility_rules": [ "SkillMaster" ],
         "map_locations": [
           {
@@ -5820,9 +5523,7 @@
         "sections": [
           {
             "name": "Kill 40 enemies using the Suck Cannon",
-            "access_rules": [
-             "SuckCannon"
-            ],
+            "access_rules": [ "SuckCannon" ],
             "item_count": 1
           }
         ]
@@ -5833,9 +5534,7 @@
     "name": "Aridia",
     "chest_unopened_img": "images/Question.png",
     "chest_opened_img": "images/Q_Force.png",
-    "access_rules": [
-      "Aridia"
-    ],
+    "access_rules": [ "Aridia" ],
     "children": [
       {
         "name": "Operation: DEATH VALLEY",
@@ -5885,9 +5584,8 @@
         "sections": [
           {
             "name": "Titanium Bolt",
-            "access_rules": [
-              "gravBoots"
-            ],
+            "access_rules": [ "gravBoots" ],
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           }
         ]
@@ -5904,15 +5602,14 @@
         "sections": [
           {
             "name": "Titanium Bolt",
-            "access_rules": [
-              "gravBoots"
-            ],
+            "access_rules": [ "gravBoots" ],
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           }
         ]
       },
       {
-        "name": "Go for hang time (SP)",
+        "name": "Skill Point: Go for hang time",
         "visibility_rules": [ "SkillMaster", "SkillSimple" ],
         "map_locations": [
           {
@@ -5929,7 +5626,7 @@
         ]
       },
       {
-        "name": "Zap back at ya' (SP)",
+        "name": "Skill Point: Zap back at ya'",
         "visibility_rules": [ "SkillMaster" ],
         "map_locations": [
           {
@@ -5941,9 +5638,7 @@
         "sections": [
           {
             "name": "Kill 10 enemies with the Refractor",
-            "access_rules": [
-              "refractor"
-            ],
+            "access_rules": [ "refractor" ],
             "item_count": 1
           }
         ]
@@ -5970,9 +5665,7 @@
     "name": "Qwark's Hideout",
     "chest_unopened_img": "images/Question.png",
     "chest_opened_img": "images/Q_Force.png",
-    "access_rules": [
-      "QwarksHideout, refractor"
-    ],
+    "access_rules": [ "QwarksHideout, refractor" ],
     "children": [
       {
         "name": "Grav-Ramp Path",
@@ -5986,9 +5679,7 @@
         "sections": [
           {
             "name": "Received Gadgetron PDA",
-            "access_rules": [
-              "gravBoots"
-            ],
+            "access_rules": [ "gravBoots" ],
             "item_count": 1
           }
         ]
@@ -6005,15 +5696,14 @@
         "sections": [
           {
             "name": "Titanium Bolt",
-            "access_rules": [
-              "gravBoots"
-            ],
+            "access_rules": [ "gravBoots" ],
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           }
         ]
       },
       {
-        "name": "Break the Dan (SP)",
+        "name": "Skill Point: Break the Dan",
         "visibility_rules": [ "SkillMaster", "SkillSimple" ],
         "map_locations": [
           {
@@ -6025,9 +5715,7 @@
         "sections": [
           {
             "name": "Break the Dan o7",
-            "access_rules": [
-              "warpPad"
-            ],
+            "access_rules": [ "warpPad" ],
             "item_count": 1
           }
         ]
@@ -6045,9 +5733,7 @@
           {
             "name": "Qwark Trophy",
             "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
-            "access_rules": [
-              "warpPad"
-            ],
+            "access_rules": [ "warpPad" ],
             "item_count": 1
           }
         ]
@@ -6058,9 +5744,7 @@
     "name": "Koros",
     "chest_unopened_img": "images/Question.png",
     "chest_opened_img": "images/Q_Force.png",
-    "access_rules": [
-      "Koros"
-    ],
+    "access_rules": [ "Koros" ],
     "children": [
       {
         "name": "Behind the Metal Fence",
@@ -6074,6 +5758,7 @@
         "sections": [
           {
             "name": "Titanium Bolt",
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           }
         ]
@@ -6107,12 +5792,13 @@
         "sections": [
           {
             "name": "Titanium Bolt",
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           }
         ]
       },
       {
-        "name": "You break it, you win it (SP)",
+        "name": "Skill Point: You break it, you win it",
         "visibility_rules": [ "SkillMaster", "SkillSimple" ],
         "map_locations": [
           {
@@ -6124,9 +5810,7 @@
         "sections": [
           {
             "name": "Smash up the Robot Base",
-            "access_rules": [
-              "BoxBreaker"
-            ],
+            "access_rules": [ "BoxBreaker" ],
             "item_count": 1
           }
         ]
@@ -6153,9 +5837,7 @@
     "name": "Command Center",
     "chest_unopened_img": "images/Question.png",
     "chest_opened_img": "images/Q_Force.png",
-    "access_rules": [
-      "CommandCenter, hyperShot, tyhrraGuise, gravBoots"
-    ],
+    "access_rules": [ "CommandCenter, hyperShot, tyhrraGuise, gravBoots" ],
     "children": [
       {
         "name": "Behind the Forcefield",
@@ -6169,6 +5851,7 @@
         "sections": [
           {
             "name": "Titanium Bolt",
+            "visibility_rules": [ "Bolt" ],
             "item_count": 1
           }
         ]
@@ -6191,11 +5874,9 @@
         ]
       },
       {
-        "name": "Spread Your Germs (SP)",
+        "name": "Skill Point: Spread Your Germs",
         "visibility_rules": [ "SkillMaster" ],
-        "access_rules": [
-          "Infector"
-        ],
+        "access_rules": [ "Infector" ],
         "map_locations": [
           {
             "map": "Command Center",
@@ -6205,16 +5886,14 @@
         ],
         "sections": [
           {
-            "name": "Infect 30 enemies.",
+            "name": "Infect 30 enemies",
             "item_count": 1
           }
         ]
       },
       {
         "name": "Defeat Dr. Nefarious",
-        "access_rules": [
-          "hacker, refractor"
-        ],
+        "access_rules": [ "hacker, refractor" ],
         "map_locations": [
           {
             "map": "Command Center 2",
@@ -6231,9 +5910,7 @@
       },
       {
         "name": "Defeat the Biobliterator",
-        "access_rules": [
-          "hacker, refractor"
-        ],
+        "access_rules": [ "hacker, refractor" ],
         "map_locations": [
           {
             "map": "Command Center 2",

@@ -175,6 +175,20 @@ function onClear(slot_data)
             obj.CurrentStage = stage
         end
     end
+    if slot_data['options']['titanium_bolts'] then
+        local obj = Tracker:FindObjectForCode("BoltSanity")
+        local stage = slot_data['options']['titanium_bolts']
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
+    if slot_data['options']['nanotech_milestones'] then
+        local obj = Tracker:FindObjectForCode("Nano")
+        local stage = slot_data['options']['nanotech_milestones']
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
 	apply_slot_data(slot_data)
 	LOCAL_ITEMS = {}
 	GLOBAL_ITEMS = {}

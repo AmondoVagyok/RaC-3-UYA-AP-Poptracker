@@ -678,5 +678,61 @@
         "codes": "TrophySanity,TrophiesAll"
       }
     ]
+  },
+  {
+    "name": "Bolt Shuffle",
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": false,
+    "stages": [
+      {
+          "img": "images/items/settings/BoltDisabled.png",
+          "name": "Titanium Bolts - Off",
+          "codes": "BoltSanity,BoltDisabled"
+      },
+      {
+        "img": "images/items/settings/Bolt.png",
+        "name": "Titanium Bolts - On",
+        "codes": "BoltSanity,Bolt"
+      }
+    ]
+  },
+  {
+    "name": "Nanotech Milestones",
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": false,
+    "stages": [
+      {
+          "img": "images/items/settings/NanoDisabled.png",
+          "name": "Nanotech Milestones - Off",
+          "codes": "Nano,NanoDisabled",
+          "inherit_codes": false
+      },
+      {
+          "img": "images/items/settings/Nano5.png",
+          "name": "Nanotech Milestones - Every 5",
+          "codes": "Nano,Nano5",
+          "inherit_codes": false
+      },
+      {
+          "img": "images/items/settings/Nano10.png",
+          "name": "Nanotech Milestones - Every 10",
+          "codes": "Nano,Nano10",
+          "inherit_codes": false
+      },
+      {
+          "img": "images/items/settings/Nano20.png",
+          "name": "Nanotech Milestones - Every 20",
+          "codes": "Nano,Nano20",
+          "inherit_codes": false
+      },
+      {
+          "img": "images/items/settings/Nano.png",
+          "name": "Nanotech Milestones - All",
+          "codes": "Nano,NanoAll",
+          "inherit_codes": false
+      }
+    ]
   }
 ]

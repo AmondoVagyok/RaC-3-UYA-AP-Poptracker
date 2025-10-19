@@ -18,6 +18,10 @@
               [
                 "SkillSanity",
                 "TrophySanity"
+              ],
+              [
+                "BoltSanity",
+                "Nano"
               ]
             ]
           }
