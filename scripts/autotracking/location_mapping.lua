@@ -205,7 +205,7 @@ LOCATION_MAPPING = {
 	[HOLOSTAR_ID + 00002] = { {"@Holostar Studios/Lot 42's Grav Ramp/Titanium Bolt" }, {"@Galaxy/Holostar/T-Bolt: Lot 42's Grav Ramp"} },
 	[HOLOSTAR_ID + 00003] = { {"@Holostar Studios/Kamikaze Noids/Titanium Bolt"}, {"@Galaxy/Holostar/T-Bolt: Kamikaze Noids"} },
 	[HOLOSTAR_ID + 00004] = { {"@Holostar Studios/Escape the Tyhrranoid Ambush/Skidd is captured" }, {"@Galaxy/Holostar/Skidd is captured"} },
-	[HOLOSTAR_ID + 00005] = { {"@Holostar Studios/Skill Point: Feeling Lucky?/Win the jackpot"}, {"@Holostar Clank/Skill Point: Feeling Lucky?/Win the jackpot"}, {"@Galaxy/Holostar/SP: Feeling Lucky?"} },
+	[HOLOSTAR_ID + 00005] = { {"@Holostar Studios/Skill Point: Feeling Lucky?/Win the jackpot"}, {"@Galaxy/Holostar/SP: Feeling Lucky?"} },
 	[HOLOSTAR_ID + 00006] = { {"@Holostar Studios/After Tall Elevator/Clank Trophy"}, {"@Galaxy/Holostar/Trophy: After Tall Elevator"} },
 	--Obani Draco (lol)
 	[50210000] = { {"@Obani Draco/Defeat Courtney Gears/Infobot: Zeldrin Starport"}, {"@Galaxy/Obani Draco/Defeat Courtney Gears"} },
@@ -213,7 +213,7 @@ LOCATION_MAPPING = {
 	[ZELDRIN_ID + 00000] = { {"@Zeldrin Starport/Go to the Zeldrin Starport/Received Bolt Grabber V2"}, {"@Galaxy/Zeldrin Starport/Received Bolt Grabber V2"} },
 	[ZELDRIN_ID + 00001] = { {"@Zeldrin Starport/Inside the Second Ship/Titanium Bolt"}, {"@Galaxy/Zeldrin Starport/T-Bolt: Inside the Second Ship"} },
 	[ZELDRIN_ID + 00002] = { {"@Zeldrin Starport/Atop the Twin Shooters/Titanium Bolt" }, {"@Galaxy/Zeldrin Starport/T-Bolt: Atop the Twin Shooters"} },
-	[ZELDRIN_ID + 00003] = { {"@Zeldrin Starport/Escape the Starship/Vid-Comic 4" }, {"@Galaxy/Zeldrin Starport/Escape the Exploding Ship"} },
+	[ZELDRIN_ID + 00003] = { {"@Zeldrin Starport/Escape the Exploding Ship/Vid-Comic 4" }, {"@Galaxy/Zeldrin Starport/Escape the Exploding Ship"} },
 	--Metropolis
 	[METROPOLIS_ID + 00000] = { {"@Metropolis/Across the Gap/Titanium Bolt"}, {"@Galaxy/Metropolis/T-Bolt: Across the Gap"} },
 	[METROPOLIS_ID + 00001] = { {"@Metropolis/Skill Point: 2002 was a good year in the city/Destroy the Blimp"}, {"@Galaxy/Metropolis/SP: 2002 was a good year in the city"} },
