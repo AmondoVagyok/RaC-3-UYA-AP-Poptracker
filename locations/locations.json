@@ -516,7 +516,7 @@
           },
           {
             "name": "Hydra'n Seek",
-            "access_rules": [ "SpittingHydra" ],
+            "access_rules": [ "SpittingHydra, PlasmaWhip" ],
             "item_count": 1
           },
           {
@@ -575,12 +575,12 @@
           },
           {
             "name": "Sleep Inducer",
-            "access_rules": [ "Daxx, hyperShot, RiftInducer" ],
+            "access_rules": [ "Daxx, hyperShot, RiftInducer, DiskBladeGun" ],
             "item_count": 1
           },
           {
             "name": "The Other White Meat",
-            "access_rules": [ "Daxx, hyperShot, QwackORay" ],
+            "access_rules": [ "Daxx, hyperShot, QwackORay, RiftInducer, DiskBladeGun" ],
             "item_count": 1
           },
           {
@@ -2880,7 +2880,7 @@
           },
           {
             "name": "Whip it Good",
-            "access_rules": [ "PlasmaWhip" ],
+            "access_rules": [ "PlasmaWhip, SpittingHydra" ],
             "item_count": 1
           },
           {
@@ -2956,12 +2956,12 @@
           },
           {
             "name": "Sleep Inducer",
-            "access_rules": [ "Daxx, hyperShot, RiftInducer" ],
+            "access_rules": [ "Daxx, hyperShot, RiftInducer, DiskBladeGun" ],
             "item_count": 1
           },
           {
             "name": "The Other White Meat",
-            "access_rules": [ "Daxx, hyperShot, QwackORay" ],
+            "access_rules": [ "Daxx, hyperShot, QwackORay, RiftInducer, DiskBladeGun" ],
             "item_count": 1
           },
           {
