@@ -1,6 +1,6 @@
 # Ratchet and Clank 3 AP PopTracker
 
-This is an auto item tracker for [PopTracker](https://github.com/black-sliver/PopTracker/releases) to use with the [Ratchet and Clank 3 Archipelago Mod](https://github.com/Taoshix/RaC3AP).
+This is an auto item tracker for [PopTracker](https://github.com/black-sliver/PopTracker/releases) to use with the [Ratchet and Clank 3 Archipelago Mod](https://github.com/Taoshix/Archipelago-RaC3/).
 
 ## Installation
 
