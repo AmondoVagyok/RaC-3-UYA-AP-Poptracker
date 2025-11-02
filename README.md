@@ -4,7 +4,7 @@ This is an auto item tracker for [PopTracker](https://github.com/black-sliver/Po
 
 ## Installation
 
-Just download the lastest build and put in your packs folder (zipped or unzipped work either way).
+Just click on the green "Code" button at the top of the github page and select "Download ZIP". Afterwards, place the ZIP in your packs folder (zipped or unzipped work either way).
 
 The packs folder can be under `USER/Documents/PopTracker/packs`, `USER/PopTracker/packs` or `APP/packs`, where `USER` stands for your user directory and `APP` for the PopTracker installation directory.
 
