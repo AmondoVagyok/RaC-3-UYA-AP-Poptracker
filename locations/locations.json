@@ -570,17 +570,17 @@
           },
           {
             "name": "Chop Chop",
-            "access_rules": [ "Daxx, hyperShot, DiskBladeGun" ],
+            "access_rules": [ "Daxx, hyperShot, DiskBladeGun, SuckCannon" ],
             "item_count": 1
           },
           {
             "name": "Sleep Inducer",
-            "access_rules": [ "Daxx, hyperShot, RiftInducer, DiskBladeGun" ],
+            "access_rules": [ "Daxx, hyperShot, RiftInducer, DiskBladeGun, SuckCannon" ],
             "item_count": 1
           },
           {
             "name": "The Other White Meat",
-            "access_rules": [ "Daxx, hyperShot, QwackORay, RiftInducer, DiskBladeGun" ],
+            "access_rules": [ "Daxx, hyperShot, QwackORay, RiftInducer, DiskBladeGun, SuckCannon" ],
             "item_count": 1
           },
           {
@@ -2951,17 +2951,17 @@
           },
           {
             "name": "Chop Chop",
-            "access_rules": [ "Daxx, hyperShot, DiskBladeGun" ],
+            "access_rules": [ "Daxx, hyperShot, DiskBladeGun, SuckCannon" ],
             "item_count": 1
           },
           {
             "name": "Sleep Inducer",
-            "access_rules": [ "Daxx, hyperShot, RiftInducer, DiskBladeGun" ],
+            "access_rules": [ "Daxx, hyperShot, RiftInducer, DiskBladeGun, SuckCannon" ],
             "item_count": 1
           },
           {
             "name": "The Other White Meat",
-            "access_rules": [ "Daxx, hyperShot, QwackORay, RiftInducer, DiskBladeGun" ],
+            "access_rules": [ "Daxx, hyperShot, QwackORay, RiftInducer, DiskBladeGun, SuckCannon" ],
             "item_count": 1
           },
           {

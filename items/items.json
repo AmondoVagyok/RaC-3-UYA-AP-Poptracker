@@ -274,6 +274,7 @@
   {
     "name": "Master Plan",
     "type": "toggle",
+    "img": "images/items/gadget/MasterPlan.png",
     "codes": "MasterPlan"
   },
   {

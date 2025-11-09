@@ -1,17 +1,13 @@
 # Ratchet and Clank 3 AP PopTracker
 
-This is an auto item tracker for [PopTracker](https://github.com/black-sliver/PopTracker/releases) to use with the [Ratchet and Clank 3 Archipelago Mod](https://github.com/Taoshix/Archipelago-RaC3/).
+This is an auto item tracker for [PopTracker](https://github.com/black-sliver/PopTracker/releases) to use with the [Ratchet and Clank 3 Archipelago Mod](https://github.com/Taoshix/RaC3AP).
 
 ## Installation
 
-Just click on the green "Code" button at the top of the github page and select "Download ZIP". Afterwards, place the ZIP in your packs folder (zipped or unzipped work either way).
+Just download the lastest build and put in your packs folder (zipped or unzipped work either way).
 
 The packs folder can be under `USER/Documents/PopTracker/packs`, `USER/PopTracker/packs` or `APP/packs`, where `USER` stands for your user directory and `APP` for the PopTracker installation directory.
 
 ## Future Updates
 
-This tracker is still early on in life, so expect various elements such as logic, locations, and other settings/features to be under development (and possible incorrect .-.)
-
-## Reporting a Bug?
-
-If you come across any issues regarding the tracker or any feedback you wish to provide, best way to reach me is to ping me (@SomeLazyGamer) in the RaC 3 thread under the future-game-design forum in the official Archipelago Discord server. (opening an issue on github works too, but discord is your best bet if you want a fast response!)
+This is still pretty early on, and various elements such as logic, yaml settings, and possibly more locations will be added over time (and hopefully sooner rather than later!)
