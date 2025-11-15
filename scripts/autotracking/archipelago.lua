@@ -207,7 +207,8 @@ function onClear(slot_data)
 	-- gets the current value for the data storage keys
 	-- triggers callback in the Retrieved handler when result is received
 	Archipelago:Get(data_strorage_keys)
-	Tracker.BulkUpdate = false
+  Tracker.BulkUpdate = false
+
 end
 
 -- called when an item gets collected

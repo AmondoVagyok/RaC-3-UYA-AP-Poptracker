@@ -1193,7 +1193,7 @@
       },
       {
         "name": "Hideout",
-        "access_rules": [ "QwarksHideout, refractor" ],
+        "access_rules": [ "QwarksHideout, refractor, hyperShot" ],
         "map_locations": [
           {
             "map": "Galaxy",
@@ -1216,13 +1216,13 @@
           {
             "name": "SP: Break the Dan",
             "visibility_rules": [ "SkillMaster", "SkillSimple" ],
-            "access_rules": [ "warpPad" ],
+            "access_rules": [ "warpPad, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "Trophy: Outside Qwarks Room",
             "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
-            "access_rules": [ "warpPad" ],
+            "access_rules": [ "warpPad, hyperShot" ],
             "item_count": 1
           }
         ]
@@ -4389,7 +4389,7 @@
         "sections": [
           {
             "name": "Break the Dan o7",
-            "access_rules": [ "warpPad" ],
+            "access_rules": [ "warpPad, hyperShot" ],
             "item_count": 1
           }
         ]
@@ -4407,7 +4407,7 @@
           {
             "name": "Qwark Trophy",
             "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
-            "access_rules": [ "warpPad" ],
+            "access_rules": [ "warpPad, hyperShot" ],
             "item_count": 1
           }
         ]

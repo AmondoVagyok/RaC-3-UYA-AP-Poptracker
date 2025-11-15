@@ -1,30 +1,28 @@
 {
-  "settings_grid": {
-    "type": "array",
-    "orientation": "vertical",
+  "settings_popup": {
+    "type": "group",
     "margin": "0,0",
+    "header": "Archipelago Settings",
+    "background": "#1B2424",
     "content": [
       {
-        "type": "array",
-        "orientation": "horizontal",
-        "margin": "0,0",
-        "content": [
-          {
-            "type": "itemgrid",
-            "item_margin": "8, 2",
-            "h_alignment": "left",
-            "item_size": "48",
-            "rows": [
-              [
-                "SkillSanity",
-                "TrophySanity"
-              ],
-              [
-                "BoltSanity",
-                "Nano"
-              ]
-            ]
-          }
+        "type": "itemgrid",
+        "item_margin": "0, 0",
+        "h_alignment": "left",
+        "item_size": "539, 52",
+        "rows": [
+          [
+            "SkillSanity"
+          ],
+          [
+            "TrophySanity"
+          ],
+          [
+            "BoltSanity"
+          ],
+          [
+            "Nano"
+          ]
         ]
       }
     ]

@@ -27,15 +27,6 @@
                 "type": "layout",
                 "key": "planets_grid"
               }
-            },
-            {
-              "type": "group",
-              "header": "Settings",
-              "dock": "left",
-              "content": {
-                "type": "layout",
-                "key": "settings_grid"
-              }
             }
           ]
         },
