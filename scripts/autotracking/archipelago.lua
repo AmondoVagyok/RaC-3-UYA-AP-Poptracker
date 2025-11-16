@@ -22,6 +22,34 @@ CUR_INDEX = -1
 SLOT_DATA = nil
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
+TabMap = {
+  ["Veldin"] = "Veldin/Florana",
+  ["Florana"] = "Veldin/Florana",
+  ["Starship Phoenix"] = "Phoenix",
+  ["Marcadia"] = "Marcadia",
+  ["Daxx"] = "Daxx",
+  ["Phoenix Assault"] = "Phoenix",
+  ["Annihilaton Nation"] = "Annihilation Nation",
+  ["Aquatos"] = "Aquatos",
+  ["Tyhrranosis"] = "Tyhrranosis",
+  ["Zeldrin Starport"] = "Zeldrin Starport",
+  ["Obani Gemini"] = "Obani Gemini",
+  ["Blackwater City"] = "Blackwater City",
+  ["Holostar Studios"] = "Holostar Studios",
+  ["Koros"] = "Koros",
+  ["Metropolis"] = "Metropolis",
+  ["Crash Site"] = "Crash Site",
+  ["Aridia"] = "Aridia",
+  ["Quarks Hideout"] = "Quark's Hideout",
+  ["Command Center 2"] = "Command Center",
+  ["Obani Draco"] = "Obani Draco",
+  ["Command Center"] = "Command Center",
+  ["Holostar Studios Clank"] = "Holostar Studios",
+  ["Metropolis: Mission"] = "Metropolis",
+  ["Aquatos Base"] = "Aquatos",
+  ["Aquatos Sewers"] = "Aquatos",
+  ["Tyhrranosis: Mission"] = "Tyhrranosis"
+}
 
 -- gets the data storage key for hints for the current player
 -- returns nil when not connected to AP
@@ -201,6 +229,7 @@ function onClear(slot_data)
 	if PopVersion >= "0.32.0" then
 		data_strorage_keys = { getHintDataStorageKey() }
 	end
+	    table.insert(data_strorage_keys, "rac3_current_planet_"..Archipelago.PlayerNumber.."_"..Archipelago.TeamNumber)
 	-- subscribes to the data storage keys for updates
 	-- triggers callback in the SetNotify handler on update
 	Archipelago:SetNotify(data_strorage_keys)
@@ -330,6 +359,12 @@ end
 -- whenever a subscribed to (via Archipelago:SetNotify) key in data storgae is updated
 -- oldValue might be nil (always nil for "_read" prefixed keys and via retrieved handler (from Archipelago:Get))
 function onDataStorageUpdate(key, value, oldValue)
+    print(string.format("%s, %s, %s", key, value, oldValue))
+    if Tracker:FindObjectForCode("AutoTab").Active then
+    	if key == "rac3_current_planet_"..Archipelago.PlayerNumber.."_"..Archipelago.TeamNumber and value ~= nil then
+        	Tracker:UiHint("ActivateTab", TabMap[value] or value)
+    	end
+	end
 --if you plan to only use the hints key, you can remove this if
 	if key == getHintDataStorageKey() then
 		onHintsUpdate(value)
