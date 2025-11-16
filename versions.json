@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "1.2.1",
+			"download_url": "https://github.com/SomeLazyGamer/RaC-3-UYA-AP-Poptracker/releases/download/1.2.1/RaC3_Tracker_SLG_1.2.1.zip",
+			"sha256": "e09ab060b9e55679a03c2dceb031c92c177382acfbbfea94e07b09ee99c6696f",
+			"changelog": ["Fixed Incorrect VidCom Skill Point AutoTracking"]
+		},
+		{
 			"package_version": "1.2.0",
 			"download_url": "https://github.com/SomeLazyGamer/RaC-3-UYA-AP-Poptracker/releases/download/1.2.0/RaC3_Tracker_SLG_1.2.0.zip",
 			"sha256": "b8931fb2f52fc6341c90679211bf8f4b2abea8cae67c8ab1555e6abe7ccb926a",
