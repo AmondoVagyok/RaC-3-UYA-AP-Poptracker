@@ -80,18 +80,23 @@ LOCATION_MAPPING = {
 	--Vid-Comics
 	[VIDCOMIC_ID + 10000] = { {"@Phoenix/Qwark Vid Comics/Qwark Vidcomic 1 Clear"}, {"@Galaxy/Phoenix/Qwark Vidcomic 1 Clear"} },
 	[VIDCOMIC_ID + 10001] = { {"@Phoenix/Qwark Vid Comics/T-Bolt: Vidcomic 1 100% Clear"}, {"@Galaxy/Phoenix/T-Bolt: VidComic 1 100%"} },
+
 	[VIDCOMIC_ID + 30000] = { {"@Phoenix/Qwark Vid Comics/Qwark Vidcomic 2 Clear" }, {"@Galaxy/Phoenix/Qwark Vidcomic 2 Clear"} },
 	[VIDCOMIC_ID + 30001] = { {"@Phoenix/Qwark Vid Comics/T-Bolt: Vidcomic 2 100% Clear"}, {"@Galaxy/Phoenix/T-Bolt: VidComic 2 100%"} },
+
 	[VIDCOMIC_ID + 40000] = { {"@Phoenix/Qwark Vid Comics/Qwark Vidcomic 3 Clear"}, {"@Galaxy/Phoenix/Qwark Vidcomic 3 Clear"} },
 	[VIDCOMIC_ID + 40001] = { {"@Phoenix/Qwark Vid Comics/T-Bolt: Vidcomic 3 100% Clear"}, {"@Galaxy/Phoenix/T-Bolt: VidComic 3 100%"} },
+
 	[VIDCOMIC_ID + 20000] = { {"@Phoenix/Qwark Vid Comics/Qwark Vidcomic 4 Clear" }, {"@Galaxy/Phoenix/Qwark Vidcomic 4 Clear"} },
 	[VIDCOMIC_ID + 20001] = { {"@Phoenix/Qwark Vid Comics/T-Bolt: Vidcomic 4 100% Clear"}, {"@Galaxy/Phoenix/T-Bolt: VidComic 4 100%"} },
+
 	[VIDCOMIC_ID + 50000] = { {"@Phoenix/Qwark Vid Comics/Qwark Vidcomic 5 Clear"}, {"@Galaxy/Phoenix/Qwark Vidcomic 5 Clear"} },
 	[VIDCOMIC_ID + 50001] = { {"@Phoenix/Qwark Vid Comics/T-Bolt: Vidcomic 5 100% Clear" }, {"@Galaxy/Phoenix/T-Bolt: VidComic 5 100%"} },
+
 	[VIDCOMIC_ID + 10003] = { {"@Phoenix/Qwark Vid Comics/SP: Pirate Booty - Set a new record for Qwark (2:40)"}, {"@Galaxy/Phoenix/SP: Pirate Booty - Set a new record for Qwark (2:40)"} },
-	[VIDCOMIC_ID + 30003] = { {"@Phoenix/Qwark Vid Comics/SP: Deja Q All Over Again - Set a new record for Qwark (4:45)" }, {"@Galaxy/Phoenix/SP: Deja Q All Over Again - Set a new record for Qwark (4:45)"} },
-	[VIDCOMIC_ID + 40003] = { {"@Phoenix/Qwark Vid Comics/SP: Arriba Amoeba! - Set a new record for Qwark (2:10)"}, {"@Galaxy/Phoenix/SP: Arriba Amoeba! - Set a new record for Qwark (2:10)"} },
-	[VIDCOMIC_ID + 20003] = { {"@Phoenix/Qwark Vid Comics/SP: Shadow of the Robot - Set a new record for Qwark (1:50)"}, {"@Galaxy/Phoenix/SP: Shadow of the Robot - Set a new record for Qwark (1:50)"} },
+	[VIDCOMIC_ID + 30003] = { {"@Phoenix/Qwark Vid Comics/SP: Arriba Amoeba! - Set a new record for Qwark (2:10)"}, {"@Galaxy/Phoenix/SP: Arriba Amoeba! - Set a new record for Qwark (2:10)"} },
+	[VIDCOMIC_ID + 40003] = { {"@Phoenix/Qwark Vid Comics/SP: Shadow of the Robot - Set a new record for Qwark (1:50)"}, {"@Galaxy/Phoenix/SP: Shadow of the Robot - Set a new record for Qwark (1:50)"} },
+	[VIDCOMIC_ID + 20003] = { {"@Phoenix/Qwark Vid Comics/SP: Deja Q All Over Again - Set a new record for Qwark (4:45)" }, {"@Galaxy/Phoenix/SP: Deja Q All Over Again - Set a new record for Qwark (4:45)"} },
 	[VIDCOMIC_ID + 50003] = { {"@Phoenix/Qwark Vid Comics/SP: The Shaming of the Q - Set a new record for Qwark (2:00)"}, {"@Galaxy/Phoenix/SP: The Shaming of the Q - Set a new record for Qwark (2:00)"} },
 	--Marcadia
 	[MARCADIA_ID + 00000] = { {"@Marcadia/Vendor/Received Spitting Hydra"}, {"@Galaxy/Marcadia/Received Spitting Hydra"} },
