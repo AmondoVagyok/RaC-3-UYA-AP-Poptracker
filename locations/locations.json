@@ -1486,7 +1486,7 @@
           {
             "name": "Nanotech Milestone: 29",
             "access_rules": ["NanoCount:2"],
-            "visibility_rules": [ ", NanoTotal:29" ],
+            "visibility_rules": [ "NanoAll, NanoTotal:29" ],
             "item_count": 1
           },
           {
@@ -1918,7 +1918,7 @@
           {
             "name": "Nanotech Milestone: 95",
             "access_rules": ["NanoCount:15"],
-            "visibility_rules": [ ", NanoTotal:95", "Nano5, NanoTotal:95" ],
+            "visibility_rules": [ "NanoAll, NanoTotal:95", "Nano5, NanoTotal:95" ],
             "item_count": 1
           },
           {
