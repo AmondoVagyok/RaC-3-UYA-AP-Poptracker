@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "1.2.2",
+			"download_url": "https://github.com/SomeLazyGamer/RaC-3-UYA-AP-Poptracker/releases/download/1.2.2/RaC3_Tracker_SLG_1.2.2.zip",
+			"sha256": "88a7c3db2160aff6298925d0266d686162ff6068a64e909e8dc8d8d0385ef3f9",
+			"changelog": ["Various updates to coincide APWorld Refactor Update"]
+		},
+		{
 			"package_version": "1.2.1",
 			"download_url": "https://github.com/SomeLazyGamer/RaC-3-UYA-AP-Poptracker/releases/download/1.2.1/RaC3_Tracker_SLG_1.2.1.zip",
 			"sha256": "38ffe86ad445ccf7899dd73c68723fc517efb3fc359937c535eb3ad349a163fc",
