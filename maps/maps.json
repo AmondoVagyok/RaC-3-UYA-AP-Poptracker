@@ -169,8 +169,8 @@
   },
   {
     "name": "Aquatos Sewers",
-    "location_size": 10,
-    "location_border_thickness": 2,
+    "location_size": 20,
+    "location_border_thickness": 3,
     "img": "images/maps/Aquatos3.png"
   },
   {

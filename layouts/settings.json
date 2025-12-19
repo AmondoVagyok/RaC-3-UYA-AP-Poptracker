@@ -9,7 +9,7 @@
         "type": "itemgrid",
         "item_margin": "0, 0",
         "h_alignment": "left",
-        "item_size": "539, 52",
+        "item_size": "431, 39",
         "rows": [
           [
             "SkillSanity"
@@ -21,10 +21,28 @@
             "BoltSanity"
           ],
           [
+            "RangerChecks"
+          ],
+          [
+            "VCChecks"
+          ],
+          [
+            "VRChecks"
+          ],
+          [
+            "ArenaChecks"
+          ],
+          [
             "Nano"
           ],
           [
+            "Crystals"
+          ],
+          [
             "AutoTab"
+          ],
+          [
+            "Unstable"
           ]
         ]
       }

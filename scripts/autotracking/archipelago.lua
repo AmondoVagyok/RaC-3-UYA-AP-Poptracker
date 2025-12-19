@@ -189,30 +189,73 @@ function onClear(slot_data)
 			end
 		end
 	end
-    if slot_data['options']['skill_points'] then
+    if slot_data['skill_points'] then
         local obj = Tracker:FindObjectForCode("SkillSanity")
-        local stage = slot_data['options']['skill_points']
+        local stage = slot_data['skill_points']
         if obj then
             obj.CurrentStage = stage
         end
     end
-    if slot_data['options']['trophies'] then
+    if slot_data['trophies'] then
         local obj = Tracker:FindObjectForCode("TrophySanity")
-        local stage = slot_data['options']['trophies']
+        local stage = slot_data['trophies']
         if obj then
             obj.CurrentStage = stage
         end
     end
-    if slot_data['options']['titanium_bolts'] then
+    if slot_data['titanium_bolts'] then
         local obj = Tracker:FindObjectForCode("BoltSanity")
-        local stage = slot_data['options']['titanium_bolts']
+        local stage = slot_data['titanium_bolts']
         if obj then
             obj.CurrentStage = stage
         end
     end
-    if slot_data['options']['nanotech_milestones'] then
+    if slot_data['nanotech_milestones'] then
         local obj = Tracker:FindObjectForCode("Nano")
-        local stage = slot_data['options']['nanotech_milestones']
+        local stage = slot_data['nanotech_milestones']
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end 
+    if slot_data['nanotech_limitation'] then
+        local obj = Tracker:FindObjectForCode("NanoTotal")
+        obj.AcquiredCount = (slot_data['nanotech_limitation'])
+    end 
+    if slot_data['arena'] then
+        local obj = Tracker:FindObjectForCode("ArenaChecks")
+        local stage = slot_data['arena']
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
+    if slot_data['vidcomics'] then
+        local obj = Tracker:FindObjectForCode("VCChecks")
+        local stage = slot_data['vidcomics']
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
+    if slot_data['sewer_crystals'] then
+        local obj = Tracker:FindObjectForCode("Crystals")
+        local stage = slot_data['sewer_crystals']
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
+    if slot_data['sewer_limitation'] then
+        local obj = Tracker:FindObjectForCode("CrystalsTotal")
+        obj.AcquiredCount = (slot_data['sewer_limitation'])
+    end
+    if slot_data['rangers'] then
+        local obj = Tracker:FindObjectForCode("RangerChecks")
+        local stage = slot_data['rangers']
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
+    if slot_data['vr_challenges'] then
+        local obj = Tracker:FindObjectForCode("VRChecks")
+        local stage = slot_data['vr_challenges']
         if obj then
             obj.CurrentStage = stage
         end

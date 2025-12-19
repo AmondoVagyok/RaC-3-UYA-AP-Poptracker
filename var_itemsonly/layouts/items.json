@@ -11,7 +11,7 @@
         "content": [
           {
             "type": "itemgrid",
-            "item_margin": "10, 2",
+            "item_margin": "6, 2",
             "h_alignment": "left",
             "item_size": "48",
             "rows": [
@@ -46,14 +46,20 @@
                 "warpPad",
                 "pda",
                 "gravBoots",
-                "chargeBoots"
+                "chargeBoots",
+                "Heli",
+                "Thruster"
               ],
               [
                 "hacker",
                 "boltGrabberV2",
+                "BoxBreaker",
                 "mapOMatic",
                 "nanoPak",
-                "vidComic"
+                "StarMap",
+                "MasterPlan",
+                "vidComic",
+                "Armor"
               ]
             ]
           },
@@ -64,16 +70,19 @@
             "item_size": "64",
             "rows": [
               [
+                "Veldin",
+                "Florana",
+                "Phoenix",
                 "Marcadia",
                 "Annihilation",
                 "Aquatos",
                 "Tyhrranosis",
                 "Daxx",
                 "ObaniGemini",
-                "Blackwater",
-                "Holostar"
+                "Blackwater"
               ],
               [
+                "Holostar",
                 "ObaniDraco",
                 "ZeldrinStarport",
                 "Metropolis",
@@ -81,7 +90,8 @@
                 "Aridia",
                 "QwarksHideout",
                 "Koros",
-                "CommandCenter"
+                "CommandCenter",
+                "Museum"
               ]
             ]
           }

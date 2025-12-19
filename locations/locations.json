@@ -63,7 +63,7 @@
           },
           {
             "name": "SP: Stay Squeaky Clean",
-            "visibility_rules": [ "SkillMaster", "SkillSimple" ],
+            "visibility_rules": [ "SkillMaster"],
             "item_count": 1
           },
           {
@@ -93,255 +93,260 @@
           {
             "name": "T-Bolt: VR Gadget Training",
             "access_rules": [ "Tyhrranosis, hacker, hyperShot" ],
-            "visibility_rules": [ "Bolt" ],
+            "visibility_rules": [ "Bolt, Unstable"],
             "item_count": 1
           },
           {
             "name": "SP: Beat Helga's Best Time (0:50)",
-            "visibility_rules": [ "SkillMaster", "SkillSimple" ],
+            "visibility_rules": [ "VRChecksOn, SkillMaster, Unstable", "VRChecksOn, SkillSimple, Unstable" ],
             "access_rules": [ "Tyhrranosis, hacker, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "VR Gadget Training",
+            "visibility_rules": ["VRChecksOn, Unstable" ],
             "access_rules": [ "Tyhrranosis, hacker, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "Received Hacker",
+            "visibility_rules": ["VRChecksOn, Unstable" ],
             "access_rules": [ "Tyhrranosis, hacker, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "Received Hypershot",
+            "visibility_rules": ["VRChecksOn, Unstable" ],
             "access_rules": [ "Tyhrranosis, hacker, hyperShot" ],
             "item_count": 1
           },
           {
-            "name": "VR Training after Noid Queen",
-            "access_rules": [ "Tyhrranosis, hacker, hyperShot"  ],
-            "item_count": 1
-          },
-          {
             "name": "VR: Warm Up",
+            "visibility_rules": [ "VRChecksOn" ],
             "item_count": 1
           },
           {
             "name": "VR: Don't Look Down",
+            "visibility_rules": [ "VRChecksOn" ],
             "item_count": 1
           },
           {
             "name": "VR: Speed Round",
+            "visibility_rules": [ "VRChecksOn" ],
             "item_count": 1
           },
           {
             "name": "VR: Hot Stepper",
+            "visibility_rules": [ "VRChecksOn" ],
             "item_count": 1
           },
           {
             "name": "VR: 90 Second Slayer",
+            "visibility_rules": [ "VRChecksOn" ],
             "item_count": 1
           },
           {
             "name": "VR: The Shocker",
+            "visibility_rules": [ "VRChecksOn" ],
             "item_count": 1
           },
           {
             "name": "VR: Wrench Beatdown",
+            "visibility_rules": [ "VRChecksOn" ],
             "item_count": 1
           },
           {
             "name": "VR: Nerves of Titanium",
+            "visibility_rules": [ "VRChecksOn" ],
             "item_count": 1
           },
           {
             "name": "T-Bolt: VR Nerves of Titanium",
-            "visibility_rules": [ "Bolt" ],
+            "visibility_rules": [ "VRChecksOn, Bolt" ],
             "item_count": 1
           },
           {
             "name": "Received Magna Plate Armor",
+            "visibility_rules": ["Unstable"],
             "item_count": 1
           },
           {
             "name": "Received Adamantine Armor",
+            "visibility_rules": ["Unstable"],
             "access_rules": [ "Aquatos" ],
             "item_count": 1
           },
           {
             "name": "Received Aegis Mark V Armor",
+            "visibility_rules": ["Unstable"],
             "access_rules": [ "ZeldrinStarport" ],
             "item_count": 1
           },
           {
             "name": "Received Infernox Armor",
+            "visibility_rules": ["Unstable"],
             "access_rules": [ "Koros" ],
             "item_count": 1
           },
           {
             "name": "SP: Turn Up The Heat!",
-            "visibility_rules": [ "SkillMaster" ],
+            "visibility_rules": [ "SkillMaster, Unstable", "SkillSimple, Unstable" ],
             "access_rules": [ "Koros" ],
             "item_count": 1
           },
           {
             "name": "Meet Sasha on the Bridge",
-            "item_count": 1
-          },
-          {
-            "name": "Play VidComic 1",
-            "access_rules": [ "vidComic" ],
+            "visibility_rules": ["Unstable" ],
             "item_count": 1
           },
           {
             "name": "Return after winning Grand Prize Bout",
+            "visibility_rules": ["Unstable" ],
             "access_rules": [ "Annihilation" ],
             "item_count": 1
           },
           {
-            "name": "Return after Aquatos Base",
+            "name": "Deliver the Star Map to Qwark",
+            "visibility_rules": ["Unstable" ],
             "access_rules": [ "Aquatos" ],
             "item_count": 1
           },
           {
-            "name": "Play VidComic 4",
-            "access_rules": [ "vidComic4" ],
-            "item_count": 1
-          },
-          {
             "name": "Give Al the Master Plan",
+            "visibility_rules": ["Unstable" ],
             "access_rules": [ "MasterPlan" ],
             "item_count": 1
           },
           {
-            "name": "Play VidComic 5",
-            "access_rules": [ "vidComic5" ],
-            "item_count": 1
-          },
-          {
             "name": "Qwark Vidcomic 1 Clear",
+            "visibility_rules": [ "VCChecksOn" ],
             "access_rules": [ "vidComic" ],
             "item_count": 1
           },
           {
             "name": "SP: Pirate Booty - Set a new record for Qwark (2:40)",
-            "visibility_rules": [ "SkillMaster" ],
+            "visibility_rules": [ "VCChecksOn, SkillMaster" ],
             "access_rules": [ "vidComic" ],
             "item_count": 1
           },
           {
             "name": "T-Bolt: VidComic 1 100%",
             "access_rules": [ "vidComic" ],
-            "visibility_rules": [ "Bolt" ],
+            "visibility_rules": [ "VCChecksOn, Bolt" ],
             "item_count": 1
           },
           {
             "name": "Qwark Vidcomic 2 Clear",
+            "visibility_rules": [ "VCChecksOn" ],
             "access_rules": [ "vidComic2" ],
             "item_count": 1
           },
           {
             "name": "SP: Arriba Amoeba! - Set a new record for Qwark (2:10)",
-            "visibility_rules": [ "SkillMaster" ],
+            "visibility_rules": [ "VCChecksOn, SkillMaster" ],
             "access_rules": [ "vidComic2" ],
             "item_count": 1
           },
           {
             "name": "T-Bolt: VidComic 2 100%",
             "access_rules": [ "vidComic2" ],
-            "visibility_rules": [ "Bolt" ],
+            "visibility_rules": [ "VCChecksOn, Bolt" ],
             "item_count": 1
           },
           {
             "name": "Qwark Vidcomic 3 Clear",
+            "visibility_rules": [ "VCChecksOn" ],
             "access_rules": [ "vidComic3" ],
             "item_count": 1
           },
           {
             "name": "SP: Shadow of the Robot - Set a new record for Qwark (1:50)",
-            "visibility_rules": [ "SkillMaster" ],
+            "visibility_rules": [ "VCChecksOn, SkillMaster" ],
             "access_rules": [ "vidComic3" ],
             "item_count": 1
           },
           {
             "name": "T-Bolt: VidComic 3 100%",
             "access_rules": [ "vidComic3" ],
-            "visibility_rules": [ "Bolt" ],
+            "visibility_rules": [ "VCChecksOn, Bolt" ],
             "item_count": 1
           },
           {
             "name": "Qwark Vidcomic 4 Clear",
+            "visibility_rules": [ "VCChecksOn" ],
             "access_rules": [ "vidComic4" ],
             "item_count": 1
           },
           {
             "name": "SP: Deja Q All Over Again - Set a new record for Qwark (4:45)",
-            "visibility_rules": [ "SkillMaster" ],
+            "visibility_rules": [ "VCChecksOn, SkillMaster" ],
             "access_rules": [ "vidComic4" ],
             "item_count": 1
           },
           {
             "name": "T-Bolt: VidComic 4 100%",
             "access_rules": [ "vidComic4" ],
-            "visibility_rules": [ "Bolt" ],
+            "visibility_rules": [ "VCChecksOn, Bolt" ],
             "item_count": 1
           },
           {
             "name": "Qwark Vidcomic 5 Clear",
+            "visibility_rules": [ "VCChecksOn" ],
             "access_rules": [ "vidComic5" ],
             "item_count": 1
           },
           {
             "name": "SP: The Shaming of the Q - Set a new record for Qwark (2:00)",
-            "visibility_rules": [ "SkillMaster" ],
+            "visibility_rules": [ "VCChecksOn, SkillMaster" ],
             "access_rules": [ "vidComic5" ],
             "item_count": 1
           },
           {
             "name": "T-Bolt: VidComic 5 100%",
             "access_rules": [ "vidComic5" ],
-            "visibility_rules": [ "Bolt" ],
+            "visibility_rules": [ "VCChecksOn, Bolt" ],
             "item_count": 1
           },
           {
             "name": "SP: Strive for Arcade Perfection",
-            "visibility_rules": [ "SkillMaster" ],
+            "visibility_rules": [ "VCChecksOn, SkillMaster" ],
             "access_rules": [ "vidComic5" ],
             "item_count": 1
           },
           {
             "name": "SP: Monkeying Around",
-            "visibility_rules": [ "SkillMaster", "SkillSimple" ],
+            "visibility_rules": [ "SkillMaster, Unstable", "SkillSimple, Unstable" ],
             "access_rules": [ "tyhrraGuise" ],
             "item_count": 1
           },
           {
             "name": "Post Hideout Assault",
+            "visibility_rules": ["Unstable"],
             "access_rules": [ "QwarksHideout, refractor, warpPad, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "Long Term Trophy: Titanium Collector",
             "access_rules": [ "refractor, warpPad, hyperShot, vidComic5, hacker, tyhrraGuise, gravBoots, Marcadia, Annihilation, Aquatos, Tyhrranosis, Daxx, ObaniGemini, Blackwater, Holostar, ZeldrinStarport, Metropolis, CrashSite, Aridia, QwarksHideout, Koros, CommandCenter"],
-            "visibility_rules": [ "TrophiesAll" ],
+            "visibility_rules": [ "Bolt, TrophiesAll" ],
             "item_count": 1
           },
           {
             "name": "Long Term Trophy: Friend of the Rangers",
             "access_rules": [ "refractor, gravBoots, Marcadia, Tyhrranosis, Blackwater, Metropolis, Aridia" ],
-            "visibility_rules": [ "TrophiesAll" ],
+            "visibility_rules": [ "RangerChecksOn, TrophiesAll" ],
             "item_count": 1
           },
           {
             "name": "Long Term Trophy: Annihilation Nation Champion",
             "access_rules": [ "Daxx, hyperShot, vidComic5, hacker, tyhrraGuise, gravBoots, refractor, CommandCenter" ],
-            "visibility_rules": [ "TrophiesAll" ],
+            "visibility_rules": [ "ArenaChecksOn, TrophiesAll" ],
             "item_count": 1
           },
           {
             "name": "Long Term Trophy: Skill Master",
             "access_rules": [ "refractor, warpPad, hyperShot, vidComic5, hacker, tyhrraGuise, gravBoots, Marcadia, Annihilation, Aquatos, Tyhrranosis, Daxx, ObaniGemini, Blackwater, Holostar, ZeldrinStarport, Metropolis, CrashSite, Aridia, QwarksHideout, Koros, CommandCenter, PlasmaWhip, SpittingHydra, SuckCannon, DiskBladeGun, FluxRifle, QwackORay, Annihilator, Infector" ],
-            "visibility_rules": [ "TrophiesAll" ],
+            "visibility_rules": [ "SkillMaster, TrophiesAll" ],
             "item_count": 1
           }
         ]
@@ -363,16 +368,18 @@
           },
           {
             "name": "Received Refractor",
+            "visibility_rules": [ "RangerChecksOn" ],
             "item_count": 1
           },
           {
             "name": "Meet Al",
+            "visibility_rules": [ "RangerChecksOn" ],
             "access_rules": [ "refractor" ],
             "item_count": 1
           },
           {
             "name": "SP: Reflect on how to score",
-        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
+            "visibility_rules": [ "RangerChecksOn, SkillMaster", "RangerChecksOn, SkillSimple" ],
             "access_rules": [ "refractor" ],
             "item_count": 1
           },
@@ -383,7 +390,7 @@
           },
           {
             "name": "T-Bolt: Last Refractor Room",
-            "visibility_rules": [ "Bolt" ],
+            "visibility_rules": [ "RangerChecksOn, Bolt" ],
             "access_rules": [
              "refractor, gravBoots"
             ],
@@ -391,7 +398,7 @@
           },
           {
             "name": "T-Bolt: Ceiling just before Al",
-            "visibility_rules": [ "Bolt" ],
+            "visibility_rules": [ "RangerChecksOn, Bolt" ],
             "access_rules": [
              "refractor, gravBoots"
             ],
@@ -399,22 +406,27 @@
           },
           {
             "name": "IRON SHIELD: Secure the Area",
+            "visibility_rules": [ "RangerChecksOn" ],
             "item_count": 1
           },
           {
             "name": "IRON SHIELD: Air Assault",
+            "visibility_rules": [ "RangerChecksOn" ],
             "item_count": 1
           },
           {
             "name": "IRON SHIELD: Turret Command",
+            "visibility_rules": [ "RangerChecksOn" ],
             "item_count": 1
           },
           {
             "name": "IRON SHIELD: Under the Gun",
+            "visibility_rules": [ "RangerChecksOn" ],
             "item_count": 1
           },
           {
             "name": "IRON SHIELD: Hit n' Run",
+            "visibility_rules": [ "RangerChecksOn" ],
             "item_count": 1
           }
         ]
@@ -436,182 +448,221 @@
           },
           {
             "name": "Received Tyhrra-Guise",
+            "visibility_rules": [ "ArenaChecksOn" ],
+            "item_count": 1
+          },
+          {
+            "name": "Infobot: Holostar Studios",
+            "access_rules": [ "Daxx, hyperShot" ],
+            "visibility_rules": [ "ArenaChecksOn" ],
             "item_count": 1
           },
           {
             "name": "T-Bolt: Heat Street",
-            "visibility_rules": [ "Bolt" ],
+            "visibility_rules": [ "ArenaChecksOn, Bolt" ],
             "item_count": 1
           },
           {
             "name": "T-Bolt: Maze of Blaze",
             "access_rules": [ "Daxx, hyperShot" ],
-            "visibility_rules": [ "Bolt" ],
+            "visibility_rules": [ "ArenaChecksOn, Bolt" ],
             "item_count": 1
           },
           {
             "name": "Heat Street",
+            "visibility_rules": [ "ArenaChecksOn" ],
             "item_count": 1
           },
           {
             "name": "Crispy Critter",
+            "visibility_rules": [ "ArenaChecksOn" ],
             "item_count": 1
           },
           {
             "name": "Pyro Playground",
+            "visibility_rules": [ "ArenaChecksOn" ],
             "item_count": 1
           },
           {
             "name": "Suicide Run",
+            "visibility_rules": [ "ArenaChecksOn" ],
             "item_count": 1
           },
           {
             "name": "BBQ Boulevard",
+            "visibility_rules": [ "ArenaChecksOn" ],
             "access_rules": [ "Daxx, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "Maze of Blaze",
+            "visibility_rules": [ "ArenaChecksOn" ],
             "access_rules": [ "Daxx, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "Cremation Station",
+            "visibility_rules": [ "ArenaChecksOn" ],
             "access_rules": [ "Daxx, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "The Annihilator",
+            "visibility_rules": [ "ArenaChecksOn" ],
             "access_rules": [ "Daxx, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "Grand Prize Bout",
+            "visibility_rules": [ "ArenaChecksOn" ],
             "item_count": 1
           },
           {
             "name": "The Terrible Two",
+            "visibility_rules": [ "ArenaChecksOn" ],
             "item_count": 1
           },
           {
             "name": "Robot Rampage",
+            "visibility_rules": [ "ArenaChecksOn" ],
             "item_count": 1
           },
           {
             "name": "Two Minute Warning",
+            "visibility_rules": [ "ArenaChecksOn" ],
             "item_count": 1
           },
           {
             "name": "90 Seconds of Carnage",
+            "visibility_rules": [ "ArenaChecksOn" ],
             "item_count": 1
           },
           {
             "name": "Onslaught",
+            "visibility_rules": [ "ArenaChecksOn" ],
             "item_count": 1
           },
           {
             "name": "Whip it Good",
+            "visibility_rules": [ "ArenaChecksOn" ],
             "access_rules": [ "PlasmaWhip" ],
             "item_count": 1
           },
           {
             "name": "Hydra'n Seek",
+            "visibility_rules": [ "ArenaChecksOn" ],
             "access_rules": [ "SpittingHydra, PlasmaWhip" ],
             "item_count": 1
           },
           {
             "name": "Championship Bout",
+            "visibility_rules": [ "ArenaChecksOn" ],
             "item_count": 1
           },
           {
             "name": "Meet Courtney - Arena",
+            "visibility_rules": [ "ArenaChecksOn" ],
             "access_rules": [ "Daxx, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "Ninja Challenge",
+            "visibility_rules": [ "ArenaChecksOn" ],
             "access_rules": [ "Daxx, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "Counting Ducks",
+            "visibility_rules": [ "ArenaChecksOn" ],
             "access_rules": [ "Daxx, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "Cycling Weapons",
+            "visibility_rules": [ "ArenaChecksOn" ],
             "access_rules": [ "Daxx, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "One Hit Wonder",
+            "visibility_rules": [ "ArenaChecksOn" ],
             "access_rules": [ "Daxx, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "Time to Suck",
+            "visibility_rules": [ "ArenaChecksOn" ],
             "access_rules": [ "Daxx, hyperShot, SuckCannon" ],
             "item_count": 1
           },
           {
             "name": "Naptime",
+            "visibility_rules": [ "ArenaChecksOn" ],
             "access_rules": [ "Daxx, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "More Cycling Weapons",
+            "visibility_rules": [ "ArenaChecksOn" ],
             "access_rules": [ "Daxx, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "Dodge the Twins",
+            "visibility_rules": [ "ArenaChecksOn" ],
             "access_rules": [ "Daxx, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "Chop Chop",
+            "visibility_rules": [ "ArenaChecksOn" ],
             "access_rules": [ "Daxx, hyperShot, DiskBladeGun, SuckCannon" ],
             "item_count": 1
           },
           {
             "name": "Sleep Inducer",
+            "visibility_rules": [ "ArenaChecksOn" ],
             "access_rules": [ "Daxx, hyperShot, RiftInducer, DiskBladeGun, SuckCannon" ],
             "item_count": 1
           },
           {
             "name": "The Other White Meat",
+            "visibility_rules": [ "ArenaChecksOn" ],
             "access_rules": [ "Daxx, hyperShot, QwackORay, RiftInducer, DiskBladeGun, SuckCannon" ],
             "item_count": 1
           },
           {
             "name": "Championship Bout II",
+            "visibility_rules": [ "ArenaChecksOn" ],
             "access_rules": [ "Daxx, hyperShot" ],
             "item_count": 1
           },
           {
-            "name": "It's Qwarktastic!",
+            "name": "Qwarktastic Battle",
+            "visibility_rules": ["ArenaChecksOn, Unstable"],
             "access_rules": [ "Daxx, hyperShot, vidComic5, hacker, tyhrraGuise, gravBoots, refractor, CommandCenter" ],
             "item_count": 1
           },
           {
             "name": "SP: Bash the Bug",
-        "visibility_rules": [ "SkillMaster" ],
+        "visibility_rules": [ "ArenaChecksOn, SkillMaster" ],
             "access_rules": [ "Daxx, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "SP: Be an eight time champ",
-        "visibility_rules": [ "SkillMaster" ],
+        "visibility_rules": [ "ArenaChecksOn, SkillMaster" ],
+            "access_rules": [ "Daxx, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "SP: Flee Flawlessly",
-        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
+        "visibility_rules": [ "ArenaChecksOn, SkillMaster"],
             "item_count": 1
           },
           {
             "name": "SP: Lights, camera action!",
-        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
+        "visibility_rules": [ "ArenaChecksOn, SkillMaster", "ArenaChecksOn, SkillSimple" ],
             "item_count": 1
           }
         ]
@@ -665,24 +716,8 @@
             "item_count": 1
           },
           {
-            "name": "1 Sewer Crystal Traded",
-            "item_count": 1
-          },
-          {
-            "name": "5 Sewer Crystals Traded",
-            "item_count": 1
-          },
-          {
-            "name": "10 Sewer Crystals Traded",
-            "item_count": 1
-          },
-          {
-            "name": "20 Sewer Crystals Traded",
-            "item_count": 1
-          },
-          {
             "name": "SP: Hit the Motherload",
-            "visibility_rules": [ "SkillMaster" ],
+            "visibility_rules": [ "SkillMaster, CrystalsTotal:100" ],
             "access_rules": [ "gravBoots" ],
             "item_count": 1
           },
@@ -758,18 +793,22 @@
           },
           {
             "name": "ISLAND STRIKE: Assault on Kavu Island",
+            "visibility_rules": [ "RangerChecksOn" ],
             "item_count": 1
           },
           {
             "name": "ISLAND STRIKE: Dogfight over Kavu Island",
+            "visibility_rules": [ "RangerChecksOn" ],
             "item_count": 1
           },
           {
             "name": "ISLAND STRIKE: Operation Thunderbolt",
+            "visibility_rules": [ "RangerChecksOn" ],
             "item_count": 1
           },
           {
             "name": "ISLAND STRIKE: The Final Battle",
+            "visibility_rules": [ "RangerChecksOn" ],
             "item_count": 1
           }
         ]
@@ -847,7 +886,7 @@
           },
           {
             "name": "SP: Get to the Belt",
-            "visibility_rules": [ "SkillMaster" ],
+            "visibility_rules": [ "SkillMaster", "SkillSimple" ],
             "item_count": 1
           },
           {
@@ -857,6 +896,7 @@
           },
           {
             "name": "Infobot: Blackwater City",
+            "visibility_rules": ["Unstable"],
             "item_count": 1
           }
         ]
@@ -874,7 +914,7 @@
         "sections": [
           {
             "name": "SP: Bash the Party",
-            "visibility_rules": [ "SkillMaster" ],
+            "visibility_rules": [ "SkillMaster", "SkillSimple"],
             "item_count": 1
           },
           {
@@ -882,19 +922,18 @@
             "item_count": 1
           },
           {
-            "name": "Infobot: Holostar Studios",
-            "item_count": 1
-          },
-          {
             "name": "BLACK TIDE: The Battle of Blackwater City",
+            "visibility_rules": [ "RangerChecksOn" ],
             "item_count": 1
           },
           {
             "name": "BLACK TIDE: The Bridge",
+            "visibility_rules": [ "RangerChecksOn" ],
             "item_count": 1
           },
           {
             "name": "BLACK TIDE: Counterattack",
+            "visibility_rules": [ "RangerChecksOn" ],
             "item_count": 1
           }
         ]
@@ -912,7 +951,7 @@
         "sections": [
           {
             "name": "SP: Feeling Lucky?",
-            "visibility_rules": [ "SkillMaster", "SkillSimple" ],
+            "visibility_rules": [ "SkillMaster"],
             "item_count": 1
           },
           {
@@ -1047,31 +1086,37 @@
           },
           {
             "name": "URBAN STORM: Countdown",
+            "visibility_rules": [ "RangerChecksOn" ],
             "access_rules": [ "refractor, gravBoots" ],
             "item_count": 1
           },
           {
             "name": "URBAN STORM: Urban Combat",
+            "visibility_rules": [ "RangerChecksOn" ],
             "access_rules": [ "refractor, gravBoots" ],
             "item_count": 1
           },
           {
             "name": "URBAN STORM: Tower Attack",
+            "visibility_rules": [ "RangerChecksOn" ],
             "access_rules": [ "refractor, gravBoots" ],
             "item_count": 1
           },
           {
             "name": "URBAN STORM: Air Superiority",
+            "visibility_rules": [ "RangerChecksOn" ],
             "access_rules": [ "refractor, gravBoots" ],
             "item_count": 1
           },
           {
             "name": "URBAN STORM: Turret Command",
+            "visibility_rules": [ "RangerChecksOn" ],
             "access_rules": [ "refractor, gravBoots" ],
             "item_count": 1
           },
           {
             "name": "Received Map-O-Matic",
+            "visibility_rules": [ "RangerChecksOn" ],
             "access_rules": [ "refractor, gravBoots" ],
             "item_count": 1
           }
@@ -1110,6 +1155,7 @@
           },
           {
             "name": "Infobot: Aridia",
+            "visibility_rules": ["Unstable"],
             "access_rules": [ "gravBoots" ],
             "item_count": 1
           },
@@ -1121,7 +1167,7 @@
           },
           {
             "name": "SP: Suck it up!",
-        "visibility_rules": [ "SkillMaster" ],
+        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
             "access_rules": [ "SuckCannon" ],
             "item_count": 1
           }
@@ -1144,26 +1190,32 @@
           },
           {
             "name": "DEATH VALLEY: The Tunnels of Outpost X12",
+            "visibility_rules": [ "RangerChecksOn" ],
             "item_count": 1
           },
           {
             "name": "DEATH VALLEY: Ambush in Red Rock Valley",
+            "visibility_rules": [ "RangerChecksOn" ],
             "item_count": 1
           },
           {
             "name": "DEATH VALLEY: Assassination",
+            "visibility_rules": [ "RangerChecksOn" ],
             "item_count": 1
           },
           {
             "name": "DEATH VALLEY: Reclaim the Valley",
+            "visibility_rules": [ "RangerChecksOn" ],
             "item_count": 1
           },
           {
             "name": "DEATH VALLEY: X12 Endgame",
+            "visibility_rules": [ "RangerChecksOn" ],
             "item_count": 1
           },
           {
             "name": "Received Warp Pad",
+            "visibility_rules": [ "RangerChecksOn" ],
             "item_count": 1
           },
           {
@@ -1175,17 +1227,17 @@
           {
             "name": "T-Bolt: Behind the Base (X12 Endgame)",
             "access_rules": [ "gravBoots" ],
-            "visibility_rules": [ "Bolt" ],
+            "visibility_rules": [ "RangerChecksOn, Bolt" ],
             "item_count": 1
           },
           {
             "name": "SP: Go for hang time",
-            "visibility_rules": [ "SkillMaster", "SkillSimple" ],
+            "visibility_rules": [ "RangerChecksOn, SkillMaster", "RangerChecksOn, SkillSimple" ],
             "item_count": 1
           },
           {
             "name": "SP: Zap back at ya'",
-            "visibility_rules": [ "SkillMaster" ],
+            "visibility_rules": [ "RangerChecksOn, SkillMaster", "RangerChecksOn, SkillSimple" ],
             "access_rules": [ "refractor" ],
             "item_count": 1
           }
@@ -1205,6 +1257,12 @@
           {
             "name": "Received Gadgetron PDA",
             "access_rules": [ "gravBoots" ],
+            "item_count": 1
+          },
+          {
+            "name": "Find Qwark",
+            "visibility_rules": ["Unstable"],
+            "access_rules": [ "warpPad, hyperShot" ],
             "item_count": 1
           },
           {
@@ -1261,6 +1319,7 @@
           },
           {
             "name": "Infobot: Command Center",
+            "visibility_rules": ["Unstable"],
             "item_count": 1
           }
         ]
@@ -1288,7 +1347,7 @@
           },
           {
             "name": "SP: Spread Your Germs",
-            "visibility_rules": [ "SkillMaster" ],
+            "visibility_rules": [ "SkillMaster", "SkillSimple" ],
             "access_rules": [ "Infector" ],
             "item_count": 1
           },
@@ -1305,7 +1364,7 @@
         ]
       },
       {
-        "name": "Nanotech Levels 11-15",
+        "name": "Nanotech Levels 11-20",
         "map_locations": [
           {
             "map": "Galaxy",
@@ -1316,705 +1375,1151 @@
         "sections": [
           {
             "name": "Nanotech Milestone: 11",
-            "visibility_rules": [ "NanoAll" ],
+            "visibility_rules": [ "NanoAll, NanoTotal:11" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 12",
-            "visibility_rules": [ "NanoAll" ],
+            "visibility_rules": [ "NanoAll, NanoTotal:12" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 13",
-            "visibility_rules": [ "NanoAll" ],
+            "visibility_rules": [ "NanoAll, NanoTotal:13" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 14",
-            "visibility_rules": [ "NanoAll" ],
+            "visibility_rules": [ "NanoAll, NanoTotal:14" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 15",
-            "visibility_rules": [ "NanoAll", "Nano5" ],
+            "visibility_rules": [ "NanoAll, NanoTotal:15", "Nano5, NanoTotal:15" ],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Nanotech Levels 16-20",
-        "map_locations": [
-          {
-            "map": "Galaxy",
-            "x": 100,
-            "y": 50
-          }
-        ],
-        "sections": [
+          },
           {
             "name": "Nanotech Milestone: 16",
-            "visibility_rules": [ "NanoAll" ],
+            "visibility_rules": [ "NanoAll, NanoTotal:16" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 17",
-            "visibility_rules": [ "NanoAll" ],
+            "visibility_rules": [ "NanoAll, NanoTotal:17" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 18",
-            "visibility_rules": [ "NanoAll" ],
+            "visibility_rules": [ "NanoAll, NanoTotal:18" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 19",
-            "visibility_rules": [ "NanoAll" ],
+            "visibility_rules": [ "NanoAll, NanoTotal:19" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 20",
-            "visibility_rules": [ "NanoAll", "Nano5", "Nano10", "Nano20" ],
+            "visibility_rules": [ "NanoAll, NanoTotal:20", "Nano5, NanoTotal:20", "Nano10, NanoTotal:20", "Nano20, NanoTotal:20" ],
             "item_count": 1
           }
         ]
       },
       {
-        "name": "Nanotech Levels 21-25",
-    "access_rules": [
-      "NanoCount:1"
-    ],
+        "name": "Nanotech Levels 21-40",
         "map_locations": [
           {
             "map": "Galaxy",
-            "x": 150,
+            "x": 100,
             "y": 50
           }
         ],
         "sections": [
           {
             "name": "Nanotech Milestone: 21",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:1"],
+            "visibility_rules": [ "NanoAll, NanoTotal:21" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 22",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:1"],
+            "visibility_rules": [ "NanoAll, NanoTotal:22" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 23",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:1"],
+            "visibility_rules": [ "NanoAll, NanoTotal:23" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 24",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:1"],
+            "visibility_rules": [ "NanoAll, NanoTotal:24" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 25",
-            "visibility_rules": [ "NanoAll", "Nano5" ],
+            "access_rules": ["NanoCount:1"],
+            "visibility_rules": [ "NanoAll, NanoTotal:25", "Nano5, NanoTotal:25" ],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Nanotech Levels 26-30",
-    "access_rules": [
-      "NanoCount:2"
-    ],
-        "map_locations": [
-          {
-            "map": "Galaxy",
-            "x": 200,
-            "y": 50
-          }
-        ],
-        "sections": [
+          },
           {
             "name": "Nanotech Milestone: 26",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:2"],
+            "visibility_rules": [ "NanoAll, NanoTotal:26" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 27",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:2"],
+            "visibility_rules": [ "NanoAll, NanoTotal:27" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 28",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:2"],
+            "visibility_rules": [ "NanoAll, NanoTotal:28" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 29",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:2"],
+            "visibility_rules": [ ", NanoTotal:29" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 30",
-            "visibility_rules": [ "NanoAll", "Nano5", "Nano10" ],
+            "access_rules": ["NanoCount:2"],
+            "visibility_rules": [ "NanoAll, NanoTotal:30", "Nano5, NanoTotal:30", "Nano10, NanoTotal:30" ],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Nanotech Levels 31-35",
-    "access_rules": [
-      "NanoCount:3"
-    ],
-        "map_locations": [
-          {
-            "map": "Galaxy",
-            "x": 250,
-            "y": 50
-          }
-        ],
-        "sections": [
+          },
           {
             "name": "Nanotech Milestone: 31",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:3"],
+            "visibility_rules": [ "NanoAll, NanoTotal:31" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 32",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:3"],
+            "visibility_rules": [ "NanoAll, NanoTotal:32" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 33",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:3"],
+            "visibility_rules": [ "NanoAll, NanoTotal:33" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 34",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:3"],
+            "visibility_rules": [ "NanoAll, NanoTotal:34" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 35",
-            "visibility_rules": [ "NanoAll", "Nano5" ],
+            "access_rules": ["NanoCount:3"],
+            "visibility_rules": [ "NanoAll, NanoTotal:35", "Nano5, NanoTotal:35" ],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Nanotech Levels 36-40",
-    "access_rules": [
-      "NanoCount:4"
-    ],
-        "map_locations": [
-          {
-            "map": "Galaxy",
-            "x": 300,
-            "y": 50
-          }
-        ],
-        "sections": [
+          },
           {
             "name": "Nanotech Milestone: 36",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:4"],
+            "visibility_rules": [ "NanoAll, NanoTotal:36" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 37",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:4"],
+            "visibility_rules": [ "NanoAll, NanoTotal:37" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 38",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:4"],
+            "visibility_rules": [ "NanoAll, NanoTotal:38" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 39",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:4"],
+            "visibility_rules": [ "NanoAll, NanoTotal:39" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 40",
-            "visibility_rules": [ "NanoAll", "Nano5", "Nano10", "Nano20" ],
+            "access_rules": ["NanoCount:4"],
+            "visibility_rules": [ "NanoAll, NanoTotal:40", "Nano5, NanoTotal:40", "Nano10, NanoTotal:40", "Nano20, NanoTotal:40" ],
             "item_count": 1
           }
         ]
       },
       {
-        "name": "Nanotech Levels 41-45",
-    "access_rules": [
-      "NanoCount:5"
-    ],
+        "name": "Nanotech Levels 41-60",
         "map_locations": [
           {
             "map": "Galaxy",
-            "x": 50,
-            "y": 100
+            "x": 150,
+            "y": 50
           }
         ],
         "sections": [
           {
             "name": "Nanotech Milestone: 41",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:5"],
+            "visibility_rules": [ "NanoAll, NanoTotal:41" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 42",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:5"],
+            "visibility_rules": [ "NanoAll, NanoTotal:42" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 43",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:5"],
+            "visibility_rules": [ "NanoAll, NanoTotal:43" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 44",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:5"],
+            "visibility_rules": [ "NanoAll, NanoTotal:44" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 45",
-            "visibility_rules": [ "NanoAll", "Nano5" ],
+            "access_rules": ["NanoCount:5"],
+            "visibility_rules": [ "NanoAll, NanoTotal:45", "Nano5, NanoTotal:45" ],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Nanotech Levels 46-50",
-    "access_rules": [
-      "NanoCount:6"
-    ],
-        "map_locations": [
-          {
-            "map": "Galaxy",
-            "x": 100,
-            "y": 100
-          }
-        ],
-        "sections": [
+          },
           {
             "name": "Nanotech Milestone: 46",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:6"],
+            "visibility_rules": [ "NanoAll, NanoTotal:46" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 47",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:6"],
+            "visibility_rules": [ "NanoAll, NanoTotal:47" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 48",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:6"],
+            "visibility_rules": [ "NanoAll, NanoTotal:48" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 49",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:6"],
+            "visibility_rules": [ "NanoAll, NanoTotal:49" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 50",
-            "visibility_rules": [ "NanoAll", "Nano5", "Nano10" ],
+            "access_rules": ["NanoCount:6"],
+            "visibility_rules": [ "NanoAll, NanoTotal:50", "Nano5, NanoTotal:50", "Nano10, NanoTotal:50" ],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Nanotech Levels 51-55",
-    "access_rules": [
-      "NanoCount:7"
-    ],
-        "map_locations": [
-          {
-            "map": "Galaxy",
-            "x": 150,
-            "y": 100
-          }
-        ],
-        "sections": [
+          },
           {
             "name": "Nanotech Milestone: 51",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:7"],
+            "visibility_rules": [ "NanoAll, NanoTotal:51" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 52",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:7"],
+            "visibility_rules": [ "NanoAll, NanoTotal:52" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 53",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:7"],
+            "visibility_rules": [ "NanoAll, NanoTotal:53" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 54",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:7"],
+            "visibility_rules": [ "NanoAll, NanoTotal:54" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 55",
-            "visibility_rules": [ "NanoAll", "Nano5" ],
+            "access_rules": ["NanoCount:7"],
+            "visibility_rules": [ "NanoAll, NanoTotal:55", "Nano5, NanoTotal:56" ],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Nanotech Levels 56-60",
-    "access_rules": [
-      "NanoCount:8"
-    ],
-        "map_locations": [
-          {
-            "map": "Galaxy",
-            "x": 200,
-            "y": 100
-          }
-        ],
-        "sections": [
+          },
           {
             "name": "Nanotech Milestone: 56",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:8"],
+            "visibility_rules": [ "NanoAll, NanoTotal:56" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 57",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:8"],
+            "visibility_rules": [ "NanoAll, NanoTotal:57" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 58",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:8"],
+            "visibility_rules": [ "NanoAll, NanoTotal:58" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 59",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:8"],
+            "visibility_rules": [ "NanoAll, NanoTotal:59" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 60",
-            "visibility_rules": [ "NanoAll", "Nano5", "Nano10", "Nano20" ],
+            "access_rules": ["NanoCount:8"],
+            "visibility_rules": [ "NanoAll, NanoTotal:60", "Nano5, NanoTotal:60", "Nano10, NanoTotal:60", "Nano20, NanoTotal:60" ],
             "item_count": 1
           }
         ]
       },
       {
-        "name": "Nanotech Levels 61-65",
-    "access_rules": [
-      "NanoCount:9"
-    ],
+        "name": "Nanotech Levels 61-80",
         "map_locations": [
           {
             "map": "Galaxy",
-            "x": 250,
-            "y": 100
+            "x": 200,
+            "y": 50
           }
         ],
         "sections": [
           {
             "name": "Nanotech Milestone: 61",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:9"],
+            "visibility_rules": [ "NanoAll, NanoTotal:61" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 62",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:9"],
+            "visibility_rules": [ "NanoAll, NanoTotal:62" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 63",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:9"],
+            "visibility_rules": [ "NanoAll, NanoTotal:63" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 64",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:9"],
+            "visibility_rules": [ "NanoAll, NanoTotal:64" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 65",
-            "visibility_rules": [ "NanoAll", "Nano5" ],
+            "access_rules": ["NanoCount:9"],
+            "visibility_rules": [ "NanoAll, NanoTotal:65", "Nano5, NanoTotal:65" ],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Nanotech Levels 66-70",
-    "access_rules": [
-      "NanoCount:10"
-    ],
-        "map_locations": [
-          {
-            "map": "Galaxy",
-            "x": 300,
-            "y": 100
-          }
-        ],
-        "sections": [
+          },
           {
             "name": "Nanotech Milestone: 66",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:10"],
+            "visibility_rules": [ "NanoAll, NanoTotal:66" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 67",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:10"],
+            "visibility_rules": [ "NanoAll, NanoTotal:67" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 68",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:10"],
+            "visibility_rules": [ "NanoAll, NanoTotal:68" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 69",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:10"],
+            "visibility_rules": [ "NanoAll, NanoTotal:69" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 70",
-            "visibility_rules": [ "NanoAll", "Nano5", "Nano10" ],
+            "access_rules": ["NanoCount:10"],
+            "visibility_rules": [ "NanoAll, NanoTotal:70", "Nano5, NanoTotal:70", "Nano10, NanoTotal:70" ],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Nanotech Levels 71-75",
-    "access_rules": [
-      "NanoCount:11"
-    ],
-        "map_locations": [
-          {
-            "map": "Galaxy",
-            "x": 50,
-            "y": 150
-          }
-        ],
-        "sections": [
+          },
           {
             "name": "Nanotech Milestone: 71",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:11"],
+            "visibility_rules": [ "NanoAll, NanoTotal:71" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 72",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:11"],
+            "visibility_rules": [ "NanoAll, NanoTotal:72" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 73",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:11"],
+            "visibility_rules": [ "NanoAll, NanoTotal:73" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 74",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:11"],
+            "visibility_rules": [ "NanoAll, NanoTotal:74" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 75",
-            "visibility_rules": [ "NanoAll", "Nano5" ],
+            "access_rules": ["NanoCount:11"],
+            "visibility_rules": [ "NanoAll, NanoTotal:75", "Nano5, NanoTotal:75" ],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Nanotech Levels 76-80",
-    "access_rules": [
-      "NanoCount:12"
-    ],
-        "map_locations": [
-          {
-            "map": "Galaxy",
-            "x": 100,
-            "y": 150
-          }
-        ],
-        "sections": [
+          },
           {
             "name": "Nanotech Milestone: 76",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:12"],
+            "visibility_rules": [ "NanoAll, NanoTotal:76" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 77",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:12"],
+            "visibility_rules": [ "NanoAll, NanoTotal:77" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 78",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:12"],
+            "visibility_rules": [ "NanoAll, NanoTotal:78" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 79",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:12"],
+            "visibility_rules": [ "NanoAll, NanoTotal:79" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 80",
-            "visibility_rules": [ "NanoAll", "Nano5", "Nano10", "Nano20" ],
+            "access_rules": ["NanoCount:12"],
+            "visibility_rules": [ "NanoAll, NanoTotal:80", "Nano5, NanoTotal:80", "Nano10, NanoTotal:80", "Nano20, NanoTotal:80" ],
             "item_count": 1
           }
         ]
       },
       {
-        "name": "Nanotech Levels 81-85",
-    "access_rules": [
-      "NanoCount:13"
-    ],
+        "name": "Nanotech Levels 81-100",
         "map_locations": [
           {
             "map": "Galaxy",
-            "x": 150,
-            "y": 150
+            "x": 250,
+            "y": 50
           }
         ],
         "sections": [
           {
             "name": "Nanotech Milestone: 81",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:13"],
+            "visibility_rules": [ "NanoAll, NanoTotal:81" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 82",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:13"],
+            "visibility_rules": [ "NanoAll, NanoTotal:82" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 83",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:13"],
+            "visibility_rules": [ "NanoAll, NanoTotal:83" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 84",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:13"],
+            "visibility_rules": [ "NanoAll, NanoTotal:84" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 85",
-            "visibility_rules": [ "NanoAll", "Nano5" ],
+            "access_rules": ["NanoCount:13"],
+            "visibility_rules": [ "NanoAll, NanoTotal:85", "Nano5, NanoTotal:85" ],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Nanotech Levels 86-90",
-    "access_rules": [
-      "NanoCount:14"
-    ],
-        "map_locations": [
-          {
-            "map": "Galaxy",
-            "x": 200,
-            "y": 150
-          }
-        ],
-        "sections": [
+          },
           {
             "name": "Nanotech Milestone: 86",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:14"],
+            "visibility_rules": [ "NanoAll, NanoTotal:86" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 87",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:14"],
+            "visibility_rules": [ "NanoAll, NanoTotal:87" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 88",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:14"],
+            "visibility_rules": [ "NanoAll, NanoTotal:88" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 89",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:14"],
+            "visibility_rules": [ "NanoAll, NanoTotal:89" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 90",
-            "visibility_rules": [ "NanoAll", "Nano5", "Nano10" ],
+            "access_rules": ["NanoCount:14"],
+            "visibility_rules": [ "NanoAll, NanoTotal:90", "Nano5, NanoTotal:90", "Nano10, NanoTotal:90" ],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Nanotech Levels 91-95",
-    "access_rules": [
-      "NanoCount:15"
-    ],
-        "map_locations": [
-          {
-            "map": "Galaxy",
-            "x": 250,
-            "y": 150
-          }
-        ],
-        "sections": [
+          },
           {
             "name": "Nanotech Milestone: 91",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:15"],
+            "visibility_rules": [ "NanoAll, NanoTotal:91" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 92",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:15"],
+            "visibility_rules": [ "NanoAll, NanoTotal:92" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 93",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:15"],
+            "visibility_rules": [ "NanoAll, NanoTotal:93" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 94",
-            "visibility_rules": [ "NanoAll" ],
+            "access_rules": ["NanoCount:15"],
+            "visibility_rules": [ "NanoAll, NanoTotal:94" ],
             "item_count": 1
           },
           {
             "name": "Nanotech Milestone: 95",
-            "visibility_rules": [ "NanoAll", "Nano5" ],
+            "access_rules": ["NanoCount:15"],
+            "visibility_rules": [ ", NanoTotal:95", "Nano5, NanoTotal:95" ],
+            "item_count": 1
+          },
+          {
+            "name": "Nanotech Milestone: 96",
+            "access_rules": ["NanoCount:16"],
+            "visibility_rules": [ "NanoAll, NanoTotal:96" ],
+            "item_count": 1
+          },
+          {
+            "name": "Nanotech Milestone: 97",
+            "access_rules": ["NanoCount:16"],
+            "visibility_rules": [ "NanoAll, NanoTotal:97" ],
+            "item_count": 1
+          },
+          {
+            "name": "Nanotech Milestone: 98",
+            "access_rules": ["NanoCount:16"],
+            "visibility_rules": [ "NanoAll, NanoTotal:98" ],
+            "item_count": 1
+          },
+          {
+            "name": "Nanotech Milestone: 99",
+            "access_rules": ["NanoCount:16"],
+            "visibility_rules": [ "NanoAll, NanoTotal:99" ],
+            "item_count": 1
+          },
+          {
+            "name": "Nanotech Milestone: 100",
+            "access_rules": ["NanoCount:16"],
+            "visibility_rules": [ "NanoAll, NanoTotal:100", "Nano5, NanoTotal:100", "Nano10, NanoTotal:100", "Nano20, NanoTotal:100" ],
+            "item_count":1
+          }
+        ]
+      },
+      {
+        "name": "Sewer Crystals 1-20",
+        "access_rules": ["Aquatos"],
+        "map_locations": [
+          {
+            "map": "Galaxy",
+            "x": 50,
+            "y": 130
+          }
+        ],
+        "sections": [
+          {
+            "name": "Sewer Crystals Traded: 1",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:1" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 2",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:2" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 3",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:3" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 4",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:4" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 5",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:5", "Crystals5, CrystalsTotal:5" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 6",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:6" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 7",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:7" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 8",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:8" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 9",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:9" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 10",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:10", "Crystals5, CrystalsTotal:10", "Crystals10, CrystalsTotal:10" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 11",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:11" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 12",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:12" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 13",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:13" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 14",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:14" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 15",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:15", "Crystals5, CrystalsTotal:15" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 16",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:16" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 17",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:17" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 18",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:18" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 19",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:19" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 20",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:20", "Crystals5, CrystalsTotal:20", "Crystals10, CrystalsTotal:20", "Crystals20, CrystalsTotal:20" ],
             "item_count": 1
           }
         ]
       },
       {
-        "name": "Nanotech Levels 96-100",
-    "access_rules": [
-      "NanoCount:16"
-    ],
+        "name": "Sewer Crystals 21-40",
+        "access_rules": ["Aquatos"],
         "map_locations": [
           {
             "map": "Galaxy",
-            "x": 300,
-            "y": 150
+            "x": 100,
+            "y": 130
           }
         ],
         "sections": [
           {
-            "name": "Nanotech Milestone: 96",
-            "visibility_rules": [ "NanoAll" ],
+            "name": "Sewer Crystals Traded: 21",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:21" ],
             "item_count": 1
           },
           {
-            "name": "Nanotech Milestone: 97",
-            "visibility_rules": [ "NanoAll" ],
+            "name": "Sewer Crystals Traded: 22",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:22" ],
             "item_count": 1
           },
           {
-            "name": "Nanotech Milestone: 98",
-            "visibility_rules": [ "NanoAll" ],
+            "name": "Sewer Crystals Traded: 23",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:23" ],
             "item_count": 1
           },
           {
-            "name": "Nanotech Milestone: 99",
-            "visibility_rules": [ "NanoAll" ],
+            "name": "Sewer Crystals Traded: 24",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:24" ],
             "item_count": 1
           },
           {
-            "name": "Nanotech Milestone: 100",
-            "visibility_rules": [ "NanoAll", "Nano5", "Nano10", "Nano20" ],
-            "item_count":1
+            "name": "Sewer Crystals Traded: 25",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:25", "Crystals5, CrystalsTotal:25" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 26",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:26" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 27",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:27" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 28",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:28" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 29",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:29" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 30",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:30", "Crystals5, CrystalsTotal:30", "Crystals10, CrystalsTotal:30" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 31",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:31" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 32",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:32" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 33",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:33" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 34",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:34" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 35",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:35", "Crystals5, CrystalsTotal:35" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 36",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:36" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 37",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:37" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 38",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:38" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 39",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:39" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 40",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:40", "Crystals5, CrystalsTotal:40", "Crystals10, CrystalsTotal:40", "Crystals20, CrystalsTotal:40" ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Sewer Crystals 41-60",
+        "access_rules": ["Aquatos"],
+        "map_locations": [
+          {
+            "map": "Galaxy",
+            "x": 150,
+            "y": 130
+          }
+        ],
+        "sections": [
+          {
+            "name": "Sewer Crystals Traded: 41",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:41" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 42",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:42" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 43",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:43" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 44",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:44" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 45",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:45", "Crystals5, CrystalsTotal:45" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 46",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:46" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 47",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:47" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 48",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:48" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 49",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:49" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 50",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:50", "Crystals5, CrystalsTotal:50", "Crystals10, CrystalsTotal:50" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 51",
+            "access_rules": ["gravBoots"],
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:51" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 52",
+            "access_rules": ["gravBoots"],
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:52" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 53",
+            "access_rules": ["gravBoots"],
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:53" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 54",
+            "access_rules": ["gravBoots"],
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:54" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 55",
+            "access_rules": ["gravBoots"],
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:55", "Crystals5, CrystalsTotal:55" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 56",
+            "access_rules": ["gravBoots"],
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:56" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 57",
+            "access_rules": ["gravBoots"],
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:57" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 58",
+            "access_rules": ["gravBoots"],
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:58" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 59",
+            "access_rules": ["gravBoots"],
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:59" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 60",
+            "access_rules": ["gravBoots"],
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:60", "Crystals5, CrystalsTotal:60", "Crystals10, CrystalsTotal:60", "Crystals20, CrystalsTotal:60" ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Sewer Crystals 61-80",
+        "access_rules": ["Aquatos, gravBoots"],
+        "map_locations": [
+          {
+            "map": "Galaxy",
+            "x": 200,
+            "y": 130
+          }
+        ],
+        "sections": [
+          {
+            "name": "Sewer Crystals Traded: 61",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:61" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 62",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:62" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 63",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:63" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 64",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:64" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 65",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:65", "Crystals5, CrystalsTotal:65" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 66",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:66" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 67",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:67" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 68",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:68" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 69",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:69" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 70",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:70", "Crystals5, CrystalsTotal:70", "Crystals10, CrystalsTotal:70" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 71",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:71" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 72",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:72" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 73",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:73" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 74",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:74" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 75",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:75", "Crystals5, CrystalsTotal:75" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 76",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:76" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 77",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:77" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 78",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:78" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 79",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:79" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 80",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:80", "Crystals5, CrystalsTotal:80", "Crystals10, CrystalsTotal:80", "Crystals20, CrystalsTotal:80" ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Sewer Crystals 81-99",
+        "access_rules": ["Aquatos, gravBoots"],
+        "map_locations": [
+          {
+            "map": "Galaxy",
+            "x": 250,
+            "y": 130
+          }
+        ],
+        "sections": [
+          {
+            "name": "Sewer Crystals Traded: 81",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:81" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 82",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:82" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 83",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:83" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 84",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:84" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 85",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:85", "Crystals5, CrystalsTotal:85" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 86",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:86" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 87",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:87" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 88",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:88" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 89",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:89" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 90",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:90", "Crystals5, CrystalsTotal:90", "Crystals10, CrystalsTotal:90" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 91",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:91" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 92",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:92" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 93",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:93" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 94",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:94" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 95",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:95", "Crystals5, CrystalsTotal:95" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 96",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:96" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 97",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:97" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 98",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:98" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 99",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:99" ],
+            "item_count": 1
           }
         ]
       }
@@ -2153,7 +2658,7 @@
       },
       {
         "name": "Skill Point: Stay Squeaky Clean",
-        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
+        "visibility_rules": [ "SkillMaster"],
         "map_locations": [
           {
             "map": "Florana",
@@ -2213,6 +2718,7 @@
       },
       {
         "name": "VR Training",
+        "visibility_rules": [ "VRChecksOn" ],
         "map_locations": [
           {
             "map": "Starship Phoenix",
@@ -2224,32 +2730,30 @@
           {
             "name": "T-Bolt: VR Gadget Training",
             "access_rules": [ "Tyhrranosis, hacker, hyperShot" ],
-            "visibility_rules": [ "Bolt" ],
+            "visibility_rules": [ "Bolt, Unstable" ],
             "item_count": 1
           },
           {
             "name": "Skill Point: Beat Helga's Best Time (0:50)",
-        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
+        "visibility_rules": [ "SkillMaster, Unstable", "SkillSimple, Unstable" ],
             "access_rules": [ "Tyhrranosis, hacker, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "VR Gadget Training",
+            "visibility_rules": ["Unstable"],
             "access_rules": [ "Tyhrranosis, hacker, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "Received Hacker",
+        "visibility_rules": ["Unstable"],
             "access_rules": [ "Tyhrranosis, hacker, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "Received Hypershot",
-            "access_rules": [ "Tyhrranosis, hacker, hyperShot" ],
-            "item_count": 1
-          },
-          {
-            "name": "VR Training after Noid Queen",
+        "visibility_rules": ["Unstable"],
             "access_rules": [ "Tyhrranosis, hacker, hyperShot" ],
             "item_count": 1
           },
@@ -2294,6 +2798,7 @@
       },
       {
         "name": "Armor Vendor",
+        "visibility_rules": ["Unstable"],
         "map_locations": [
           {
             "map": "Starship Phoenix",
@@ -2323,7 +2828,7 @@
           },
           {
             "name": "Skill Point: Turn Up The Heat!",
-        "visibility_rules": [ "SkillMaster" ],
+            "visibility_rules": [ "SkillMaster", "SkillSimple" ],
             "access_rules": [ "Koros" ],
             "item_count": 1
           }
@@ -2331,6 +2836,7 @@
       },
       {
         "name": "Phoenix Missions",
+        "visibility_rules": ["Unstable"],
         "map_locations": [
           {
             "map": "Starship Phoenix",
@@ -2340,33 +2846,18 @@
         ],
         "sections": [
           {
-            "name": "Play VidComic 1",
-            "access_rules": [ "vidComic" ],
-            "item_count": 1
-          },
-          {
             "name": "Return after winning Grand Prize Bout",
             "access_rules": [ "Annihilation" ],
             "item_count": 1
           },
           {
-            "name": "Return after Aquatos Base",
+            "name": "Deliver the Star Map to Qwark",
             "access_rules": [ "Aquatos" ],
-            "item_count": 1
-          },
-          {
-            "name": "Play VidComic 4",
-            "access_rules": [ "vidComic4" ],
             "item_count": 1
           },
           {
             "name": "Give Al the Master Plan",
             "access_rules": [ "MasterPlan" ],
-            "item_count": 1
-          },
-          {
-            "name": "Play VidComic 5",
-            "access_rules": [ "vidComic5" ],
             "item_count": 1
           }
         ]
@@ -2384,91 +2875,96 @@
           {
             "name": "Qwark Vidcomic 1 Clear",
             "access_rules": [ "vidComic" ],
+            "visibility_rules": [ "VCChecksOn" ],
             "item_count": 1
           },
           {
             "name": "T-Bolt: Vidcomic 1 100% Clear",
             "access_rules": [ "vidComic" ],
-            "visibility_rules": [ "Bolt" ],
+            "visibility_rules": [ "VCChecksOn, Bolt" ],
             "item_count": 1
           },
           {
             "name": "SP: Pirate Booty - Set a new record for Qwark (2:40)",
-        "visibility_rules": [ "SkillMaster" ],
+        "visibility_rules": [ "VCChecksOn, SkillMaster" ],
             "access_rules": [ "vidComic" ],
             "item_count": 1
           },
           {
             "name": "Qwark Vidcomic 2 Clear",
             "access_rules": [ "vidComic2" ],
+            "visibility_rules": [ "VCChecksOn" ],
             "item_count": 1
           },
           {
             "name": "T-Bolt: Vidcomic 2 100% Clear",
             "access_rules": [ "vidComic2" ],
-            "visibility_rules": [ "Bolt" ],
+            "visibility_rules": [ "VCChecksOn, Bolt" ],
             "item_count": 1
           },
           {
             "name": "SP: Arriba Amoeba! - Set a new record for Qwark (2:10)",
-        "visibility_rules": [ "SkillMaster" ],
+        "visibility_rules": [ "VCChecksOn, SkillMaster" ],
             "access_rules": [ "vidComic2" ],
             "item_count": 1
           },
           {
             "name": "Qwark Vidcomic 3 Clear",
             "access_rules": [ "vidComic3" ],
+            "visibility_rules": [ "VCChecksOn" ],
             "item_count": 1
           },
           {
             "name": "T-Bolt: Vidcomic 3 100% Clear",
             "access_rules": [ "vidComic3" ],
-            "visibility_rules": [ "Bolt" ],
+            "visibility_rules": [ "VCChecksOn, Bolt" ],
             "item_count": 1
           },
           {
             "name": "SP: Shadow of the Robot - Set a new record for Qwark (1:50)",
-        "visibility_rules": [ "SkillMaster" ],
+            "visibility_rules": [ "VCChecksOn, SkillMaster" ],
             "access_rules": [ "vidComic3" ],
             "item_count": 1
           },
           {
             "name": "Qwark Vidcomic 4 Clear",
             "access_rules": [ "vidComic4" ],
+            "visibility_rules": [ "VCChecksOn" ],
             "item_count": 1
           },
           {
             "name": "T-Bolt: Vidcomic 4 100% Clear",
             "access_rules": [ "vidComic4" ],
-            "visibility_rules": [ "Bolt" ],
+            "visibility_rules": [ "VCChecksOn, Bolt" ],
             "item_count": 1
           },
           {
             "name": "SP: Deja Q All Over Again - Set a new record for Qwark (4:45)",
-        "visibility_rules": [ "SkillMaster" ],
+            "visibility_rules": [ "VCChecksOn, SkillMaster" ],
             "access_rules": [ "vidComic4" ],
             "item_count": 1
           },
           {
             "name": "Qwark Vidcomic 5 Clear",
             "access_rules": [ "vidComic5" ],
+            "visibility_rules": [ "VCChecksOn" ],
             "item_count": 1
           },
           {
             "name": "T-Bolt: Vidcomic 5 100% Clear",
             "access_rules": [ "vidComic5" ],
-            "visibility_rules": [ "Bolt" ],
+            "visibility_rules": [ "VCChecksOn, Bolt" ],
             "item_count": 1
           },
           {
             "name": "SP: The Shaming of the Q - Set a new record for Qwark (2:00)",
-        "visibility_rules": [ "SkillMaster" ],
+            "visibility_rules": [ "VCChecksOn, SkillMaster" ],
             "access_rules": [ "vidComic5" ],
             "item_count": 1
           },
           {
             "name": "Skill Point: Strive for Arcade Perfection",
-        "visibility_rules": [ "SkillMaster" ],
+            "visibility_rules": [ "VCChecksOn, SkillMaster" ],
             "access_rules": [ "vidComic5" ],
             "item_count": 1
           }
@@ -2476,6 +2972,7 @@
       },
       {
         "name": "The Bridge",
+        "visibility_rules": ["Unstable"],
         "map_locations": [
           {
             "map": "Starship Phoenix",
@@ -2508,6 +3005,7 @@
         "sections": [
           {
             "name": "Post Hideout Assault",
+            "visibility_rules": ["Unstable"],
             "access_rules": [ "QwarksHideout, refractor, warpPad, hyperShot" ],
             "item_count": 1
           }
@@ -2525,25 +3023,25 @@
         "sections": [
           {
             "name": "Titanium Collector",
-            "visibility_rules": [ "TrophiesAll" ],
+            "visibility_rules": [ "Bolt, TrophiesAll" ],
             "access_rules": [ "refractor, warpPad, hyperShot, vidComic5, hacker, tyhrraGuise, gravBoots, Marcadia, Annihilation, Aquatos, Tyhrranosis, Daxx, ObaniGemini, Blackwater, Holostar, ZeldrinStarport, Metropolis, CrashSite, Aridia, QwarksHideout, Koros, CommandCenter" ],
             "item_count": 1
           },
           {
             "name": "Friend of the Rangers",
-            "visibility_rules": [ "TrophiesAll" ],
+            "visibility_rules": [ "RangerChecksOn, TrophiesAll" ],
             "access_rules": [ "refractor, gravBoots, Marcadia, Tyhrranosis, Blackwater, Metropolis, Aridia" ],
             "item_count": 1
           },
           {
             "name": "Annihilation Nation Champion",
-            "visibility_rules": [ "TrophiesAll" ],
+            "visibility_rules": [ "ArenaChecksOn, TrophiesAll" ],
             "access_rules": [ "Daxx, hyperShot, vidComic5, hacker, tyhrraGuise, gravBoots, refractor, CommandCenter" ],
             "item_count": 1
           },
           {
             "name": "Skill Master",
-            "visibility_rules": [ "TrophiesAll" ],
+            "visibility_rules": [ "SkillMaster, TrophiesAll" ],
             "access_rules": [ "refractor, warpPad, hyperShot, vidComic5, hacker, tyhrraGuise, gravBoots, Marcadia, Annihilation, Aquatos, Tyhrranosis, Daxx, ObaniGemini, Blackwater, Holostar, ZeldrinStarport, Metropolis, CrashSite, Aridia, QwarksHideout, Koros, CommandCenter, PlasmaWhip, SpittingHydra, SuckCannon, DiskBladeGun, FluxRifle, QwackORay, Annihilator, Infector" ],
             "item_count": 1
           }
@@ -2585,6 +3083,7 @@
         "sections": [
           {
             "name": "Received Refractor",
+            "visibility_rules": [ "RangerChecksOn" ],
             "item_count": 1
           }
         ]
@@ -2601,6 +3100,7 @@
         "sections": [
           {
             "name": "Meet Al",
+            "visibility_rules": [ "RangerChecksOn" ],
             "access_rules": [ "refractor" ],
             "item_count": 1
           }
@@ -2608,7 +3108,7 @@
       },
       {
         "name": "Skill Point: Reflect on how to score",
-        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
+        "visibility_rules": [ "RangerChecksOn, SkillMaster", "RangerChecksOn, SkillSimple" ],
         "map_locations": [
           {
             "map": "Marcadia",
@@ -2654,7 +3154,7 @@
           {
             "name": "Titanium Bolt",
             "access_rules": [ "refractor, gravBoots" ],
-            "visibility_rules": [ "Bolt" ],
+            "visibility_rules": [ "RangerChecksOn, Bolt" ],
             "item_count": 1
           }
         ]
@@ -2672,7 +3172,7 @@
           {
             "name": "Titanium Bolt",
             "access_rules": [ "refractor, gravBoots" ],
-            "visibility_rules": [ "Bolt" ],
+            "visibility_rules": [ "RangerChecksOn, Bolt" ],
             "item_count": 1
           }
         ]
@@ -2689,22 +3189,27 @@
         "sections": [
           {
             "name": "Secure the Area",
+            "visibility_rules": [ "RangerChecksOn" ],
             "item_count": 1
           },
           {
             "name": "Air Assault",
+            "visibility_rules": [ "RangerChecksOn" ],
             "item_count": 1
           },
           {
             "name": "Turret Command",
+            "visibility_rules": [ "RangerChecksOn" ],
             "item_count": 1
           },
           {
             "name": "Under the Gun",
+            "visibility_rules": [ "RangerChecksOn" ],
             "item_count": 1
           },
           {
             "name": "Hit n' Run",
+            "visibility_rules": [ "RangerChecksOn" ],
             "item_count": 1
           }
         ]
@@ -2734,7 +3239,8 @@
         ]
       },
       {
-        "name": "Grand Prize",
+        "name": "Grand Prizes",
+        "visibility_rules": [ "ArenaChecksOn" ],
         "map_locations": [
           {
             "map": "Annihilation Nation",
@@ -2745,6 +3251,11 @@
         "sections": [
           {
             "name": "Received Tyhrra-Guise",
+            "item_count": 1
+          },
+          {
+            "name": "Infobot: Holostar Studios",
+            "access_rules": [ "Daxx, hyperShot" ],
             "item_count": 1
           }
         ]
@@ -2761,7 +3272,7 @@
         "sections": [
           {
             "name": "Titanium Bolt",
-            "visibility_rules": [ "Bolt" ],
+            "visibility_rules": [ "AreanaChecksOn, Bolt" ],
             "item_count": 1
           }
         ]
@@ -2779,13 +3290,14 @@
           {
             "name": "Titanium Bolt",
             "access_rules": [ "Daxx, hyperShot" ],
-            "visibility_rules": [ "Bolt" ],
+            "visibility_rules": [ "ArenaChecksOn, Bolt" ],
             "item_count": 1
           }
         ]
       },
       {
         "name": "Gauntlet Challenges",
+        "visibility_rules": [ "ArenaChecksOn" ],
         "map_locations": [
           {
             "map": "Annihilation Nation",
@@ -2814,6 +3326,7 @@
       },
       {
         "name": "Gauntlet Revisit Challenges",
+        "visibility_rules": [ "ArenaChecksOn" ],
         "map_locations": [
           {
             "map": "Annihilation Nation",
@@ -2846,6 +3359,7 @@
       },
       {
         "name": "Arena Challenges",
+        "visibility_rules": [ "ArenaChecksOn" ],
         "map_locations": [
           {
             "map": "Annihilation Nation",
@@ -2896,6 +3410,7 @@
       },
       {
         "name": "Arena Revisit Challenges",
+        "visibility_rules": [ "ArenaChecksOn" ],
         "map_locations": [
           {
             "map": "Annihilation Nation",
@@ -2983,6 +3498,7 @@
         "sections": [
           {
             "name": "It's Qwarktastic!",
+            "visibility_rules": ["ArenaChecksOn, Unstable"],
             "access_rules": [ "Daxx, hyperShot, vidComic5, hacker, tyhrraGuise, gravBoots, refractor, CommandCenter" ],
             "item_count": 1
           }
@@ -2990,7 +3506,7 @@
       },
       {
         "name": "Skill Point: Bash the Bug",
-        "visibility_rules": [ "SkillMaster" ],
+        "visibility_rules": [ "ArenaChecksOn, SkillMaster" ],
         "map_locations": [
           {
             "map": "Annihilation Nation",
@@ -3008,7 +3524,8 @@
       },
       {
         "name": "Skill Point: Be an eight time champ",
-        "visibility_rules": [ "SkillMaster" ],
+        "visibility_rules": [ "ArenaChecksOn, SkillMaster" ],
+        "access_rules": [ "Daxx, hyperShot" ],
         "map_locations": [
           {
             "map": "Annihilation Nation",
@@ -3025,7 +3542,7 @@
       },
       {
         "name": "Skill Point: Flee Flawlessly",
-        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
+        "visibility_rules": [ "ArenaChecksOn, SkillMaster"],
         "map_locations": [
           {
             "map": "Annihilation Nation",
@@ -3042,7 +3559,7 @@
       },
       {
         "name": "Skill Point: Lights, camera action!",
-        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
+        "visibility_rules": [ "ArenaChecksOn, SkillMaster", "ArenaChecksOn, SkillSimple" ],
         "map_locations": [
           {
             "map": "Annihilation Nation",
@@ -3187,6 +3704,576 @@
         ]
       },
       {
+        "name": "Sewer Crystals 1-20",
+        "access_rules": ["Aquatos"],
+        "map_locations": [
+          {
+            "map": "Aquatos Sewers",
+            "x": 40,
+            "y": 175
+          }
+        ],
+        "sections": [
+          {
+            "name": "Sewer Crystals Traded: 1",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:1" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 2",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:2" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 3",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:3" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 4",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:4" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 5",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:5", "Crystals5, CrystalsTotal:5" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 6",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:6" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 7",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:7" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 8",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:8" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 9",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:9" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 10",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:10", "Crystals5, CrystalsTotal:10", "Crystals10, CrystalsTotal:10" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 11",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:11" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 12",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:12" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 13",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:13" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 14",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:14" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 15",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:15", "Crystals5, CrystalsTotal:15" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 16",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:16" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 17",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:17" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 18",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:18" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 19",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:19" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 20",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:20", "Crystals5, CrystalsTotal:20", "Crystals10, CrystalsTotal:20", "Crystals20, CrystalsTotal:20" ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Sewer Crystals 21-40",
+        "access_rules": ["Aquatos"],
+        "map_locations": [
+          {
+            "map": "Aquatos Sewers",
+            "x": 70,
+            "y": 175
+          }
+        ],
+        "sections": [
+          {
+            "name": "Sewer Crystals Traded: 21",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:21" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 22",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:22" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 23",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:23" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 24",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:24" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 25",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:25", "Crystals5, CrystalsTotal:25" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 26",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:26" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 27",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:27" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 28",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:28" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 29",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:29" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 30",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:30", "Crystals5, CrystalsTotal:30", "Crystals10, CrystalsTotal:30" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 31",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:31" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 32",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:32" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 33",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:33" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 34",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:34" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 35",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:35", "Crystals5, CrystalsTotal:35" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 36",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:36" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 37",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:37" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 38",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:38" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 39",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:39" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 40",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:40", "Crystals5, CrystalsTotal:40", "Crystals10, CrystalsTotal:40", "Crystals20, CrystalsTotal:40" ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Sewer Crystals 41-60",
+        "access_rules": ["Aquatos"],
+        "map_locations": [
+          {
+            "map": "Aquatos Sewers",
+            "x": 40,
+            "y": 202
+          }
+        ],
+        "sections": [
+          {
+            "name": "Sewer Crystals Traded: 41",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:41" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 42",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:42" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 43",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:43" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 44",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:44" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 45",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:45", "Crystals5, CrystalsTotal:45" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 46",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:46" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 47",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:47" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 48",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:48" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 49",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:49" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 50",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:50", "Crystals5, CrystalsTotal:50", "Crystals10, CrystalsTotal:50" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 51",
+            "access_rules": ["gravBoots"],
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:51" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 52",
+            "access_rules": ["gravBoots"],
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:52" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 53",
+            "access_rules": ["gravBoots"],
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:53" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 54",
+            "access_rules": ["gravBoots"],
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:54" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 55",
+            "access_rules": ["gravBoots"],
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:55", "Crystals5, CrystalsTotal:55" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 56",
+            "access_rules": ["gravBoots"],
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:56" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 57",
+            "access_rules": ["gravBoots"],
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:57" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 58",
+            "access_rules": ["gravBoots"],
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:58" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 59",
+            "access_rules": ["gravBoots"],
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:59" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 60",
+            "access_rules": ["gravBoots"],
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:60", "Crystals5, CrystalsTotal:60", "Crystals10, CrystalsTotal:60", "Crystals20, CrystalsTotal:60" ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Sewer Crystals 61-80",
+        "access_rules": ["Aquatos, gravBoots"],
+        "map_locations": [
+          {
+            "map": "Aquatos Sewers",
+            "x": 70,
+            "y": 202
+          }
+        ],
+        "sections": [
+          {
+            "name": "Sewer Crystals Traded: 61",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:61" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 62",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:62" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 63",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:63" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 64",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:64" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 65",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:65", "Crystals5, CrystalsTotal:65" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 66",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:66" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 67",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:67" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 68",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:68" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 69",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:69" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 70",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:70", "Crystals5, CrystalsTotal:70", "Crystals10, CrystalsTotal:70" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 71",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:71" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 72",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:72" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 73",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:73" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 74",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:74" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 75",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:75", "Crystals5, CrystalsTotal:75" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 76",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:76" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 77",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:77" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 78",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:78" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 79",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:79" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 80",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:80", "Crystals5, CrystalsTotal:80", "Crystals10, CrystalsTotal:80", "Crystals20, CrystalsTotal:80" ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Sewer Crystals 81-99",
+        "access_rules": ["Aquatos, gravBoots"],
+        "map_locations": [
+          {
+            "map": "Aquatos Sewers",
+            "x": 40,
+            "y": 229
+          }
+        ],
+        "sections": [
+          {
+            "name": "Sewer Crystals Traded: 81",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:81" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 82",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:82" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 83",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:83" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 84",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:84" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 85",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:85", "Crystals5, CrystalsTotal:85" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 86",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:86" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 87",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:87" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 88",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:88" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 89",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:89" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 90",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:90", "Crystals5, CrystalsTotal:90", "Crystals10, CrystalsTotal:90" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 91",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:91" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 92",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:92" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 93",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:93" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 94",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:94" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 95",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:95", "Crystals5, CrystalsTotal:95" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 96",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:96" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 97",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:97" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 98",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:98" ],
+            "item_count": 1
+          },
+          {
+            "name": "Sewer Crystals Traded: 99",
+            "visibility_rules": [ "CrystalsAll, CrystalsTotal:99" ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
         "name": "Gather Sewer Crystals",
         "map_locations": [
           {
@@ -3197,24 +4284,8 @@
         ],
         "sections": [
           {
-            "name": "1 Sewer Crystal Traded",
-            "item_count": 1
-          },
-          {
-            "name": "5 Sewer Crystals Traded",
-            "item_count": 1
-          },
-          {
-            "name": "10 Sewer Crystals Traded",
-            "item_count": 1
-          },
-          {
-            "name": "20 Sewer Crystals Traded",
-            "item_count": 1
-          },
-          {
             "name": "Skill Point: Hit the Motherload",
-            "visibility_rules": [ "SkillMaster" ],
+            "visibility_rules": [ "SkillMaster, CrystalsTotal:100" ],
             "item_count": 1,
             "access_rules": [ "gravBoots" ]
           }
@@ -3371,6 +4442,7 @@
       },
       {
         "name": "Operation: ISLAND STRIKE",
+        "visibility_rules": [ "RangerChecksOn" ],
         "map_locations": [
           {
             "map": "Tyhrranosis: Mission",
@@ -3558,7 +4630,7 @@
       },
       {
         "name": "Skill Point: Get to the Belt",
-        "visibility_rules": [ "SkillMaster" ],
+        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
         "map_locations": [
           {
             "map": "Obani Gemini",
@@ -3592,6 +4664,7 @@
       },
       {
         "name": "Explore the Second Moon",
+        "visibility_rules": ["Unstable"],
         "map_locations": [
           {
             "map": "Obani Gemini",
@@ -3616,7 +4689,7 @@
     "children": [
       {
         "name": "Skill Point: Bash the Party",
-        "visibility_rules": [ "SkillMaster" ],
+        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
         "map_locations": [
           {
             "map": "Blackwater City",
@@ -3644,15 +4717,12 @@
           {
             "name": "Received Grav Boots",
             "item_count": 1
-          },
-          {
-            "name": "Infobot: Holostar Studios",
-            "item_count": 1
           }
         ]
       },
       {
         "name": "Operation: BLACK TIDE",
+            "visibility_rules": [ "RangerChecksOn" ],
         "map_locations": [
           {
             "map": "Blackwater City",
@@ -3685,7 +4755,7 @@
     "children": [
       {
         "name": "Skill Point: Feeling Lucky?",
-        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
+        "visibility_rules": [ "SkillMaster"],
         "map_locations": [
           {
             "map": "Holostar Studios Clank",
@@ -4038,6 +5108,7 @@
       },
       {
         "name": "Operation: URBAN STORM",
+        "visibility_rules": [ "RangerChecksOn" ],
         "access_rules": [ "refractor, gravBoots" ],
         "map_locations": [
           {
@@ -4154,13 +5225,14 @@
         "map_locations": [
           {
             "map": "Crash Site",
-            "x": 425,
-            "y": 323
+            "x": 393,
+            "y": 343
           }
         ],
         "sections": [
           {
             "name": "Infobot: Aridia",
+            "visibility_rules": ["Unstable"],
             "access_rules": [ "gravBoots" ],
             "item_count": 1
           }
@@ -4171,9 +5243,9 @@
         "visibility_rules": [ "SkillMaster", "SkillSimple" ],
         "map_locations": [
           {
-            "map": "CrashSite",
-            "x": 45,
-            "y": 484
+            "map": "Crash Site",
+            "x": 425,
+            "y": 323
           }
         ],
         "sections": [
@@ -4186,7 +5258,7 @@
       },
       {
         "name": "Skill Point: Suck it up!",
-        "visibility_rules": [ "SkillMaster" ],
+        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
         "map_locations": [
           {
             "map": "Crash Site",
@@ -4222,26 +5294,32 @@
         "sections": [
           {
             "name": "The Tunnels of Outpost X12",
+            "visibility_rules": [ "RangerChecksOn" ],
             "item_count": 1
           },
           {
             "name": "Ambush in Red Rock Valley",
+            "visibility_rules": [ "RangerChecksOn" ],
             "item_count": 1
           },
           {
             "name": "Assassination",
+            "visibility_rules": [ "RangerChecksOn" ],
             "item_count": 1
           },
           {
             "name": "Reclaim the Valley",
+            "visibility_rules": [ "RangerChecksOn" ],
             "item_count": 1
           },
           {
             "name": "X12 Endgame",
+            "visibility_rules": [ "RangerChecksOn" ],
             "item_count": 1
           },
           {
             "name": "Received Warp Pad",
+            "visibility_rules": [ "RangerChecksOn" ],
             "item_count": 1
           }
         ]
@@ -4259,7 +5337,7 @@
           {
             "name": "Titanium Bolt",
             "access_rules": [ "gravBoots" ],
-            "visibility_rules": [ "Bolt" ],
+            "visibility_rules": [ "RangerChecksOn, Bolt" ],
             "item_count": 1
           }
         ]
@@ -4277,14 +5355,14 @@
           {
             "name": "Titanium Bolt",
             "access_rules": [ "gravBoots" ],
-            "visibility_rules": [ "Bolt" ],
+            "visibility_rules": [ "RangerChecksOn, Bolt" ],
             "item_count": 1
           }
         ]
       },
       {
         "name": "Skill Point: Go for hang time",
-        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
+        "visibility_rules": [ "RangerChecksOn, SkillMaster", "RangerChecksOn, SkillSimple" ],
         "map_locations": [
           {
             "map": "Aridia",
@@ -4301,7 +5379,7 @@
       },
       {
         "name": "Skill Point: Zap back at ya'",
-        "visibility_rules": [ "SkillMaster" ],
+        "visibility_rules": [ "RangerChecksOn, SkillMaster", "RangerChecksOn, SkillSimple" ],
         "map_locations": [
           {
             "map": "Aridia",
@@ -4411,6 +5489,24 @@
             "item_count": 1
           }
         ]
+      },
+      {
+        "name": "Qwark's Room",
+        "map_locations": [
+          {
+            "map": "Qwarks Hideout",
+            "x": 155,
+            "y": 250
+          }
+        ],
+        "sections": [
+          {
+            "name": "Find Qwark",
+            "visibility_rules": ["Unstable"],
+            "access_rules": [ "warpPad, hyperShot" ],
+            "item_count": 1
+          }
+        ]
       }
     ]
   },
@@ -4491,6 +5587,7 @@
       },
       {
         "name": "Access big gun control panel",
+        "visibility_rules": ["Unstable"],
         "map_locations": [
           {
             "map": "Koros",
@@ -4549,7 +5646,7 @@
       },
       {
         "name": "Skill Point: Spread Your Germs",
-        "visibility_rules": [ "SkillMaster" ],
+        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
         "access_rules": [ "Infector" ],
         "map_locations": [
           {

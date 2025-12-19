@@ -272,10 +272,28 @@
     "codes": "nanoPak"
   },
   {
+    "name": "Star Map",
+    "type": "toggle",
+    "img": "images/items/gadget/StarMap.png",
+    "codes": "StarMap"
+  },
+  {
     "name": "Master Plan",
     "type": "toggle",
     "img": "images/items/gadget/MasterPlan.png",
     "codes": "MasterPlan"
+  },
+  {
+    "name": "Heli-Pack",
+    "type": "toggle",
+    "img": "images/items/gadget/Heli.png",
+    "codes": "Heli"
+  },
+  {
+    "name": "Thruster-Pack",
+    "type": "toggle",
+    "img": "images/items/gadget/Thruster.png",
+    "codes": "Thruster"
   },
   {
     "name": "Progressive Vid-Comic",
@@ -331,10 +349,51 @@
     ]
   },
   {
+    "name": "Veldin",
+    "type": "static",
+    "img": "images/items/planet/Veldin.png",
+    "codes": "Veldin"
+  },
+  {
+    "name": "Florana",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/planet/Florana.png",
+        "inherit_codes": false,
+        "img_mods": "@disabled",
+        "codes": ""
+      },
+      {
+        "img": "images/items/planet/Florana.png",
+        "codes": "Florana"
+      }
+    ]
+  },
+  {
+    "name": "Starship Phoenix",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/planet/Phoenix.png",
+        "inherit_codes": false,
+        "img_mods": "@disabled",
+        "codes": ""
+      },
+      {
+        "img": "images/items/planet/Phoenix.png",
+        "codes": "Phoenix"
+      }
+    ]
+  },
+  {
     "name": "Marcadia",
     "type": "progressive",
     "allow_disabled": false,
-    "loop": true,
     "initial_stage_idx": 0,
     "stages": [
       {
@@ -353,7 +412,6 @@
     "name": "Annihilation",
     "type": "progressive",
     "allow_disabled": false,
-    "loop": true,
     "initial_stage_idx": 0,
     "stages": [
       {
@@ -372,7 +430,6 @@
     "name": "Aquatos",
     "type": "progressive",
     "allow_disabled": false,
-    "loop": true,
     "initial_stage_idx": 0,
     "stages": [
       {
@@ -391,7 +448,6 @@
     "name": "Tyhrranosis",
     "type": "progressive",
     "allow_disabled": false,
-    "loop": true,
     "initial_stage_idx": 0,
     "stages": [
       {
@@ -410,7 +466,6 @@
     "name": "Daxx",
     "type": "progressive",
     "allow_disabled": false,
-    "loop": true,
     "initial_stage_idx": 0,
     "stages": [
       {
@@ -429,7 +484,6 @@
     "name": "Obani Gemini",
     "type": "progressive",
     "allow_disabled": false,
-    "loop": true,
     "initial_stage_idx": 0,
     "stages": [
       {
@@ -448,7 +502,6 @@
     "name": "Blackwater",
     "type": "progressive",
     "allow_disabled": false,
-    "loop": true,
     "initial_stage_idx": 0,
     "stages": [
       {
@@ -467,7 +520,6 @@
     "name": "Holostar",
     "type": "progressive",
     "allow_disabled": false,
-    "loop": true,
     "initial_stage_idx": 0,
     "stages": [
       {
@@ -486,7 +538,6 @@
     "name": "Obani Draco",
     "type": "progressive",
     "allow_disabled": false,
-    "loop": true,
     "initial_stage_idx": 0,
     "stages": [
       {
@@ -505,7 +556,6 @@
     "name": "Zeldrin Starport",
     "type": "progressive",
     "allow_disabled": false,
-    "loop": true,
     "initial_stage_idx": 0,
     "stages": [
       {
@@ -524,7 +574,6 @@
     "name": "Metropolis",
     "type": "progressive",
     "allow_disabled": false,
-    "loop": true,
     "initial_stage_idx": 0,
     "stages": [
       {
@@ -543,7 +592,6 @@
     "name": "Crash Site",
     "type": "progressive",
     "allow_disabled": false,
-    "loop": true,
     "initial_stage_idx": 0,
     "stages": [
       {
@@ -562,7 +610,6 @@
     "name": "Aridia",
     "type": "progressive",
     "allow_disabled": false,
-    "loop": true,
     "initial_stage_idx": 0,
     "stages": [
       {
@@ -581,7 +628,6 @@
     "name": "Qwark's Hideout",
     "type": "progressive",
     "allow_disabled": false,
-    "loop": true,
     "initial_stage_idx": 0,
     "stages": [
       {
@@ -600,7 +646,6 @@
     "name": "Koros",
     "type": "progressive",
     "allow_disabled": false,
-    "loop": true,
     "initial_stage_idx": 0,
     "stages": [
       {
@@ -619,7 +664,6 @@
     "name": "Command Center",
     "type": "progressive",
     "allow_disabled": false,
-    "loop": true,
     "initial_stage_idx": 0,
     "stages": [
       {
@@ -631,6 +675,24 @@
       {
         "img": "images/items/planet/CommandCenter.png",
         "codes": "CommandCenter, NanoCount"
+      }
+    ]
+  },
+  {
+    "name": "Insomniac Museum",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/planet/Museum.png",
+        "inherit_codes": false,
+        "img_mods": "@disabled",
+        "codes": ""
+      },
+      {
+        "img": "images/items/planet/Museum.png",
+        "codes": "Museum"
       }
     ]
   },
@@ -699,6 +761,78 @@
     ]
   },
   {
+    "name": "VR Challenges",
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": false,
+    "stages": [
+      {
+          "img": "images/items/settings/VROff.png",
+          "name": "VR Challenges - Off",
+          "codes": "VRChecks,VRChecksOff"
+      },
+      {
+        "img": "images/items/settings/VROn.png",
+        "name": "VR Challenges - On",
+        "codes": "VRChecks,VRChecksOn"
+      }
+    ]
+  },
+  {
+    "name": "Ranger Missions",
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": false,
+    "stages": [
+      {
+          "img": "images/items/settings/RangerOff.png",
+          "name": "Ranger Missions - Off",
+          "codes": "RangerChecks,RangerChecksOff"
+      },
+      {
+        "img": "images/items/settings/RangerOn.png",
+        "name": "Ranger Missions - On",
+        "codes": "RangerChecks,RangerChecksOn"
+      }
+    ]
+  },
+  {
+    "name": "Vid-Comic Checks",
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": false,
+    "stages": [
+      {
+          "img": "images/items/settings/ComicOff.png",
+          "name": "Vid-Comic Checks - Off",
+          "codes": "VCChecks,VCChecksOff"
+      },
+      {
+        "img": "images/items/settings/ComicOn.png",
+        "name": "Vid-Comic Checks - On",
+        "codes": "VCChecks,VCChecksOn"
+      }
+    ]
+  },
+  {
+    "name": "AN Checks",
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": false,
+    "stages": [
+      {
+          "img": "images/items/settings/ArenaOff.png",
+          "name": "AN Checks - Off",
+          "codes": "ArenaChecks,ArenaChecksOff"
+      },
+      {
+        "img": "images/items/settings/ArenaOn.png",
+        "name": "AN Checks - On",
+        "codes": "ArenaChecks,ArenaChecksOn"
+      }
+    ]
+  },
+  {
     "name": "Nanotech Milestones",
     "type": "progressive",
     "loop": false,
@@ -737,6 +871,62 @@
     ]
   },
   {
+    "name": "Nanotech Total",
+    "type": "consumable",
+    "initial_quantity": 11,
+    "min_quantity": 11,
+    "increment": 1,
+    "max_quantity": 100,
+    "codes": "NanoTotal"
+  },
+  {
+    "name": "Sewer Crystals",
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": false,
+    "stages": [
+      {
+          "img": "images/items/settings/CrystalsOff.png",
+          "name": "Sewer Crystals - Off",
+          "codes": "Crystals,CrystalsDisabled",
+          "inherit_codes": false
+      },
+      {
+          "img": "images/items/settings/Crystals5.png",
+          "name": "Sewer Crystals - Every 5",
+          "codes": "Crystals,Crystals5",
+          "inherit_codes": false
+      },
+      {
+          "img": "images/items/settings/Crystals10.png",
+          "name": "Sewer Crystals - Every 10",
+          "codes": "Crystals,Crystals10",
+          "inherit_codes": false
+      },
+      {
+          "img": "images/items/settings/Crystals20.png",
+          "name": "Sewer Crystals - Every 20",
+          "codes": "Crystals,Crystals20",
+          "inherit_codes": false
+      },
+      {
+          "img": "images/items/settings/Crystals.png",
+          "name": "Sewer Crystals - All",
+          "codes": "Crystals,CrystalsAll",
+          "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Crystal Total",
+    "type": "consumable",
+    "initial_quantity": 1,
+    "min_quantity": 1,
+    "increment": 1,
+    "max_quantity": 100,
+    "codes": "CrystalsTotal"
+  },
+  {
     "name": "Auto-Tabbing",
     "type": "toggle",
     "loop": true,
@@ -744,5 +934,14 @@
     "disabled_img": "images/items/settings/AutoTabOff.png",
     "disabled_img_mods": "none",
     "codes": "AutoTab"
+  },
+  {
+    "name": "Unstable Items",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/items/settings/UnstableOn.png",
+    "disabled_img": "images/items/settings/UnstableOff.png",
+    "disabled_img_mods": "none",
+    "codes": "Unstable"
   }
 ]

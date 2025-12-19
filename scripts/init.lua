@@ -43,6 +43,9 @@ Tracker:AddLayouts("layouts/broadcast.json")
 print("------------------------DEBUG-----------------------")
 -- Table of All Planets
 Planets = {
+    "Veldin",
+    "Florana",
+    "Phoenix",
 	"Marcadia",
 	"Annihilation",
 	"Aquatos",
@@ -58,7 +61,8 @@ Planets = {
 	"Aridia",
 	"QwarksHideout",
 	"Koros",
-	"CommandCenter"
+	"CommandCenter",
+	"Museum"
 }
 print("Planet list: " .. Planets[1])
 for _, name in pairs(Planets) do
