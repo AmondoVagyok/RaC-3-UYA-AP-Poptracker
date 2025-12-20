@@ -63,7 +63,7 @@
           },
           {
             "name": "SP: Stay Squeaky Clean",
-            "visibility_rules": [ "SkillMaster"],
+            "visibility_rules": [ "SkillMaster", "SkillSimple" ],
             "item_count": 1
           },
           {
@@ -1167,7 +1167,7 @@
           },
           {
             "name": "SP: Suck it up!",
-        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
+        "visibility_rules": [ "SkillMaster" ],
             "access_rules": [ "SuckCannon" ],
             "item_count": 1
           }
@@ -2068,7 +2068,7 @@
       },
       {
         "name": "Sewer Crystals 21-40",
-        "access_rules": ["Aquatos"],
+        "access_rules": ["Aquatos, mapOMatic"],
         "map_locations": [
           {
             "map": "Galaxy",
@@ -2181,7 +2181,7 @@
       },
       {
         "name": "Sewer Crystals 41-60",
-        "access_rules": ["Aquatos"],
+        "access_rules": ["Aquatos, mapOMatic"],
         "map_locations": [
           {
             "map": "Galaxy",
@@ -2304,7 +2304,7 @@
       },
       {
         "name": "Sewer Crystals 61-80",
-        "access_rules": ["Aquatos, gravBoots"],
+        "access_rules": ["Aquatos, gravBoots, mapOMatic"],
         "map_locations": [
           {
             "map": "Galaxy",
@@ -2417,7 +2417,7 @@
       },
       {
         "name": "Sewer Crystals 81-99",
-        "access_rules": ["Aquatos, gravBoots"],
+        "access_rules": ["Aquatos, gravBoots, mapOMatic"],
         "map_locations": [
           {
             "map": "Galaxy",
@@ -2658,7 +2658,7 @@
       },
       {
         "name": "Skill Point: Stay Squeaky Clean",
-        "visibility_rules": [ "SkillMaster"],
+        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
         "map_locations": [
           {
             "map": "Florana",
@@ -3818,7 +3818,7 @@
       },
       {
         "name": "Sewer Crystals 21-40",
-        "access_rules": ["Aquatos"],
+        "access_rules": ["Aquatos, mapOMatic"],
         "map_locations": [
           {
             "map": "Aquatos Sewers",
@@ -3931,7 +3931,7 @@
       },
       {
         "name": "Sewer Crystals 41-60",
-        "access_rules": ["Aquatos"],
+        "access_rules": ["Aquatos, mapOMatic"],
         "map_locations": [
           {
             "map": "Aquatos Sewers",
@@ -4054,7 +4054,7 @@
       },
       {
         "name": "Sewer Crystals 61-80",
-        "access_rules": ["Aquatos, gravBoots"],
+        "access_rules": ["Aquatos, gravBoots, mapOMatic"],
         "map_locations": [
           {
             "map": "Aquatos Sewers",
@@ -4167,7 +4167,7 @@
       },
       {
         "name": "Sewer Crystals 81-99",
-        "access_rules": ["Aquatos, gravBoots"],
+        "access_rules": ["Aquatos, gravBoots, mapOMatic"],
         "map_locations": [
           {
             "map": "Aquatos Sewers",
@@ -5258,7 +5258,7 @@
       },
       {
         "name": "Skill Point: Suck it up!",
-        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
+        "visibility_rules": [ "SkillMaster"],
         "map_locations": [
           {
             "map": "Crash Site",

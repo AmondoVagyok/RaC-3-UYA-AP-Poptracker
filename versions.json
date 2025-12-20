@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "1.2.4",
+			"download_url": "https://github.com/SomeLazyGamer/RaC-3-UYA-AP-Poptracker/releases/download/1.2.4/RaC3_Tracker_SLG_1.2.4.zip",
+			"sha256": "9fac33b5d399cfd35da19256c6d626243e73bf9d1f1edf89ad4655dafadd53e8",
+			"changelog": ["Fixed Logic for Crystals and Skill Points"]
+		},
+		{
 			"package_version": "1.2.3",
 			"download_url": "https://github.com/SomeLazyGamer/RaC-3-UYA-AP-Poptracker/releases/download/1.2.3/RaC3_Tracker_SLG_1.2.3.zip",
 			"sha256": "e126ae4d00b6384565f8140eee30b90df103b9edaf724af2ab4f95dda2e000d1",
