@@ -1017,6 +1017,7 @@
           {
             "name": "Received Bolt Grabber V2",
             "access_rules": [ "hyperShot" ],
+            "visibility_rules": [ "Unstable" ],
             "item_count": 1
           },
           {
@@ -1135,7 +1136,6 @@
         "sections": [
           {
             "name": "T-Bolt: Turn Around",
-            "access_rules": [ "gravBoots" ],
             "visibility_rules": [ "Bolt" ],
             "item_count": 1
           },
@@ -1245,7 +1245,7 @@
       },
       {
         "name": "Hideout",
-        "access_rules": [ "QwarksHideout, refractor, hyperShot" ],
+        "access_rules": [ "QwarksHideout, refractor" ],
         "map_locations": [
           {
             "map": "Galaxy",
