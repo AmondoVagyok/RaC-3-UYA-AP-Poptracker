@@ -845,9 +845,9 @@
           "inherit_codes": false
       },
       {
-          "img": "images/items/settings/Nano5.png",
-          "name": "Nanotech Milestones - Every 5",
-          "codes": "Nano,Nano5",
+          "img": "images/items/settings/Nano20.png",
+          "name": "Nanotech Milestones - Every 20",
+          "codes": "Nano,Nano20",
           "inherit_codes": false
       },
       {
@@ -857,9 +857,9 @@
           "inherit_codes": false
       },
       {
-          "img": "images/items/settings/Nano20.png",
-          "name": "Nanotech Milestones - Every 20",
-          "codes": "Nano,Nano20",
+          "img": "images/items/settings/Nano5.png",
+          "name": "Nanotech Milestones - Every 5",
+          "codes": "Nano,Nano5",
           "inherit_codes": false
       },
       {
@@ -892,9 +892,9 @@
           "inherit_codes": false
       },
       {
-          "img": "images/items/settings/Crystals5.png",
-          "name": "Sewer Crystals - Every 5",
-          "codes": "Crystals,Crystals5",
+          "img": "images/items/settings/Crystals20.png",
+          "name": "Sewer Crystals - Every 20",
+          "codes": "Crystals,Crystals20",
           "inherit_codes": false
       },
       {
@@ -904,9 +904,9 @@
           "inherit_codes": false
       },
       {
-          "img": "images/items/settings/Crystals20.png",
-          "name": "Sewer Crystals - Every 20",
-          "codes": "Crystals,Crystals20",
+          "img": "images/items/settings/Crystals5.png",
+          "name": "Sewer Crystals - Every 5",
+          "codes": "Crystals,Crystals5",
           "inherit_codes": false
       },
       {
