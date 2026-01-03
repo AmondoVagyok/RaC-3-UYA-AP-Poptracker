@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "1.2.7",
+			"download_url": "https://github.com/SomeLazyGamer/RaC-3-UYA-AP-Poptracker/releases/download/1.2.7/RaC3_Tracker_SLG_1.2.7.zip",
+			"sha256": "8164518029e0365ee8063359044d71f1e214ac870c2f12cffe214f0e4f93e430",
+			"changelog": ["Fixed Setting Order for Nanotech and Crystals"]
+		},
+		{
 			"package_version": "1.2.6",
 			"download_url": "https://github.com/SomeLazyGamer/RaC-3-UYA-AP-Poptracker/releases/download/1.2.6/RaC3_Tracker_SLG_1.2.6.zip",
 			"sha256": "d63c15b65289c12d85c8fc06836b9c1d7ce7a0be0773aef13d4a4e600dff7921",
