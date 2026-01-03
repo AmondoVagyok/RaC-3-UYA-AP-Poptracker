@@ -1016,8 +1016,8 @@
         "sections": [
           {
             "name": "Received Bolt Grabber V2",
+            "visibility_rules": ["Unstable"],
             "access_rules": [ "hyperShot" ],
-            "visibility_rules": [ "Unstable" ],
             "item_count": 1
           },
           {
@@ -3399,7 +3399,7 @@
           },
           {
             "name": "Hydra'n Seek",
-            "access_rules": [ "SpittingHydra" ],
+            "access_rules": [ "SpittingHydra, PlasmaWhip" ],
             "item_count": 1
           },
           {
@@ -4921,6 +4921,7 @@
         "sections": [
           {
             "name": "Received Bolt Grabber V2",
+            "visibility_rules": ["Unstable"],
             "access_rules": [ "hyperShot" ],
             "item_count": 1
           }
@@ -5198,7 +5199,6 @@
         "sections": [
           {
             "name": "Titanium Bolt",
-            "access_rules": [ "gravBoots" ],
             "visibility_rules": [ "Bolt" ],
             "item_count": 1
           }
