@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "1.2.6",
+			"download_url": "https://github.com/SomeLazyGamer/RaC-3-UYA-AP-Poptracker/releases/download/1.2.6/RaC3_Tracker_SLG_1.2.6.zip",
+			"sha256": "d63c15b65289c12d85c8fc06836b9c1d7ce7a0be0773aef13d4a4e600dff7921",
+			"changelog": ["Fixed Plasma Whip autotracking"]
+		},
+		{
 			"package_version": "1.2.5",
 			"download_url": "https://github.com/SomeLazyGamer/RaC-3-UYA-AP-Poptracker/releases/download/1.2.5/RaC3_Tracker_SLG_1.2.5.zip",
 			"sha256": "13541875c97a373b264274536d514ea32c718380010130962eb08d9dd0594acb",
