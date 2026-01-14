@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "1.2.9",
+			"download_url": "https://github.com/SomeLazyGamer/RaC-3-UYA-AP-Poptracker/releases/download/1.2.9/RaC3_Tracker_SLG_1.2.9.zip",
+			"sha256": "6fd06ac93c382e074bcc5bc69f9dfc68348200e19fb21dbf805be0defe685407",
+			"changelog": ["0.3.2 Compatible"]
+		},
+		{
 			"package_version": "1.2.8",
 			"download_url": "https://github.com/SomeLazyGamer/RaC-3-UYA-AP-Poptracker/releases/download/1.2.8/RaC3_Tracker_SLG_1.2.8.zip",
 			"sha256": "20de17e5a123cc9651f336530e71d19faa603b66746a35428bdb6abcc57ae0b6",
