@@ -60,6 +60,12 @@
     "codes": "SuckCannon"
   },
   {
+    "name": "NonProgressive Suck Cannon",
+    "type": "toggle",
+    "img": "images/items/weapon/SuckCannon.png",
+    "codes": "NPSuckCannon"
+  },
+  {
     "name": "Spitting Hydra",
     "type": "consumable",
     "max_quantity": 5,
@@ -494,7 +500,7 @@
       },
       {
         "img": "images/items/planet/ObaniGemini.png",
-        "codes": "ObaniGemini, NanoCount"
+        "codes": "Gemini, NanoCount"
       }
     ]
   },
@@ -548,7 +554,7 @@
       },
       {
         "img": "images/items/planet/ObaniDraco.png",
-        "codes": "ObaniDraco, NanoCount"
+        "codes": "Draco, NanoCount"
       }
     ]
   },
@@ -697,27 +703,184 @@
     ]
   },
   {
-    "name": "Skill Shuffle",
+    "name": "Bash the bug",
     "type": "progressive",
     "loop": false,
-    "allow_disabled": false,
-    "stages": [
-      {
-          "img": "images/items/settings/SkillDisabled.png",
-          "name": "Skill Points - Off",
-          "codes": "SkillSanity,SkillDisabled"
-      },
-      {
-        "img": "images/items/settings/SkillSimple.png",
-        "name": "Skill Points - Simple Only",
-        "codes": "SkillSanity,SkillSimple"
-      },
-      {
-        "img": "images/items/settings/SkillMaster.png",
-        "name": "Skill Points - All",
-        "codes": "SkillSanity,SkillMaster"
-      }
-    ]
+    "codes": "Bug"
+  },
+  {
+    "name": "Eight time champ",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Champ"
+  },
+  {
+    "name": "Flee Flawlessly",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Flee"
+  },
+  {
+    "name": "Lights Camera Action",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Camera"
+  },
+  {
+    "name": "Hit the motherload",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Motherload"
+  },
+  {
+    "name": "Sunken Treasure",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Sunken"
+  },
+  {
+    "name": "Hang time",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Hang"
+  },
+  {
+    "name": "Zap Back",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Zap"
+  },
+  {
+    "name": "Bash the party",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Party"
+  },
+  {
+    "name": "Spread your germs",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Germ"
+  },
+  {
+    "name": "Aim High",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Aim"
+  },
+  {
+    "name": "Suck it up",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Suckit"
+  },
+  {
+    "name": "Bugs to birds",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Birds"
+  },
+  {
+    "name": "Stay Squeaky Clean",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Clean"
+  },
+  {
+    "name": "Get to the belt",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Belt"
+  },
+  {
+    "name": "Feeling Lucky",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Luck"
+  },
+  {
+    "name": "Break it win it",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Break"
+  },
+  {
+    "name": "Reflect how to score",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Reflect"
+  },
+  {
+    "name": "2002 good year",
+    "type": "progressive",
+    "loop": false,
+    "codes": "2002"
+  },
+  {
+    "name": "VC2 SP",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Qw2"
+  },
+  {
+    "name": "Helgas best time",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Helga"
+  },
+  {
+    "name": "VC4 SP",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Qw4"
+  },
+  {
+    "name": "Monkeying Around",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Monkey"
+  },
+  {
+    "name": "VC1 SP",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Qw1"
+  },
+  {
+    "name": "VC3 SP",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Qw3"
+  },
+  {
+    "name": "Arcade Perfection",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Arcade"
+  },
+  {
+    "name": "VC5 SP",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Qw5"
+  },
+  {
+    "name": "Turn up the Heat",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Heat"
+  },
+  {
+    "name": "Break the Dan",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Dan"
+  },
+  {
+    "name": "Sharpshoort",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Sharp"
   },
   {
     "name": "Trophy Shuffle",
@@ -787,12 +950,44 @@
       {
           "img": "images/items/settings/RangerOff.png",
           "name": "Ranger Missions - Off",
-          "codes": "RangerChecks,RangerChecksOff"
+          "inherit_codes": false,
+          "codes": "RangerChecks,RangerOff"
+      },
+      {
+        "img": "images/items/settings/RangerStory.png",
+        "name": "Ranger Missions - Story",
+          "inherit_codes": false,
+        "codes": "RangerChecks,RangerStory"
+      },
+      {
+        "img": "images/items/settings/RangerOptional.png",
+        "name": "Ranger Missions - Optional",
+          "inherit_codes": false,
+        "codes": "RangerChecks,RangerOptional"
       },
       {
         "img": "images/items/settings/RangerOn.png",
-        "name": "Ranger Missions - On",
-        "codes": "RangerChecks,RangerChecksOn"
+        "name": "Ranger Missions - All On",
+          "inherit_codes": false,
+        "codes": "RangerChecks,RangerOn"
+      }
+    ]
+  },
+  {
+    "name": "Weapon Vendors",
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": false,
+    "stages": [
+      {
+          "img": "images/items/settings/WepVenOff.png",
+          "name": "Vid-Comic Checks - Off",
+          "codes": "WepVendor,WepVendorOff"
+      },
+      {
+        "img": "images/items/settings/WepVenOn.png",
+        "name": "Vid-Comic Checks - On",
+        "codes": "WepVendor,WepVendorOn"
       }
     ]
   },
@@ -823,12 +1018,26 @@
       {
           "img": "images/items/settings/ArenaOff.png",
           "name": "AN Checks - Off",
-          "codes": "ArenaChecks,ArenaChecksOff"
+          "inherit_codes": false,
+          "codes": "ArenaChecks,ArenaOff"
+      },
+      {
+          "img": "images/items/settings/ArenaFirst.png",
+          "name": "AN Checks - First Visit",
+          "inherit_codes": false,
+          "codes": "ArenaChecks,ArenaFirst"
+      },
+      {
+          "img": "images/items/settings/ArenaSecond.png",
+          "name": "AN Checks - Second Visit",
+          "inherit_codes": false,
+          "codes": "ArenaChecks,ArenaSecond"
       },
       {
         "img": "images/items/settings/ArenaOn.png",
-        "name": "AN Checks - On",
-        "codes": "ArenaChecks,ArenaChecksOn"
+        "name": "AN Checks - All On",
+          "inherit_codes": false,
+        "codes": "ArenaChecks,ArenaOn"
       }
     ]
   },
@@ -943,5 +1152,24 @@
     "disabled_img": "images/items/settings/UnstableOff.png",
     "disabled_img_mods": "none",
     "codes": "Unstable"
+  },
+  {
+    "name": "1 HP Ratchet",
+    "type": "progressive",
+    "loop": false,
+    "initial_stage_idx": 0,
+    "allow_disabled": false,
+    "stages": [
+      {
+          "name": "1HP Ratchet Off",
+          "inherit_codes": false,
+          "codes": "1HPRat,1HPRatOff"
+      },
+      {
+        "name": "1HP Ratchet On",
+          "inherit_codes": false,
+        "codes": "1HPRat,1HPRatOn"
+      }
+    ]
   }
 ]
