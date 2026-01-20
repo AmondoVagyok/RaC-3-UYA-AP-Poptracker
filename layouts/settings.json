@@ -12,13 +12,16 @@
         "item_size": "431, 39",
         "rows": [
           [
-            "WepVendor"
+            "SkillSanity"
           ],
           [
             "TrophySanity"
           ],
           [
             "BoltSanity"
+          ],
+          [
+            "WepVendor"
           ],
           [
             "RangerChecks"

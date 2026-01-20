@@ -50,39 +50,6 @@ TabMap = {
   ["Aquatos Sewers"] = "Aquatos",
   ["Tyhrranosis: Mission"] = "Tyhrranosis"
 }
-SKILL_CHECKS = {
-  ["Ann: Bash the bug"] = "Bug",
-  ["Ann: Be an eight time champ"] = "Champ",
-  ["Ann: Flee Flawlessly"] = "Flee",
-  ["Ann: Lights, camera action!"] = "Camera",
-  ["Aqu: Hit the motherload"] = "Motherload",
-  ["Aqu: Search for sunken treasure"] = "Sunken",
-  ["Ari: Go for hang time"] = "Hang",
-  ["Ari: Zap back at ya"] = "Zap",
-  ["Bla: Bash the party"] = "Party",
-  ["Com: Spread your germs"] = "Germ",
-  ["Cra: Aim High"] = "Aim",
-  ["Cra: Suck it up!"] = "Suckit",
-  ["Dax: Bugs to Birdie"] = "Birds",
-  ["Flo: Stay Squeaky Clean"] = "Clean",
-  ["Gem: Get to the belt"] = "Belt",
-  ["Hol: Feeling Lucky"] = "Luck",
-  ["Kor: You break it, you win it"] = "Break",
-  ["Mar: Reflect on how to score"] = "Reflect",
-  ["Met: 2002 was a good year in the city"] = "2002",
-  ["Pho: Arriba Amoeba!, set a new record for qwark"] = "Qw2",
-  ["Pho: Beat Helgas best time"] = "Helga",
-  ["Pho: Deja Q All over Again, set a new record for qwark"] = "Qw4",
-  ["Pho: Monkeying around"] = "Monkey",
-  ["Pho: Pirate booty, set a new record for qwark"] = "Qw1",
-  ["Pho: Shadow of the robot, set a new record for qwark"] = "Qw3",
-  ["Pho: Strive for arcade perfection"] = "Arcade",
-  ["Pho: The Shaming of the Q, set a new record for qwark"] = "Qw5",
-  ["Pho: Turn Up The Heat"] = "Heat",
-  ["Qwa: Break the Dan"] = "Dan",
-  ["Tyh: Be a Sharpshooter"] = "Sharp",
-  
-}
 
 -- gets the data storage key for hints for the current player
 -- returns nil when not connected to AP
@@ -222,6 +189,20 @@ function onClear(slot_data)
 			end
 		end
 	end
+    if slot_data['Skill Points'] then
+        local obj = Tracker:FindObjectForCode("SkillSanity")
+        local stage = slot_data['Skill Points']
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
+    if slot_data['Intro Skip'] then
+        local obj = Tracker:FindObjectForCode("IntSkip")
+        local stage = slot_data['Intro Skip']
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
     if slot_data['Trophies'] then
         local obj = Tracker:FindObjectForCode("TrophySanity")
         local stage = slot_data['Trophies']
@@ -279,9 +260,9 @@ function onClear(slot_data)
             obj.CurrentStage = stage
         end
     end
-    if slot_data['Vr Challenges'] then
+    if slot_data['VR Challenges'] then
         local obj = Tracker:FindObjectForCode("VRChecks")
-        local stage = slot_data['Vr Challenges']
+        local stage = slot_data['VR Challenges']
         if obj then
             obj.CurrentStage = stage
         end
@@ -297,24 +278,13 @@ function onClear(slot_data)
        local obj = Tracker:FindObjectForCode("1HPRat")
 	   if obj then
 		obj.CurrentStage = 1
-		print(string.format("AYO BOZO 1HP IS ON"))
 	else
        local obj = Tracker:FindObjectForCode("1HPRat")
 	   if obj then
 		obj.CurrentStage = 0
-		print(string.format("AYO SHIT FOR BRAINS 1HP IS OFF"))
 	   end
 	end
     end
-	for slot_data_name, obj_name in pairs(SKILL_CHECKS) do
-  		local slot_data_value = slot_data['Skill Points'][slot_data_name]
-  		if slot_data_value then
-    		local obj = Tracker:FindObjectForCode(obj_name)
-    		if obj then
-     		 obj.CurrentStage = slot_data_value
-    		end
-		end
-	end
 
 	apply_slot_data(slot_data)
 	LOCAL_ITEMS = {}

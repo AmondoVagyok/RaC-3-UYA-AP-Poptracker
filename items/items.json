@@ -703,184 +703,27 @@
     ]
   },
   {
-    "name": "Bash the bug",
+    "name": "Skill Shuffle",
     "type": "progressive",
     "loop": false,
-    "codes": "Bug"
-  },
-  {
-    "name": "Eight time champ",
-    "type": "progressive",
-    "loop": false,
-    "codes": "Champ"
-  },
-  {
-    "name": "Flee Flawlessly",
-    "type": "progressive",
-    "loop": false,
-    "codes": "Flee"
-  },
-  {
-    "name": "Lights Camera Action",
-    "type": "progressive",
-    "loop": false,
-    "codes": "Camera"
-  },
-  {
-    "name": "Hit the motherload",
-    "type": "progressive",
-    "loop": false,
-    "codes": "Motherload"
-  },
-  {
-    "name": "Sunken Treasure",
-    "type": "progressive",
-    "loop": false,
-    "codes": "Sunken"
-  },
-  {
-    "name": "Hang time",
-    "type": "progressive",
-    "loop": false,
-    "codes": "Hang"
-  },
-  {
-    "name": "Zap Back",
-    "type": "progressive",
-    "loop": false,
-    "codes": "Zap"
-  },
-  {
-    "name": "Bash the party",
-    "type": "progressive",
-    "loop": false,
-    "codes": "Party"
-  },
-  {
-    "name": "Spread your germs",
-    "type": "progressive",
-    "loop": false,
-    "codes": "Germ"
-  },
-  {
-    "name": "Aim High",
-    "type": "progressive",
-    "loop": false,
-    "codes": "Aim"
-  },
-  {
-    "name": "Suck it up",
-    "type": "progressive",
-    "loop": false,
-    "codes": "Suckit"
-  },
-  {
-    "name": "Bugs to birds",
-    "type": "progressive",
-    "loop": false,
-    "codes": "Birds"
-  },
-  {
-    "name": "Stay Squeaky Clean",
-    "type": "progressive",
-    "loop": false,
-    "codes": "Clean"
-  },
-  {
-    "name": "Get to the belt",
-    "type": "progressive",
-    "loop": false,
-    "codes": "Belt"
-  },
-  {
-    "name": "Feeling Lucky",
-    "type": "progressive",
-    "loop": false,
-    "codes": "Luck"
-  },
-  {
-    "name": "Break it win it",
-    "type": "progressive",
-    "loop": false,
-    "codes": "Break"
-  },
-  {
-    "name": "Reflect how to score",
-    "type": "progressive",
-    "loop": false,
-    "codes": "Reflect"
-  },
-  {
-    "name": "2002 good year",
-    "type": "progressive",
-    "loop": false,
-    "codes": "2002"
-  },
-  {
-    "name": "VC2 SP",
-    "type": "progressive",
-    "loop": false,
-    "codes": "Qw2"
-  },
-  {
-    "name": "Helgas best time",
-    "type": "progressive",
-    "loop": false,
-    "codes": "Helga"
-  },
-  {
-    "name": "VC4 SP",
-    "type": "progressive",
-    "loop": false,
-    "codes": "Qw4"
-  },
-  {
-    "name": "Monkeying Around",
-    "type": "progressive",
-    "loop": false,
-    "codes": "Monkey"
-  },
-  {
-    "name": "VC1 SP",
-    "type": "progressive",
-    "loop": false,
-    "codes": "Qw1"
-  },
-  {
-    "name": "VC3 SP",
-    "type": "progressive",
-    "loop": false,
-    "codes": "Qw3"
-  },
-  {
-    "name": "Arcade Perfection",
-    "type": "progressive",
-    "loop": false,
-    "codes": "Arcade"
-  },
-  {
-    "name": "VC5 SP",
-    "type": "progressive",
-    "loop": false,
-    "codes": "Qw5"
-  },
-  {
-    "name": "Turn up the Heat",
-    "type": "progressive",
-    "loop": false,
-    "codes": "Heat"
-  },
-  {
-    "name": "Break the Dan",
-    "type": "progressive",
-    "loop": false,
-    "codes": "Dan"
-  },
-  {
-    "name": "Sharpshoort",
-    "type": "progressive",
-    "loop": false,
-    "codes": "Sharp"
+    "allow_disabled": false,
+    "stages": [
+      {
+          "img": "images/items/settings/SkillDisabled.png",
+          "name": "Skill Points - Off",
+          "codes": "SkillSanity,SkillDisabled"
+      },
+      {
+        "img": "images/items/settings/SkillSimple.png",
+        "name": "Skill Points - Simple Only",
+        "codes": "SkillSanity,SkillSimple"
+      },
+      {
+        "img": "images/items/settings/SkillMaster.png",
+        "name": "Skill Points - All",
+        "codes": "SkillSanity,SkillMaster"
+      }
+    ]
   },
   {
     "name": "Trophy Shuffle",
@@ -1169,6 +1012,25 @@
         "name": "1HP Ratchet On",
           "inherit_codes": false,
         "codes": "1HPRat,1HPRatOn"
+      }
+    ]
+  },
+  {
+    "name": "Intro Skip",
+    "type": "progressive",
+    "loop": false,
+    "initial_stage_idx": 0,
+    "allow_disabled": false,
+    "stages": [
+      {
+          "name": "Intro Skip Off",
+          "inherit_codes": false,
+          "codes": "IntSkip,IntSkipOff"
+      },
+      {
+        "name": "Intro Skip On",
+          "inherit_codes": false,
+        "codes": "IntSkip,IntSkipOn"
       }
     ]
   }
