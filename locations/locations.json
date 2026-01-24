@@ -159,21 +159,25 @@
           },
           {
             "name": "VR: The Shocker",
+            "access_rules": [ "ShockBlaster" ],
             "visibility_rules": [ "VRChecksOn" ],
             "item_count": 1
           },
           {
             "name": "VR: Wrench Beatdown",
+            "access_rules": [ "ShockBlaster" ],
             "visibility_rules": [ "VRChecksOn" ],
             "item_count": 1
           },
           {
             "name": "VR: Nerves of Titanium",
+            "access_rules": [ "ShockBlaster" ],
             "visibility_rules": [ "VRChecksOn" ],
             "item_count": 1
           },
           {
             "name": "T-Bolt: VR Nerves of Titanium",
+            "access_rules": [ "ShockBlaster" ],
             "visibility_rules": [ "VRChecksOn, Bolt" ],
             "item_count": 1
           },
@@ -2827,18 +2831,22 @@
           },
           {
             "name": "The Shocker",
+            "access_rules": [ "ShockBlaster" ],
             "item_count": 1
           },
           {
             "name": "Wrench Beatdown",
+            "access_rules": [ "ShockBlaster" ],
             "item_count": 1
           },
           {
             "name": "Nerves of Titanium",
+            "access_rules": [ "ShockBlaster" ],
             "item_count": 1
           },
           {
             "name": "T-Bolt: Nerves of Titanium",
+            "access_rules": [ "ShockBlaster" ],
             "visibility_rules": [ "Bolt" ],
             "item_count": 1
           }
