@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "1.3.1",
+			"download_url": "https://github.com/SomeLazyGamer/RaC-3-UYA-AP-Poptracker/releases/download/1.3.1/RaC3_Tracker_SLG_1.3.1.zip",
+			"sha256": "458dbc333dfce5ab2b69ac9a80b996366d031fcf989a8a2a8cfaedab4c468f97",
+			"changelog": ["VR Challenge Logic Fix"]
+		},
+		{
 			"package_version": "1.3.0",
 			"download_url": "https://github.com/SomeLazyGamer/RaC-3-UYA-AP-Poptracker/releases/download/1.3.0/RaC3_Tracker_SLG_1.3.0.zip",
 			"sha256": "78b1726da13ad8c4f5669f3da78475b092638b56b76d3f5cb40f2f5d03808f07",
