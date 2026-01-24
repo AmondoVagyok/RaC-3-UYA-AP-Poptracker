@@ -297,9 +297,56 @@
   },
   {
     "name": "Thruster-Pack",
-    "type": "toggle",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
     "img": "images/items/gadget/Thruster.png",
-    "codes": "Thruster"
+        "img_mods": "@disabled",
+        "codes": "Thruster"
+      },
+      {
+    "img": "images/items/gadget/Thruster.png",
+        "img_mods": "@disabled",
+        "codes": "Thruster2"
+      },
+      {
+    "img": "images/items/gadget/Thruster.png",
+        "codes": "ThrustOn"
+      }
+    ]
+  },
+  {
+    "name": "Clank Packs",
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": false,
+    "stages": [
+      {
+          "img": "images/items/settings/PackOff.png",
+          "name": "Pack Shuffle - Off",
+          "inherit_codes": false,
+          "codes": "Clank,PackOff"
+      },
+      {
+        "img": "images/items/settings/PackClank.png",
+        "name": "Pack Shuffle - Find Clank",
+          "inherit_codes": false,
+        "codes": "Clank,PackClank"
+      },
+      {
+        "img": "images/items/settings/PackOn.png",
+        "name": "Pack Shuffle - On",
+          "inherit_codes": false,
+        "codes": "Clank,PackOn"
+      },
+      {
+        "img": "images/items/settings/PackPro.png",
+        "name": "Pack Shuffle - Progressive",
+          "inherit_codes": false,
+        "codes": "Clank,PackPro"
+      }
+    ]
   },
   {
     "name": "Progressive Vid-Comic",
@@ -356,9 +403,21 @@
   },
   {
     "name": "Veldin",
-    "type": "static",
-    "img": "images/items/planet/Veldin.png",
-    "codes": "Veldin"
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/planet/Veldin.png",
+        "inherit_codes": false,
+        "img_mods": "@disabled",
+        "codes": ""
+      },
+      {
+        "img": "images/items/planet/Veldin.png",
+        "codes": "Veldin"
+      }
+    ]
   },
   {
     "name": "Florana",

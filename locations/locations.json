@@ -6,6 +6,7 @@
     "children": [
       {
         "name": "Veldin",
+        "access_rules": [ "Veldin" ],
         "visibility_rules": [ "IntSkipOff"],
         "map_locations": [
           {
@@ -57,21 +58,25 @@
           },
           {
             "name": "Trophy: 2nd Building Upstairs North-East",
+            "access_rules": [ "Heli" ],
             "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
             "item_count": 1
           },
           {
             "name": "T-Bolt: Path of Death",
+            "access_rules": [ "Heli" ],
             "visibility_rules": [ "Bolt" ],
             "item_count": 1
           },
           {
             "name": "SP: Stay Squeaky Clean",
+            "access_rules": [ "Heli" ],
             "visibility_rules": [ "SkillMaster, 1HPRatOff" ],
             "item_count": 1
           },
           {
             "name": "Defeat Qwark",
+            "access_rules": [ "Heli" ],
             "item_count": 1
           }
         ]
@@ -203,6 +208,7 @@
           },
           {
             "name": "Meet Sasha on the Bridge",
+            "visibility_rules": ["Unstable" ],
             "item_count": 1
           },
           {
@@ -327,13 +333,14 @@
           },
           {
             "name": "Post Hideout Assault",
+            "visibility_rules": ["Unstable" ],
             "access_rules": [ "QwarksHideout, refractor, warpPad, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "Long Term Trophy: Titanium Collector",
             "access_rules": [ "refractor, warpPad, hyperShot, vidComic5, hacker, tyhrraGuise, gravBoots, Marcadia, Annihilation, Aquatos, Tyhrranosis, Daxx, Gemini, Blackwater, Holostar, ZeldrinStarport, Metropolis, CrashSite, Aridia, QwarksHideout, Koros, CommandCenter"],
-            "visibility_rules": [ "Bolt, TrophiesAll, ArenaOn, RangerOn, VCChecksOn, VRChecksOn" ],
+            "visibility_rules": [ "Bolt, TrophiesAll" ],
             "item_count": 1
           },
           {
@@ -472,7 +479,7 @@
           },
           {
             "name": "T-Bolt: Maze of Blaze",
-            "access_rules": [ "Daxx, hyperShot" ],
+            "access_rules": [ "Daxx, hyperShot, Heli", "Daxx, hyperShot, ThrustOn" ],
             "visibility_rules": [ "ArenaOn, Bolt", "ArenaSecond, Bolt" ],
             "item_count": 1
           },
@@ -499,25 +506,25 @@
           {
             "name": "BBQ Boulevard",
             "visibility_rules": [ "ArenaOn", "ArenaSecond" ],
-            "access_rules": [ "Daxx, hyperShot" ],
+            "access_rules": [ "Daxx, hyperShot, Heli", "Daxx, hyperShot, ThrustOn" ],
             "item_count": 1
           },
           {
             "name": "Maze of Blaze",
             "visibility_rules": [ "ArenaOn", "ArenaSecond" ],
-            "access_rules": [ "Daxx, hyperShot" ],
+            "access_rules": [ "Daxx, hyperShot, Heli", "Daxx, hyperShot, ThrustOn" ],
             "item_count": 1
           },
           {
             "name": "Cremation Station",
             "visibility_rules": [ "ArenaOn", "ArenaSecond" ],
-            "access_rules": [ "Daxx, hyperShot" ],
+            "access_rules": [ "Daxx, hyperShot, Heli", "Daxx, hyperShot, ThrustOn" ],
             "item_count": 1
           },
           {
             "name": "The Annihilator",
             "visibility_rules": [ "ArenaOn", "ArenaSecond" ],
-            "access_rules": [ "Daxx, hyperShot" ],
+            "access_rules": [ "Daxx, hyperShot, Heli", "Daxx, hyperShot, ThrustOn" ],
             "item_count": 1
           },
           {
@@ -808,6 +815,7 @@
           },
           {
             "name": "Trophy: North East Pillar",
+            "access_rules": [ "Heli" ],
             "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
             "item_count": 1
           },
@@ -859,7 +867,7 @@
           },
           {
             "name": "T-Bolt: Right of the Taxi",
-            "access_rules": [ "hyperShot" ],
+            "access_rules": [ "hyperShot, Heli" ],
             "visibility_rules": [ "Bolt" ],
             "item_count": 1
           },
@@ -1039,12 +1047,12 @@
         "sections": [
           {
             "name": "Received Bolt Grabber V2",
-            "access_rules": [ "hyperShot" ],
+            "access_rules": [ "hyperShot, Heli", "hyperShot, ThrustOn" ],
             "item_count": 1
           },
           {
             "name": "Received Box Breaker",
-            "access_rules": [ "hyperShot" ],
+            "access_rules": [ "hyperShot, Heli", "hyperShot, ThrustOn" ],
             "item_count": 1
           },
           {
@@ -1054,12 +1062,13 @@
           },
           {
             "name": "T-Bolt: Atop the Twin Shooters",
-            "access_rules": [ "hyperShot" ],
+            "access_rules": [ "hyperShot, Heli", "hyperShot, ThrustOn" ],
             "visibility_rules": [ "Bolt" ],
             "item_count": 1
           },
           {
             "name": "Escape the Exploding Ship",
+            "access_rules": [ "Heli", "ThrustOn" ],
             "item_count": 1
           }
         ]
@@ -1179,11 +1188,12 @@
           },
           {
             "name": "Escape Pod",
+            "access_rules": [ "hyperShot", "Heli", "ThrustOn" ],
             "item_count": 1
           },
           {
             "name": "Infobot: Aridia",
-            "access_rules": [ "gravBoots" ],
+            "access_rules": [ "hyperShot, gravBoots", "Heli, gravBoots", "ThrustOn, gravBoots" ],
             "item_count": 1
           },
           {
@@ -1288,7 +1298,7 @@
           {
             "name": "Find Qwark",
             "visibility_rules": ["Unstable"],
-            "access_rules": [ "warpPad, hyperShot" ],
+            "access_rules": [ "warpPad, hyperShot, Heli" ],
             "item_count": 1
           },
           {
@@ -1306,7 +1316,7 @@
           {
             "name": "Trophy: Outside Qwarks Room",
             "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
-            "access_rules": [ "warpPad, hyperShot" ],
+            "access_rules": [ "warpPad, hyperShot, Heli" ],
             "item_count": 1
           }
         ]
@@ -1367,6 +1377,7 @@
           },
           {
             "name": "Trophy: Up a Ladder",
+            "access_rules": [ "Heli", "ThrustOn" ],
             "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
             "item_count": 1
           },
@@ -1378,12 +1389,12 @@
           },
           {
             "name": "Dr. Nefarious Defeated!",
-            "access_rules": [ "hacker, refractor" ],
+        "access_rules": [ "hacker, refractor, Heli", "hacker, refractor, ThrustOn" ],
             "item_count": 1
           },
           {
             "name": "Biobliterator Defeated!",
-            "access_rules": [ "hacker, refractor" ],
+        "access_rules": [ "hacker, refractor, Heli", "hacker, refractor, ThrustOn" ],
             "item_count": 1
           }
         ]
@@ -2552,6 +2563,7 @@
   },
   {
     "name": "Veldin",
+    "access_rules": [ "Veldin" ],
     "visibility_rules": [ "IntSkipOff"],
     "chest_unopened_img": "images/Question.png",
     "chest_opened_img": "images/Q_Force.png",
@@ -2663,6 +2675,7 @@
         "sections": [
           {
             "name": "Ratchet Trophy",
+            "access_rules": [ "Heli" ],
             "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
             "item_count": 1
           }
@@ -2670,6 +2683,7 @@
       },
       {
         "name": "Path of Death",
+        "access_rules": [ "Heli" ],
         "map_locations": [
           {
             "map": "Florana",
@@ -2687,6 +2701,7 @@
       },
       {
         "name": "Skill Point: Stay Squeaky Clean",
+        "access_rules": [ "Heli" ],
         "visibility_rules": [ "SkillMaster, 1HPRatOff" ],
         "map_locations": [
           {
@@ -2704,6 +2719,7 @@
       },
       {
         "name": "Walk the PATH OF DEATH!",
+        "access_rules": [ "Heli" ],
         "map_locations": [
           {
             "map": "Florana",
@@ -3014,6 +3030,7 @@
         "sections": [
           {
             "name": "Meet Sasha on the Bridge",
+            "visibility_rules": ["Unstable" ],
             "item_count": 1
           },
           {
@@ -3036,6 +3053,7 @@
         "sections": [
           {
             "name": "Post Hideout Assault",
+            "visibility_rules": ["Unstable" ],
             "access_rules": [ "QwarksHideout, refractor, warpPad, hyperShot" ],
             "item_count": 1
           }
@@ -3053,7 +3071,7 @@
         "sections": [
           {
             "name": "Titanium Collector",
-            "visibility_rules": [ "Bolt, TrophiesAll, ArenaOn, RangerOn, VCChecksOn, VRChecksOn" ],
+            "visibility_rules": [ "Bolt, TrophiesAll" ],
             "access_rules": [ "refractor, warpPad, hyperShot, vidComic5, hacker, tyhrraGuise, gravBoots, Marcadia, Annihilation, Aquatos, Tyhrranosis, Daxx, Gemini, Blackwater, Holostar, ZeldrinStarport, Metropolis, CrashSite, Aridia, QwarksHideout, Koros, CommandCenter" ],
             "item_count": 1
           },
@@ -3323,7 +3341,7 @@
         "sections": [
           {
             "name": "Titanium Bolt",
-            "access_rules": [ "Daxx, hyperShot" ],
+            "access_rules": [ "Daxx, hyperShot, Heli", "Daxx, hyperShot, ThrustOn" ],
         "visibility_rules": [ "ArenaOn, Bolt", "ArenaSecond, Bolt" ],
             "item_count": 1
           }
@@ -3360,6 +3378,7 @@
       },
       {
         "name": "Gauntlet Revisit Challenges",
+        "access_rules": [ "Daxx, hyperShot, Heli", "Daxx, hyperShot, ThrustOn" ],
         "visibility_rules": [ "ArenaOn", "ArenaSecond" ],
         "map_locations": [
           {
@@ -3371,22 +3390,18 @@
         "sections": [
           {
             "name": "BBQ Boulevard",
-            "access_rules": [ "Daxx, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "Maze of Blaze",
-            "access_rules": [ "Daxx, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "Cremation Station",
-            "access_rules": [ "Daxx, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "The Annihilator",
-            "access_rules": [ "Daxx, hyperShot" ],
             "item_count": 1
           }
         ]
@@ -4446,6 +4461,7 @@
         "sections": [
           {
             "name": "Al Trophy",
+            "access_rules": [ "Heli" ],
             "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
             "item_count": 1
           }
@@ -4572,7 +4588,7 @@
         "sections": [
           {
             "name": "Titanium Bolt",
-            "access_rules": [ "hyperShot" ],
+            "access_rules": [ "hyperShot, Heli" ],
             "visibility_rules": [ "Bolt" ],
             "item_count": 1
           }
@@ -4984,18 +5000,19 @@
         "sections": [
           {
             "name": "Received Bolt Grabber V2",
-            "access_rules": [ "hyperShot" ],
+            "access_rules": [ "hyperShot, Heli", "hyperShot, ThrustOn" ],
             "item_count": 1
           },
           {
             "name": "Received Box Breaker",
-            "access_rules": [ "hyperShot" ],
+            "access_rules": [ "hyperShot, Heli", "hyperShot, ThrustOn" ],
             "item_count": 1
           }
         ]
       },
       {
         "name": "Inside the Second Ship",
+            "access_rules": [ "Heli", "ThrustOn" ],
         "map_locations": [
           {
             "map": "Zeldrin Starport",
@@ -5023,7 +5040,7 @@
         "sections": [
           {
             "name": "Titanium Bolt",
-            "access_rules": [ "hyperShot" ],
+            "access_rules": [ "hyperShot, Heli", "hyperShot, ThrustOn" ],
             "visibility_rules": [ "Bolt" ],
             "item_count": 1
           }
@@ -5273,6 +5290,7 @@
       },
       {
         "name": "Explore Crash Site",
+        "access_rules": [ "hyperShot", "Heli", "ThrustOn" ],
         "map_locations": [
           {
             "map": "Crash Site",
@@ -5299,7 +5317,7 @@
         "sections": [
           {
             "name": "Infobot: Aridia",
-            "access_rules": [ "gravBoots" ],
+            "access_rules": [ "hyperShot, gravBoots", "gravBoots, Heli", "gravBoots, ThrustOn" ],
             "item_count": 1
           }
         ]
@@ -5550,7 +5568,7 @@
           {
             "name": "Qwark Trophy",
             "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
-            "access_rules": [ "warpPad, hyperShot" ],
+            "access_rules": [ "warpPad, hyperShot, Heli" ],
             "item_count": 1
           }
         ]
@@ -5568,7 +5586,7 @@
           {
             "name": "Find Qwark",
             "visibility_rules": ["Unstable"],
-            "access_rules": [ "warpPad, hyperShot" ],
+            "access_rules": [ "warpPad, hyperShot, Heli" ],
             "item_count": 1
           }
         ]
@@ -5703,6 +5721,7 @@
         "sections": [
           {
             "name": "Lawrence Trophy",
+            "access_rules": [ "Heli", "ThrustOn" ],
             "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
             "item_count": 1
           }
@@ -5728,7 +5747,7 @@
       },
       {
         "name": "Defeat Dr. Nefarious",
-        "access_rules": [ "hacker, refractor" ],
+        "access_rules": [ "hacker, refractor, Heli", "hacker, refractor, ThrustOn" ],
         "map_locations": [
           {
             "map": "Command Center 2",
@@ -5745,7 +5764,7 @@
       },
       {
         "name": "Defeat the Biobliterator",
-        "access_rules": [ "hacker, refractor" ],
+        "access_rules": [ "hacker, refractor, Heli", "hacker, refractor, ThrustOn" ],
         "map_locations": [
           {
             "map": "Command Center 2",

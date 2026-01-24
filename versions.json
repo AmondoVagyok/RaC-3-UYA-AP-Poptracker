@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "1.3.0",
+			"download_url": "https://github.com/SomeLazyGamer/RaC-3-UYA-AP-Poptracker/releases/download/1.3.0/RaC3_Tracker_SLG_1.3.0.zip",
+			"sha256": "78b1726da13ad8c4f5669f3da78475b092638b56b76d3f5cb40f2f5d03808f07",
+			"changelog": ["Clank logic and 0.4.0 rc3 Compatible"]
+		},
+		{
 			"package_version": "1.2.10",
 			"download_url": "https://github.com/SomeLazyGamer/RaC-3-UYA-AP-Poptracker/releases/download/1.2.10/RaC3_Tracker_SLG_1.2.10.zip",
 			"sha256": "eb0623906cb3ce071ac4f14cb530d2774de41d6e717a7a0ee60108796ffa0879",

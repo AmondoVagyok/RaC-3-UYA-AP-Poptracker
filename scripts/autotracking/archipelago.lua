@@ -274,16 +274,19 @@ function onClear(slot_data)
             obj.CurrentStage = stage
         end
     end
-    if slot_data["One HP Challenge"]["Ratchet"] == true then
+    if slot_data["Clank Pack Options"] then
+        local obj = Tracker:FindObjectForCode("Clank")
+        local stage = slot_data["Clank Pack Options"]
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
+    if slot_data["One HP Challenge"]["Ratchet"] then
        local obj = Tracker:FindObjectForCode("1HPRat")
-	   if obj then
-		obj.CurrentStage = 1
-	else
-       local obj = Tracker:FindObjectForCode("1HPRat")
-	   if obj then
-		obj.CurrentStage = 0
-	   end
-	end
+        local stage = slot_data["One HP Challenge"]["Ratchet"]
+        if obj then
+            obj.CurrentStage = stage
+        end
     end
 
 	apply_slot_data(slot_data)
