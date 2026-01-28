@@ -76,6 +76,8 @@ LOCATION_MAPPING = {
 	[LOCATION_ID + 62] = { {"@Annihilation Nation/Gauntlet Revisit Challenges/Maze of Blaze"}, {"@Galaxy/Annihilation Nation/Maze of Blaze"} },
 	[LOCATION_ID + 63] = { {"@Annihilation Nation/Gauntlet Revisit Challenges/Cremation Station"}, {"@Galaxy/Annihilation Nation/Cremation Station"} },
 	[LOCATION_ID + 64] = { {"@Annihilation Nation/Gauntlet Revisit Challenges/The Annihilator"}, {"@Galaxy/Annihilation Nation/The Annihilator"} },
+	--Aquatos
+	[LOCATION_ID + 397]= { {"@Aquatos/Underwater Hideout/Infiltrate the Nefarious Base"}, { "@Galaxy/Aquatos/Infiltrate the Nefarious Base" } },
 	--Tyhrranosis
 	[LOCATION_ID + 65] = { {"@Tyhrranosis/Destroy the Momma Tyhrranoid/IRON. HARD. ABS." }, {"@Galaxy/Tyhrranosis/Destroy the Momma Tyhrranoid"} },
 	--Tyhrranosis Missions

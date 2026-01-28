@@ -774,7 +774,7 @@
             "item_count": 1
           },
           {
-            "name": "Find Nefarious' Office",
+            "name": "Infiltrate the Nefarious Base",
             "item_count": 1
           }
         ]
@@ -1197,7 +1197,7 @@
           },
           {
             "name": "Infobot: Aridia",
-            "access_rules": [ "hyperShot, gravBoots", "Heli, gravBoots", "ThrustOn, gravBoots" ],
+            "access_rules": [ "Heli, gravBoots", "ThrustOn, gravBoots" ],
             "item_count": 1
           },
           {
@@ -4404,7 +4404,7 @@
         ],
         "sections": [
           {
-            "name": "Find Nefarious' Office",
+            "name": "Infiltrate the Nefarious Base",
             "item_count": 1
           }
         ]
@@ -5325,7 +5325,7 @@
         "sections": [
           {
             "name": "Infobot: Aridia",
-            "access_rules": [ "hyperShot, gravBoots", "gravBoots, Heli", "gravBoots, ThrustOn" ],
+            "access_rules": [ "gravBoots, Heli", "gravBoots, ThrustOn" ],
             "item_count": 1
           }
         ]
