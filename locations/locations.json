@@ -58,7 +58,7 @@
           },
           {
             "name": "Trophy: 2nd Building Upstairs North-East",
-            "access_rules": [ "Heli" ],
+            "access_rules": [ "Heli", "chargeBoots" ],
             "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
             "item_count": 1
           },
@@ -70,13 +70,13 @@
           },
           {
             "name": "SP: Stay Squeaky Clean",
-            "access_rules": [ "Heli" ],
+            "access_rules": [ "Heli", "chargeBoots" ],
             "visibility_rules": [ "SkillMaster, 1HPRatOff" ],
             "item_count": 1
           },
           {
             "name": "Defeat Qwark",
-            "access_rules": [ "Heli" ],
+            "access_rules": [ "Heli", "chargeBoots" ],
             "item_count": 1
           }
         ]
@@ -2679,7 +2679,7 @@
         "sections": [
           {
             "name": "Ratchet Trophy",
-            "access_rules": [ "Heli" ],
+            "access_rules": [ "Heli", "chargeBoots" ],
             "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
             "item_count": 1
           }
@@ -2705,7 +2705,7 @@
       },
       {
         "name": "Skill Point: Stay Squeaky Clean",
-        "access_rules": [ "Heli" ],
+        "access_rules": [ "Heli", "chargeBoots" ],
         "visibility_rules": [ "SkillMaster, 1HPRatOff" ],
         "map_locations": [
           {
@@ -2723,7 +2723,7 @@
       },
       {
         "name": "Walk the PATH OF DEATH!",
-        "access_rules": [ "Heli" ],
+        "access_rules": [ "Heli", "chargeBoots" ],
         "map_locations": [
           {
             "map": "Florana",
