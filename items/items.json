@@ -415,7 +415,7 @@
       },
       {
         "img": "images/items/planet/Veldin.png",
-        "codes": "Veldin"
+        "codes": "Veldin, NanoCount"
       }
     ]
   },
@@ -433,7 +433,7 @@
       },
       {
         "img": "images/items/planet/Florana.png",
-        "codes": "Florana"
+        "codes": "Florana, NanoCount"
       }
     ]
   },
@@ -451,7 +451,7 @@
       },
       {
         "img": "images/items/planet/Phoenix.png",
-        "codes": "Phoenix"
+        "codes": "Phoenix, NanoCount"
       }
     ]
   },
@@ -757,7 +757,7 @@
       },
       {
         "img": "images/items/planet/Museum.png",
-        "codes": "Museum"
+        "codes": "Museum, NanoCount"
       }
     ]
   },

@@ -94,275 +94,290 @@
         "sections": [
           {
             "name": "Received Suck Cannon",
+            "access_rules": [ "Phoenix" ],
             "visibility_rules": [ "WepVendorOn"],
             "item_count": 1
           },
           {
             "name": "Received Infector",
+            "access_rules": [ "Phoenix" ],
             "visibility_rules": [ "WepVendorOn"],
             "item_count": 1
           },
           {
+            "name": "Received RY3N0",
+            "access_rules": [ "NanoCount:10" ],
+            "visibility_rules": [ "WepVendorOn, Unstable"],
+            "item_count": 1
+          },
+          {
             "name": "T-Bolt: VR Gadget Training",
-            "access_rules": [ "Tyhrranosis, hacker, hyperShot" ],
+            "access_rules": [ "Tyhrranosis, hacker, hyperShot, Phoenix" ],
             "visibility_rules": [ "Bolt, Unstable"],
             "item_count": 1
           },
           {
             "name": "SP: Beat Helga's Best Time (0:50)",
             "visibility_rules": [ "SkillMaster, Unstable", "SkillSimple, Unstable" ],
-            "access_rules": [ "Tyhrranosis, hacker, hyperShot" ],
+            "access_rules": [ "Tyhrranosis, hacker, hyperShot, Phoenix" ],
             "item_count": 1
           },
           {
             "name": "VR Gadget Training",
             "visibility_rules": ["VRChecksOn, Unstable" ],
-            "access_rules": [ "Tyhrranosis, hacker, hyperShot" ],
+            "access_rules": [ "Tyhrranosis, hacker, hyperShot, Phoenix" ],
             "item_count": 1
           },
           {
             "name": "Received Hacker",
             "visibility_rules": ["VRChecksOn, Unstable" ],
-            "access_rules": [ "Tyhrranosis, hacker, hyperShot" ],
+            "access_rules": [ "Tyhrranosis, hacker, hyperShot, Phoenix" ],
             "item_count": 1
           },
           {
             "name": "Received Hypershot",
             "visibility_rules": ["VRChecksOn, Unstable" ],
-            "access_rules": [ "Tyhrranosis, hacker, hyperShot" ],
+            "access_rules": [ "Tyhrranosis, hacker, hyperShot, Phoenix" ],
             "item_count": 1
           },
           {
             "name": "VR: Warm Up",
+            "access_rules": [ "Phoenix" ],
             "visibility_rules": [ "VRChecksOn" ],
             "item_count": 1
           },
           {
             "name": "VR: Don't Look Down",
+            "access_rules": [ "Phoenix" ],
             "visibility_rules": [ "VRChecksOn" ],
             "item_count": 1
           },
           {
             "name": "VR: Speed Round",
+            "access_rules": [ "Phoenix" ],
             "visibility_rules": [ "VRChecksOn" ],
             "item_count": 1
           },
           {
             "name": "VR: Hot Stepper",
+            "access_rules": [ "Phoenix" ],
             "visibility_rules": [ "VRChecksOn" ],
             "item_count": 1
           },
           {
             "name": "VR: 90 Second Slayer",
+            "access_rules": [ "Phoenix" ],
             "visibility_rules": [ "VRChecksOn" ],
             "item_count": 1
           },
           {
             "name": "VR: The Shocker",
-            "access_rules": [ "ShockBlaster" ],
+            "access_rules": [ "ShockBlaster, Phoenix" ],
             "visibility_rules": [ "VRChecksOn" ],
             "item_count": 1
           },
           {
             "name": "VR: Wrench Beatdown",
-            "access_rules": [ "ShockBlaster" ],
+            "access_rules": [ "ShockBlaster, Phoenix" ],
             "visibility_rules": [ "VRChecksOn" ],
             "item_count": 1
           },
           {
             "name": "VR: Nerves of Titanium",
-            "access_rules": [ "ShockBlaster" ],
+            "access_rules": [ "ShockBlaster, Phoenix" ],
             "visibility_rules": [ "VRChecksOn" ],
             "item_count": 1
           },
           {
             "name": "T-Bolt: VR Nerves of Titanium",
-            "access_rules": [ "ShockBlaster" ],
+            "access_rules": [ "ShockBlaster, Phoenix" ],
             "visibility_rules": [ "VRChecksOn, Bolt" ],
             "item_count": 1
           },
           {
             "name": "Received Magna Plate Armor",
+            "access_rules": [ "Phoenix" ],
             "visibility_rules": ["Unstable, WepVendorOn"],
             "item_count": 1
           },
           {
             "name": "Received Adamantine Armor",
             "visibility_rules": ["Unstable, WepVendorOn"],
-            "access_rules": [ "Aquatos" ],
+            "access_rules": [ "Aquatos, Phoenix" ],
             "item_count": 1
           },
           {
             "name": "Received Aegis Mark V Armor",
             "visibility_rules": ["Unstable, WepVendorOn"],
-            "access_rules": [ "ZeldrinStarport" ],
+            "access_rules": [ "ZeldrinStarport, Phoenix" ],
             "item_count": 1
           },
           {
             "name": "Received Infernox Armor",
             "visibility_rules": ["Unstable, WepVendorOn"],
-            "access_rules": [ "Koros" ],
+            "access_rules": [ "Koros, Phoenix" ],
             "item_count": 1
           },
           {
             "name": "SP: Turn Up The Heat!",
             "visibility_rules": [ "SkillMaster, Unstable", "SkillSimple, Unstable" ],
-            "access_rules": [ "Koros" ],
+            "access_rules": [ "Koros, Phoenix" ],
             "item_count": 1
           },
           {
             "name": "Meet Sasha on the Bridge",
+            "access_rules": [ "Phoenix" ],
             "visibility_rules": ["Unstable" ],
             "item_count": 1
           },
           {
             "name": "Return after winning Grand Prize Bout",
             "visibility_rules": ["Unstable" ],
-            "access_rules": [ "Annihilation" ],
+            "access_rules": [ "Annihilation, Phoenix" ],
             "item_count": 1
           },
           {
             "name": "Deliver the Star Map to Qwark",
             "visibility_rules": ["Unstable" ],
-            "access_rules": [ "Aquatos" ],
+            "access_rules": [ "Aquatos, Phoenix" ],
             "item_count": 1
           },
           {
             "name": "Give Al the Master Plan",
             "visibility_rules": ["Unstable" ],
-            "access_rules": [ "MasterPlan" ],
+            "access_rules": [ "MasterPlan, Phoenix" ],
             "item_count": 1
           },
           {
             "name": "Qwark Vidcomic 1 Clear",
             "visibility_rules": [ "VCChecksOn" ],
-            "access_rules": [ "vidComic" ],
+            "access_rules": [ "vidComic, Phoenix" ],
             "item_count": 1
           },
           {
             "name": "SP: Pirate Booty - Set a new record for Qwark (2:40)",
             "visibility_rules": [ "VCChecksOn, SkillMaster" ],
-            "access_rules": [ "vidComic" ],
+            "access_rules": [ "vidComic, Phoenix" ],
             "item_count": 1
           },
           {
             "name": "T-Bolt: VidComic 1 100%",
-            "access_rules": [ "vidComic" ],
+            "access_rules": [ "vidComic, Phoenix" ],
             "visibility_rules": [ "VCChecksOn, Bolt" ],
             "item_count": 1
           },
           {
             "name": "Qwark Vidcomic 2 Clear",
             "visibility_rules": [ "VCChecksOn" ],
-            "access_rules": [ "vidComic2" ],
+            "access_rules": [ "vidComic2, Phoenix" ],
             "item_count": 1
           },
           {
             "name": "SP: Arriba Amoeba! - Set a new record for Qwark (2:10)",
             "visibility_rules": [ "VCChecksOn, SkillMaster" ],
-            "access_rules": [ "vidComic2" ],
+            "access_rules": [ "vidComic2, Phoenix" ],
             "item_count": 1
           },
           {
             "name": "T-Bolt: VidComic 2 100%",
-            "access_rules": [ "vidComic2" ],
+            "access_rules": [ "vidComic2, Phoenix" ],
             "visibility_rules": [ "VCChecksOn, Bolt" ],
             "item_count": 1
           },
           {
             "name": "Qwark Vidcomic 3 Clear",
             "visibility_rules": [ "VCChecksOn" ],
-            "access_rules": [ "vidComic3" ],
+            "access_rules": [ "vidComic3, Phoenix" ],
             "item_count": 1
           },
           {
             "name": "SP: Shadow of the Robot - Set a new record for Qwark (1:50)",
             "visibility_rules": [ "VCChecksOn, SkillMaster" ],
-            "access_rules": [ "vidComic3" ],
+            "access_rules": [ "vidComic3, Phoenix" ],
             "item_count": 1
           },
           {
             "name": "T-Bolt: VidComic 3 100%",
-            "access_rules": [ "vidComic3" ],
+            "access_rules": [ "vidComic3, Phoenix" ],
             "visibility_rules": [ "VCChecksOn, Bolt" ],
             "item_count": 1
           },
           {
             "name": "Qwark Vidcomic 4 Clear",
             "visibility_rules": [ "VCChecksOn" ],
-            "access_rules": [ "vidComic4" ],
+            "access_rules": [ "vidComic4, Phoenix" ],
             "item_count": 1
           },
           {
             "name": "SP: Deja Q All Over Again - Set a new record for Qwark (4:45)",
             "visibility_rules": [ "VCChecksOn, SkillMaster" ],
-            "access_rules": [ "vidComic4" ],
+            "access_rules": [ "vidComic4, Phoenix" ],
             "item_count": 1
           },
           {
             "name": "T-Bolt: VidComic 4 100%",
-            "access_rules": [ "vidComic4" ],
+            "access_rules": [ "vidComic4, Phoenix" ],
             "visibility_rules": [ "VCChecksOn, Bolt" ],
             "item_count": 1
           },
           {
             "name": "Qwark Vidcomic 5 Clear",
             "visibility_rules": [ "VCChecksOn" ],
-            "access_rules": [ "vidComic5" ],
+            "access_rules": [ "vidComic5, Phoenix" ],
             "item_count": 1
           },
           {
             "name": "SP: The Shaming of the Q - Set a new record for Qwark (2:00)",
             "visibility_rules": [ "VCChecksOn, SkillMaster" ],
-            "access_rules": [ "vidComic5" ],
+            "access_rules": [ "vidComic5, Phoenix" ],
             "item_count": 1
           },
           {
             "name": "T-Bolt: VidComic 5 100%",
-            "access_rules": [ "vidComic5" ],
+            "access_rules": [ "vidComic5, Phoenix" ],
             "visibility_rules": [ "VCChecksOn, Bolt" ],
             "item_count": 1
           },
           {
             "name": "SP: Strive for Arcade Perfection",
             "visibility_rules": [ "VCChecksOn, SkillMaster" ],
-            "access_rules": [ "vidComic5" ],
+            "access_rules": [ "vidComic5, Phoenix" ],
             "item_count": 1
           },
           {
             "name": "SP: Monkeying Around",
             "visibility_rules": [ "SkillMaster, Unstable", "SkillSimple, Unstable" ],
-            "access_rules": [ "tyhrraGuise" ],
+            "access_rules": [ "tyhrraGuise, Phoenix" ],
             "item_count": 1
           },
           {
             "name": "Post Hideout Assault",
             "visibility_rules": ["Unstable" ],
-            "access_rules": [ "QwarksHideout, refractor, warpPad, hyperShot" ],
+            "access_rules": [ "QwarksHideout, refractor, warpPad, hyperShot, Phoenix" ],
             "item_count": 1
           },
           {
             "name": "Long Term Trophy: Titanium Collector",
-            "access_rules": [ "refractor, warpPad, hyperShot, vidComic5, hacker, tyhrraGuise, gravBoots, Marcadia, Annihilation, Aquatos, Tyhrranosis, Daxx, Gemini, Blackwater, Holostar, ZeldrinStarport, Metropolis, CrashSite, Aridia, QwarksHideout, Koros, CommandCenter"],
+            "access_rules": [ "refractor, warpPad, hyperShot, vidComic5, hacker, tyhrraGuise, gravBoots, Marcadia, Annihilation, Aquatos, Tyhrranosis, Daxx, Gemini, Blackwater, Holostar, ZeldrinStarport, Metropolis, CrashSite, Aridia, QwarksHideout, Koros, CommandCenter, Phoenix"],
             "visibility_rules": [ "Bolt, TrophiesAll" ],
             "item_count": 1
           },
           {
             "name": "Long Term Trophy: Friend of the Rangers",
-            "access_rules": [ "refractor, gravBoots, Marcadia, Tyhrranosis, Blackwater, Metropolis, Aridia" ],
+            "access_rules": [ "refractor, gravBoots, Marcadia, Tyhrranosis, Blackwater, Metropolis, Aridia, Phoenix" ],
             "visibility_rules": [ "RangerOn, TrophiesAll" ],
             "item_count": 1
           },
           {
             "name": "Long Term Trophy: Annihilation Nation Champion",
-            "access_rules": [ "Daxx, hyperShot, vidComic5, hacker, tyhrraGuise, gravBoots, refractor, CommandCenter" ],
+            "access_rules": [ "Daxx, hyperShot, vidComic5, hacker, tyhrraGuise, gravBoots, refractor, CommandCenter, Phoenix" ],
             "visibility_rules": [ "ArenaOn, TrophiesAll" ],
             "item_count": 1
           },
           {
             "name": "Long Term Trophy: Skill Master",
             "access_rules": [ "refractor, warpPad, hyperShot, vidComic5, hacker, tyhrraGuise, gravBoots, Marcadia, Annihilation, Aquatos, Tyhrranosis, Daxx, Gemini, Blackwater, Holostar, ZeldrinStarport, Metropolis, CrashSite, Aridia, QwarksHideout, Koros, CommandCenter, PlasmaWhip, SpittingHydra, SuckCannon, DiskBladeGun, FluxRifle, QwackORay, Annihilator, Infector",
-          "refractor, warpPad, hyperShot, vidComic5, hacker, tyhrraGuise, gravBoots, Marcadia, Annihilation, Aquatos, Tyhrranosis, Daxx, Gemini, Blackwater, Holostar, ZeldrinStarport, Metropolis, CrashSite, Aridia, QwarksHideout, Koros, CommandCenter, PlasmaWhip, SpittingHydra, NPSuckCannon, DiskBladeGun, FluxRifle, QwackORay, Annihilator, Infector" ],
+          "refractor, warpPad, hyperShot, vidComic5, hacker, tyhrraGuise, gravBoots, Marcadia, Annihilation, Aquatos, Tyhrranosis, Daxx, Gemini, Blackwater, Holostar, ZeldrinStarport, Metropolis, CrashSite, Aridia, QwarksHideout, Koros, CommandCenter, PlasmaWhip, SpittingHydra, NPSuckCannon, DiskBladeGun, FluxRifle, QwackORay, Annihilator, Infector, Phoenix" ],
             "visibility_rules": [ "SkillMaster, TrophiesAll, RangerOn, ArenaOn, VCChecksOn, CrystalsTotal:100, 1HPRatOff" ],
             "item_count": 1
           }
@@ -985,7 +1000,7 @@
         "sections": [
           {
             "name": "SP: Feeling Lucky?",
-            "visibility_rules": [ "SkillMaster", "SkillSimple"],
+            "visibility_rules": [ "SkillMaster"],
             "item_count": 1
           },
           {
@@ -2741,8 +2756,7 @@
     ]
   },
   {
-    "name": "Phoenix",
-    "access_rules": [ "Phoenix" ],
+    "name": "Phoenix Vendors",
     "chest_unopened_img": "images/Question.png",
     "chest_opened_img": "images/Q_Force.png",
     "children": [
@@ -2758,16 +2772,32 @@
         "sections": [
           {
             "name": "Received Suck Cannon",
+            "access_rules": [ "Phoenix" ],
             "visibility_rules": [ "WepVendorOn"],
             "item_count": 1
           },
           {
             "name": "Received Infector",
+            "access_rules": [ "Phoenix" ],
             "visibility_rules": [ "WepVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Received RY3N0",
+            "access_rules": [ "NanoCount:10" ],
+            "visibility_rules": [ "WepVendorOn, Unstable"],
             "item_count": 1
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "name": "Phoenix",
+    "access_rules": [ "Phoenix" ],
+    "chest_unopened_img": "images/Question.png",
+    "chest_opened_img": "images/Q_Force.png",
+    "children": [
       {
         "name": "VR Training",
         "visibility_rules": [ "VRChecksOn" ],

@@ -102,6 +102,7 @@ LOCATION_MAPPING = {
 	[LOCATION_ID + 79] = { {"@Obani Draco/Defeat Courtney Gears/Infobot: Zeldrin Starport"}, {"@Galaxy/Obani Draco/Defeat Courtney Gears"} },
 	--Zeldrin Starport
 	[LOCATION_ID + 80] = { {"@Zeldrin Starport/Go to the Zeldrin Starport/Received Bolt Grabber V2"}, {"@Galaxy/Zeldrin Starport/Received Bolt Grabber V2"} },
+	[LOCATION_ID + 398] = { {"@Zeldrin Starport/Go to the Zeldrin Starport/Received Box Breaker"}, {"@Galaxy/Zeldrin Starport/Received Box Breaker"} },
 	[LOCATION_ID + 81] = { {"@Zeldrin Starport/Escape the Exploding Ship/Vid-Comic 4" }, {"@Galaxy/Zeldrin Starport/Escape the Exploding Ship"} },
 	--Metropolis
 	[LOCATION_ID + 82] = { {"@Metropolis/Metal-Noids/The AAAAGE OF ROBOTS!!!" }, {"@Galaxy/Metropolis/Metal-Noids"} },
@@ -136,6 +137,7 @@ LOCATION_MAPPING = {
 	[LOCATION_ID + 105] = { {"@Florana/Vendor/Received N60 Storm" }, {"@Galaxy/Florana/Received N60 Storm"} },
 	[LOCATION_ID + 106] = { {"@Phoenix/Vendor/Received Suck Cannon"}, {"@Galaxy/Phoenix/Received Suck Cannon"} },
 	[LOCATION_ID + 107] = { {"@Phoenix/Vendor/Received Infector"}, {"@Galaxy/Phoenix/Received Infector"} },
+	[LOCATION_ID + 401] = { {"@Phoenix/Vendor/Received RY3N0"}, {"@Galaxy/Phoenix/Received RY3N0"} },
 	[LOCATION_ID + 108] = { {"@Phoenix/Armor Vendor/Received Magna Plate Armor" }, {"@Galaxy/Phoenix/Received Magna Plate Armor"} },
 	[LOCATION_ID + 109] = { {"@Phoenix/Armor Vendor/Received Adamantine Armor"}, {"@Galaxy/Phoenix/Received Adamantine Armor"} },
 	[LOCATION_ID + 110] = { {"@Phoenix/Armor Vendor/Received Aegis Mark V Armor" }, {"@Galaxy/Phoenix/Received Aegis Mark V Armor"} },

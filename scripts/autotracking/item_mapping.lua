@@ -64,8 +64,8 @@ ITEM_MAPPING = {
 	[50000034] = { { "MasterPlan" } },
 	[50000033] = { { "StarMap" } },
 	[50000002] = { { "Heli" } },
-	[50000003] = { { "Thruster", nil, 2 } },
-	[50000256] = { { "Heli" },{ "Thruster", nil, 2 } }, 
+	[50000003] = { { "Thruster" }, { "Thruster" } },
+	[50000256] = { { "Heli" },{ "Thruster" }, { "Thruster" } }, 
 	[50000257] = { { "Heli" },{ "Thruster" } },
 	-- Planet --
 	[50000225] = { { "Veldin" } },
