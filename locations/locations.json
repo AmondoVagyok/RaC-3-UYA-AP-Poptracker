@@ -4879,12 +4879,14 @@
         "map_locations": [
           {
             "map": "Holostar Studios Clank",
+            "access_rules": [ "hacker" ],
             "visibility_rules": [ "SkillMaster, HoloSkipOff"],
             "x": 22,
             "y": 242
           },
           {
             "map": "Holostar Studios",
+            "access_rules": [ "hacker" ],
             "x": 334,
             "y": 234
           }
@@ -4925,6 +4927,7 @@
         "sections": [
           {
             "name": "Titanium Bolt",
+            "access_rules": [ "hacker" ],
             "visibility_rules": [ "Bolt" ],
             "item_count": 1
           }
@@ -4942,6 +4945,7 @@
         "sections": [
           {
             "name": "Clank Trophy",
+            "access_rules": [ "hacker" ],
             "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
             "item_count": 1
           }
@@ -4959,7 +4963,7 @@
         "sections": [
           {
             "name": "Titanium Bolt",
-            "access_rules": [ "gravBoots" ],
+            "access_rules": [ "hacker, hyperShot, gravBoots" ],
             "visibility_rules": [ "Bolt" ],
             "item_count": 1
           }
@@ -4977,7 +4981,7 @@
         "sections": [
           {
             "name": "Titanium Bolt",
-            "access_rules": [ "gravBoots" ],
+            "access_rules": [ "hacker, hyperShot, gravBoots" ],
             "visibility_rules": [ "Bolt" ],
             "item_count": 1
           }
@@ -4995,6 +4999,7 @@
         "sections": [
           {
             "name": "Skidd is captured",
+            "access_rules": [ "hacker, hyperShot" ],
             "item_count": 1
           }
         ]
