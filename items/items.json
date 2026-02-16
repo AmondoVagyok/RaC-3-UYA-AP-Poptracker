@@ -1092,5 +1092,24 @@
         "codes": "IntSkip,IntSkipOn"
       }
     ]
+  },
+  {
+    "name": "Holostar Skip",
+    "type": "progressive",
+    "loop": false,
+    "initial_stage_idx": 0,
+    "allow_disabled": false,
+    "stages": [
+      {
+          "name": "Holostar Skip Off",
+          "inherit_codes": false,
+          "codes": "HoloSkip,HoloSkipOff"
+      },
+      {
+        "name": "Holostar Skip On",
+          "inherit_codes": false,
+        "codes": "HoloSkip,HoloSkipOn"
+      }
+    ]
   }
 ]
