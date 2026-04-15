@@ -274,6 +274,13 @@ function onClear(slot_data)
             obj.CurrentStage = stage
         end
     end
+    if slot_data['Ship Vendor'] then
+        local obj = Tracker:FindObjectForCode("ShipVendor")
+        local stage = slot_data['Ship Vendor']
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
     if slot_data["Clank Pack Options"] then
         local obj = Tracker:FindObjectForCode("Clank")
         local stage = slot_data["Clank Pack Options"]

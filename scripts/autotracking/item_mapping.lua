@@ -47,6 +47,7 @@ ITEM_MAPPING = {
 	[50000205] = { { "Bouncer" } },
 	[50000203] = { { "PlasmaCoil" } },
 	-- Gadget / Item / VidComic --
+	[50000258] = { { "Saber" } },
 	[50000020] = { { "hacker" } },
 	[50000011] = { { "hyperShot" } },
 	[50000018] = { { "refractor" } },

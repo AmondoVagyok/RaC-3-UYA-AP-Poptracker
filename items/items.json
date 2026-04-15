@@ -206,6 +206,12 @@
     "codes": "PlasmaCoil"
   },
   {
+    "name": "Lightsaber Wrench",
+    "type": "toggle",
+    "img": "images/items/weapon/Saber.png",
+    "codes": "Saber"
+  },
+  {
     "name": "Refractor",
     "type": "toggle",
     "img": "images/items/gadget/refractor.png",
@@ -883,13 +889,31 @@
     "stages": [
       {
           "img": "images/items/settings/WepVenOff.png",
-          "name": "Vid-Comic Checks - Off",
+          "name": "Weapon Vendors - Off",
           "codes": "WepVendor,WepVendorOff"
       },
       {
         "img": "images/items/settings/WepVenOn.png",
-        "name": "Vid-Comic Checks - On",
+        "name": "Weapon Vendors - On",
         "codes": "WepVendor,WepVendorOn"
+      }
+    ]
+  },
+  {
+    "name": "Ship Vendor",
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": false,
+    "stages": [
+      {
+          "img": "images/items/settings/ShipVenOff.png",
+          "name": "Ship Vendor - Off",
+          "codes": "ShipVendor,ShipVendorOff"
+      },
+      {
+        "img": "images/items/settings/ShipVenOn.png",
+        "name": "Ship Vendor - On",
+        "codes": "ShipVendor,ShipVendorOn"
       }
     ]
   },

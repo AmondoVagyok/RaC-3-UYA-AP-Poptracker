@@ -83,7 +83,6 @@
       },
       {
         "name": "Phoenix",
-        "access_rules": [ "Phoenix, IntSkipOn", "Phoenix, IntSkipOff, Heli", "Phoenix, IntSkipOff, chargeBoots" ],
         "map_locations": [
           {
             "map": "Galaxy",
@@ -94,266 +93,494 @@
         "sections": [
           {
             "name": "Received Suck Cannon",
-            "access_rules": [ "Phoenix" ],
+            "access_rules": [ "Phoenix, IntSkipOn", "Phoenix, IntSkipOff, Heli", "Phoenix, IntSkipOff, chargeBoots" ],
             "visibility_rules": [ "WepVendorOn"],
             "item_count": 1
           },
           {
             "name": "Received Infector",
-            "access_rules": [ "Phoenix" ],
+            "access_rules": [ "Phoenix, IntSkipOn", "Phoenix, IntSkipOff, Heli", "Phoenix, IntSkipOff, chargeBoots" ],
             "visibility_rules": [ "WepVendorOn"],
             "item_count": 1
           },
           {
             "name": "Received RY3N0",
             "access_rules": [ "NanoCount:10" ],
-            "visibility_rules": [ "WepVendorOn, Unstable"],
+            "visibility_rules": [ "WepVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Wings 1",
+            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:2", "Phoenix, IntSkipOff, Heli, NanoCount:2", "Phoenix, IntSkipOff, chargeBoots, NanoCount:2" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Wings 2",
+            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:2", "Phoenix, IntSkipOff, Heli, NanoCount:2", "Phoenix, IntSkipOff, chargeBoots, NanoCount:2" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Wings 3",
+            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:2", "Phoenix, IntSkipOff, Heli, NanoCount:2", "Phoenix, IntSkipOff, chargeBoots, NanoCount:2" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Nose 1",
+            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:3", "Phoenix, IntSkipOff, Heli, NanoCount:3", "Phoenix, IntSkipOff, chargeBoots, NanoCount:3" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Nose 2",
+            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:3", "Phoenix, IntSkipOff, Heli, NanoCount:3", "Phoenix, IntSkipOff, chargeBoots, NanoCount:3" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Nose 3",
+            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:3", "Phoenix, IntSkipOff, Heli, NanoCount:3", "Phoenix, IntSkipOff, chargeBoots, NanoCount:3" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 1",
+            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:4", "Phoenix, IntSkipOff, Heli, NanoCount:4", "Phoenix, IntSkipOff, chargeBoots, NanoCount:4" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 2",
+            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:4", "Phoenix, IntSkipOff, Heli, NanoCount:4", "Phoenix, IntSkipOff, chargeBoots, NanoCount:4" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 3",
+            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:4", "Phoenix, IntSkipOff, Heli, NanoCount:4", "Phoenix, IntSkipOff, chargeBoots, NanoCount:4" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 4",
+            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:5", "Phoenix, IntSkipOff, Heli, NanoCount:5", "Phoenix, IntSkipOff, chargeBoots, NanoCount:5" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 5",
+            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:5", "Phoenix, IntSkipOff, Heli, NanoCount:5", "Phoenix, IntSkipOff, chargeBoots, NanoCount:5" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 6",
+            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:5", "Phoenix, IntSkipOff, Heli, NanoCount:5", "Phoenix, IntSkipOff, chargeBoots, NanoCount:5" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 7",
+            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:6", "Phoenix, IntSkipOff, Heli, NanoCount:6", "Phoenix, IntSkipOff, chargeBoots, NanoCount:6" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 8",
+            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:6", "Phoenix, IntSkipOff, Heli, NanoCount:6", "Phoenix, IntSkipOff, chargeBoots, NanoCount:6" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 9",
+            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:6", "Phoenix, IntSkipOff, Heli, NanoCount:6", "Phoenix, IntSkipOff, chargeBoots, NanoCount:6" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 10",
+            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:7", "Phoenix, IntSkipOff, Heli, NanoCount:7", "Phoenix, IntSkipOff, chargeBoots, NanoCount:7" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 11",
+            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:7", "Phoenix, IntSkipOff, Heli, NanoCount:7", "Phoenix, IntSkipOff, chargeBoots, NanoCount:7" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 12",
+            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:7", "Phoenix, IntSkipOff, Heli, NanoCount:7", "Phoenix, IntSkipOff, chargeBoots, NanoCount:7" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 13",
+            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:8", "Phoenix, IntSkipOff, Heli, NanoCount:8", "Phoenix, IntSkipOff, chargeBoots, NanoCount:8" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 14",
+            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:8", "Phoenix, IntSkipOff, Heli, NanoCount:8", "Phoenix, IntSkipOff, chargeBoots, NanoCount:8" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 15",
+            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:8", "Phoenix, IntSkipOff, Heli, NanoCount:8", "Phoenix, IntSkipOff, chargeBoots, NanoCount:8" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 16",
+            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:9", "Phoenix, IntSkipOff, Heli, NanoCount:9", "Phoenix, IntSkipOff, chargeBoots, NanoCount:9" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 17",
+            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:9", "Phoenix, IntSkipOff, Heli, NanoCount:9", "Phoenix, IntSkipOff, chargeBoots, NanoCount:9" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 18",
+            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:9", "Phoenix, IntSkipOff, Heli, NanoCount:9", "Phoenix, IntSkipOff, chargeBoots, NanoCount:9" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 19",
+            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:10", "Phoenix, IntSkipOff, Heli, NanoCount:10", "Phoenix, IntSkipOff, chargeBoots, NanoCount:10" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 20",
+            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:10", "Phoenix, IntSkipOff, Heli, NanoCount:10", "Phoenix, IntSkipOff, chargeBoots, NanoCount:10" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 21",
+            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:10", "Phoenix, IntSkipOff, Heli, NanoCount:10", "Phoenix, IntSkipOff, chargeBoots, NanoCount:10" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 22",
+            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:11", "Phoenix, IntSkipOff, Heli, NanoCount:11", "Phoenix, IntSkipOff, chargeBoots, NanoCount:11" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 23",
+            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:11", "Phoenix, IntSkipOff, Heli, NanoCount:11", "Phoenix, IntSkipOff, chargeBoots, NanoCount:11" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 24",
+            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:11", "Phoenix, IntSkipOff, Heli, NanoCount:11", "Phoenix, IntSkipOff, chargeBoots, NanoCount:11" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 25",
+            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:12", "Phoenix, IntSkipOff, Heli, NanoCount:12", "Phoenix, IntSkipOff, chargeBoots, NanoCount:12" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 26",
+            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:12", "Phoenix, IntSkipOff, Heli, NanoCount:12", "Phoenix, IntSkipOff, chargeBoots, NanoCount:12" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 27",
+            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:12", "Phoenix, IntSkipOff, Heli, NanoCount:12", "Phoenix, IntSkipOff, chargeBoots, NanoCount:12" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 28",
+            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:13", "Phoenix, IntSkipOff, Heli, NanoCount:13", "Phoenix, IntSkipOff, chargeBoots, NanoCount:13" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 29",
+            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:13", "Phoenix, IntSkipOff, Heli, NanoCount:13", "Phoenix, IntSkipOff, chargeBoots, NanoCount:13" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 30",
+            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:13", "Phoenix, IntSkipOff, Heli, NanoCount:13", "Phoenix, IntSkipOff, chargeBoots, NanoCount:13" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 31",
+            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:14", "Phoenix, IntSkipOff, Heli, NanoCount:14", "Phoenix, IntSkipOff, chargeBoots, NanoCount:14" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 32",
+            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:14", "Phoenix, IntSkipOff, Heli, NanoCount:14", "Phoenix, IntSkipOff, chargeBoots, NanoCount:14" ],
+            "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
             "name": "T-Bolt: VR Gadget Training",
-            "access_rules": [ "Tyhrranosis, hacker, hyperShot, Phoenix" ],
+            "access_rules": [ "Phoenix, IntSkipOn, Tyhrranosis, hacker, hyperShot", "Phoenix, IntSkipOff, Heli, Tyhrranosis, hacker, hyperShot", "Phoenix, IntSkipOff, chargeBoots, Tyhrranosis, hacker, hyperShot" ],
             "visibility_rules": [ "Bolt, Unstable"],
             "item_count": 1
           },
           {
             "name": "SP: Beat Helga's Best Time (0:50)",
             "visibility_rules": [ "SkillMaster, Unstable", "SkillSimple, Unstable" ],
-            "access_rules": [ "Tyhrranosis, hacker, hyperShot, Phoenix" ],
+            "access_rules": [ "Phoenix, IntSkipOn, Tyhrranosis, hacker, hyperShot", "Phoenix, IntSkipOff, Heli, Tyhrranosis, hacker, hyperShot", "Phoenix, IntSkipOff, chargeBoots, Tyhrranosis, hacker, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "VR Gadget Training",
             "visibility_rules": ["VRChecksOn, Unstable" ],
-            "access_rules": [ "Tyhrranosis, hacker, hyperShot, Phoenix" ],
+            "access_rules": [ "Phoenix, IntSkipOn, Tyhrranosis, hacker, hyperShot", "Phoenix, IntSkipOff, Heli, Tyhrranosis, hacker, hyperShot", "Phoenix, IntSkipOff, chargeBoots, Tyhrranosis, hacker, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "Received Hacker",
             "visibility_rules": ["VRChecksOn, Unstable" ],
-            "access_rules": [ "Tyhrranosis, hacker, hyperShot, Phoenix" ],
+            "access_rules": [ "Phoenix, IntSkipOn, Tyhrranosis, hacker, hyperShot", "Phoenix, IntSkipOff, Heli, Tyhrranosis, hacker, hyperShot", "Phoenix, IntSkipOff, chargeBoots, Tyhrranosis, hacker, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "Received Hypershot",
             "visibility_rules": ["VRChecksOn, Unstable" ],
-            "access_rules": [ "Tyhrranosis, hacker, hyperShot, Phoenix" ],
+            "access_rules": [ "Phoenix, IntSkipOn, Tyhrranosis, hacker, hyperShot", "Phoenix, IntSkipOff, Heli, Tyhrranosis, hacker, hyperShot", "Phoenix, IntSkipOff, chargeBoots, Tyhrranosis, hacker, hyperShot" ],
             "item_count": 1
           },
           {
             "name": "VR: Warm Up",
-            "access_rules": [ "Phoenix" ],
+            "access_rules": [ "Phoenix, IntSkipOn", "Phoenix, IntSkipOff, Heli", "Phoenix, IntSkipOff, chargeBoots" ],
             "visibility_rules": [ "VRChecksOn" ],
             "item_count": 1
           },
           {
             "name": "VR: Don't Look Down",
-            "access_rules": [ "Phoenix" ],
+            "access_rules": [ "Phoenix, IntSkipOn", "Phoenix, IntSkipOff, Heli", "Phoenix, IntSkipOff, chargeBoots" ],
             "visibility_rules": [ "VRChecksOn" ],
             "item_count": 1
           },
           {
             "name": "VR: Speed Round",
-            "access_rules": [ "Phoenix" ],
+            "access_rules": [ "Phoenix, IntSkipOn", "Phoenix, IntSkipOff, Heli", "Phoenix, IntSkipOff, chargeBoots" ],
             "visibility_rules": [ "VRChecksOn" ],
             "item_count": 1
           },
           {
             "name": "VR: Hot Stepper",
-            "access_rules": [ "Phoenix" ],
+            "access_rules": [ "Phoenix, IntSkipOn", "Phoenix, IntSkipOff, Heli", "Phoenix, IntSkipOff, chargeBoots" ],
             "visibility_rules": [ "VRChecksOn" ],
             "item_count": 1
           },
           {
             "name": "VR: 90 Second Slayer",
-            "access_rules": [ "Phoenix" ],
+            "access_rules": [ "Phoenix, IntSkipOn", "Phoenix, IntSkipOff, Heli", "Phoenix, IntSkipOff, chargeBoots" ],
             "visibility_rules": [ "VRChecksOn" ],
             "item_count": 1
           },
           {
             "name": "VR: The Shocker",
-            "access_rules": [ "ShockBlaster, Phoenix" ],
+            "access_rules": [ "Phoenix, IntSkipOn, ShockBlaster", "Phoenix, IntSkipOff, Heli, ShockBlaster", "Phoenix, IntSkipOff, chargeBoots, ShockBlaster" ],
             "visibility_rules": [ "VRChecksOn" ],
             "item_count": 1
           },
           {
             "name": "VR: Wrench Beatdown",
-            "access_rules": [ "ShockBlaster, Phoenix" ],
+            "access_rules": [ "Phoenix, IntSkipOn, ShockBlaster", "Phoenix, IntSkipOff, Heli, ShockBlaster", "Phoenix, IntSkipOff, chargeBoots, ShockBlaster" ],
             "visibility_rules": [ "VRChecksOn" ],
             "item_count": 1
           },
           {
             "name": "VR: Nerves of Titanium",
-            "access_rules": [ "ShockBlaster, Phoenix" ],
+            "access_rules": [ "Phoenix, IntSkipOn, ShockBlaster", "Phoenix, IntSkipOff, Heli, ShockBlaster", "Phoenix, IntSkipOff, chargeBoots, ShockBlaster" ],
             "visibility_rules": [ "VRChecksOn" ],
             "item_count": 1
           },
           {
             "name": "T-Bolt: VR Nerves of Titanium",
-            "access_rules": [ "ShockBlaster, Phoenix" ],
+            "access_rules": [ "Phoenix, IntSkipOn, ShockBlaster", "Phoenix, IntSkipOff, Heli, ShockBlaster", "Phoenix, IntSkipOff, chargeBoots, ShockBlaster" ],
             "visibility_rules": [ "VRChecksOn, Bolt" ],
             "item_count": 1
           },
           {
             "name": "Received Magna Plate Armor",
-            "access_rules": [ "Phoenix" ],
-            "visibility_rules": ["Unstable, WepVendorOn"],
+            "access_rules": [ "Phoenix, IntSkipOn", "Phoenix, IntSkipOff, Heli", "Phoenix, IntSkipOff, chargeBoots" ],
+            "visibility_rules": ["WepVendorOn"],
             "item_count": 1
           },
           {
             "name": "Received Adamantine Armor",
-            "visibility_rules": ["Unstable, WepVendorOn"],
-            "access_rules": [ "Aquatos, Phoenix" ],
+            "visibility_rules": ["WepVendorOn"],
+            "access_rules": [ "Phoenix, IntSkipOn, Aquatos", "Phoenix, IntSkipOff, Heli, Aquatos", "Phoenix, IntSkipOff, chargeBoots, Aquatos" ],
             "item_count": 1
           },
           {
             "name": "Received Aegis Mark V Armor",
-            "visibility_rules": ["Unstable, WepVendorOn"],
-            "access_rules": [ "ZeldrinStarport, Phoenix" ],
+            "visibility_rules": ["WepVendorOn"],
+            "access_rules": [ "Phoenix, IntSkipOn, ZeldrinStarport", "Phoenix, IntSkipOff, Heli, ZeldrinStarport", "Phoenix, IntSkipOff, chargeBoots, ZeldrinStarport" ],
             "item_count": 1
           },
           {
             "name": "Received Infernox Armor",
-            "visibility_rules": ["Unstable, WepVendorOn"],
-            "access_rules": [ "Koros, Phoenix" ],
+            "visibility_rules": ["WepVendorOn"],
+            "access_rules": [ "Phoenix, IntSkipOn, Koros", "Phoenix, IntSkipOff, Heli, Koros", "Phoenix, IntSkipOff, chargeBoots, Koros" ],
             "item_count": 1
           },
           {
             "name": "SP: Turn Up The Heat!",
             "visibility_rules": [ "SkillMaster, Unstable", "SkillSimple, Unstable" ],
-            "access_rules": [ "Koros, Phoenix" ],
+            "access_rules": [ "Phoenix, IntSkipOn, Koros", "Phoenix, IntSkipOff, Heli, Koros", "Phoenix, IntSkipOff, chargeBoots, Koros" ],
             "item_count": 1
           },
           {
             "name": "Meet Sasha on the Bridge",
-            "access_rules": [ "Phoenix" ],
+            "access_rules": [ "Phoenix, IntSkipOn", "Phoenix, IntSkipOff, Heli", "Phoenix, IntSkipOff, chargeBoots" ],
             "visibility_rules": ["Unstable" ],
             "item_count": 1
           },
           {
             "name": "Return after winning Grand Prize Bout",
             "visibility_rules": ["Unstable" ],
-            "access_rules": [ "Annihilation, Phoenix" ],
+            "access_rules": [ "Phoenix, IntSkipOn, Annihilation", "Phoenix, IntSkipOff, Heli, Annihilation", "Phoenix, IntSkipOff, chargeBoots, Annihilation" ],
             "item_count": 1
           },
           {
             "name": "Deliver the Star Map to Qwark",
             "visibility_rules": ["Unstable" ],
-            "access_rules": [ "Aquatos, Phoenix" ],
+            "access_rules": [ "Phoenix, IntSkipOn, Aquatos", "Phoenix, IntSkipOff, Heli, Aquatos", "Phoenix, IntSkipOff, chargeBoots, Aquatos" ],
             "item_count": 1
           },
           {
             "name": "Give Al the Master Plan",
             "visibility_rules": ["Unstable" ],
-            "access_rules": [ "MasterPlan, Phoenix" ],
+            "access_rules": [ "Phoenix, IntSkipOn, MasterPlan", "Phoenix, IntSkipOff, Heli, MasterPlan", "Phoenix, IntSkipOff, chargeBoots, MasterPlan" ],
             "item_count": 1
           },
           {
             "name": "Qwark Vidcomic 1 Clear",
             "visibility_rules": [ "VCChecksOn" ],
-            "access_rules": [ "vidComic, Phoenix" ],
+            "access_rules": [ "Phoenix, IntSkipOn, vidComic", "Phoenix, IntSkipOff, Heli, vidComic", "Phoenix, IntSkipOff, chargeBoots, vidComic" ],
             "item_count": 1
           },
           {
             "name": "SP: Pirate Booty - Set a new record for Qwark (2:40)",
             "visibility_rules": [ "VCChecksOn, SkillMaster" ],
-            "access_rules": [ "vidComic, Phoenix" ],
+            "access_rules": [ "Phoenix, IntSkipOn, vidComic", "Phoenix, IntSkipOff, Heli, vidComic", "Phoenix, IntSkipOff, chargeBoots, vidComic" ],
             "item_count": 1
           },
           {
             "name": "T-Bolt: VidComic 1 100%",
-            "access_rules": [ "vidComic, Phoenix" ],
+            "access_rules": [ "Phoenix, IntSkipOn, vidComic", "Phoenix, IntSkipOff, Heli, vidComic", "Phoenix, IntSkipOff, chargeBoots, vidComic" ],
             "visibility_rules": [ "VCChecksOn, Bolt" ],
             "item_count": 1
           },
           {
             "name": "Qwark Vidcomic 2 Clear",
             "visibility_rules": [ "VCChecksOn" ],
-            "access_rules": [ "vidComic2, Phoenix" ],
+            "access_rules": [ "Phoenix, IntSkipOn, vidComic2", "Phoenix, IntSkipOff, Heli, vidComic2", "Phoenix, IntSkipOff, chargeBoots, vidComic2" ],
             "item_count": 1
           },
           {
             "name": "SP: Arriba Amoeba! - Set a new record for Qwark (2:10)",
             "visibility_rules": [ "VCChecksOn, SkillMaster" ],
-            "access_rules": [ "vidComic2, Phoenix" ],
+            "access_rules": [ "Phoenix, IntSkipOn, vidComic2", "Phoenix, IntSkipOff, Heli, vidComic2", "Phoenix, IntSkipOff, chargeBoots, vidComic2" ],
             "item_count": 1
           },
           {
             "name": "T-Bolt: VidComic 2 100%",
-            "access_rules": [ "vidComic2, Phoenix" ],
+            "access_rules": [ "Phoenix, IntSkipOn, vidComic2", "Phoenix, IntSkipOff, Heli, vidComic2", "Phoenix, IntSkipOff, chargeBoots, vidComic2" ],
             "visibility_rules": [ "VCChecksOn, Bolt" ],
             "item_count": 1
           },
           {
             "name": "Qwark Vidcomic 3 Clear",
             "visibility_rules": [ "VCChecksOn" ],
-            "access_rules": [ "vidComic3, Phoenix" ],
+            "access_rules": [ "Phoenix, IntSkipOn, vidComic3", "Phoenix, IntSkipOff, Heli, vidComic3", "Phoenix, IntSkipOff, chargeBoots, vidComic3" ],
             "item_count": 1
           },
           {
             "name": "SP: Shadow of the Robot - Set a new record for Qwark (1:50)",
             "visibility_rules": [ "VCChecksOn, SkillMaster" ],
-            "access_rules": [ "vidComic3, Phoenix" ],
+            "access_rules": [ "Phoenix, IntSkipOn, vidComic3", "Phoenix, IntSkipOff, Heli, vidComic3", "Phoenix, IntSkipOff, chargeBoots, vidComic3" ],
             "item_count": 1
           },
           {
             "name": "T-Bolt: VidComic 3 100%",
-            "access_rules": [ "vidComic3, Phoenix" ],
+            "access_rules": [ "Phoenix, IntSkipOn, vidComic3", "Phoenix, IntSkipOff, Heli, vidComic3", "Phoenix, IntSkipOff, chargeBoots, vidComic3" ],
             "visibility_rules": [ "VCChecksOn, Bolt" ],
             "item_count": 1
           },
           {
             "name": "Qwark Vidcomic 4 Clear",
             "visibility_rules": [ "VCChecksOn" ],
-            "access_rules": [ "vidComic4, Phoenix" ],
+            "access_rules": [ "Phoenix, IntSkipOn, vidComic4", "Phoenix, IntSkipOff, Heli, vidComic4", "Phoenix, IntSkipOff, chargeBoots, vidComic4" ],
             "item_count": 1
           },
           {
             "name": "SP: Deja Q All Over Again - Set a new record for Qwark (4:45)",
             "visibility_rules": [ "VCChecksOn, SkillMaster" ],
-            "access_rules": [ "vidComic4, Phoenix" ],
+            "access_rules": [ "Phoenix, IntSkipOn, vidComic4", "Phoenix, IntSkipOff, Heli, vidComic4", "Phoenix, IntSkipOff, chargeBoots, vidComic4" ],
             "item_count": 1
           },
           {
             "name": "T-Bolt: VidComic 4 100%",
-            "access_rules": [ "vidComic4, Phoenix" ],
+            "access_rules": [ "Phoenix, IntSkipOn, vidComic4", "Phoenix, IntSkipOff, Heli, vidComic4", "Phoenix, IntSkipOff, chargeBoots, vidComic4" ],
             "visibility_rules": [ "VCChecksOn, Bolt" ],
             "item_count": 1
           },
           {
             "name": "Qwark Vidcomic 5 Clear",
             "visibility_rules": [ "VCChecksOn" ],
-            "access_rules": [ "vidComic5, Phoenix" ],
+            "access_rules": [ "Phoenix, IntSkipOn, vidComic5", "Phoenix, IntSkipOff, Heli, vidComic5", "Phoenix, IntSkipOff, chargeBoots, vidComic5" ],
             "item_count": 1
           },
           {
             "name": "SP: The Shaming of the Q - Set a new record for Qwark (2:00)",
             "visibility_rules": [ "VCChecksOn, SkillMaster" ],
-            "access_rules": [ "vidComic5, Phoenix" ],
+            "access_rules": [ "Phoenix, IntSkipOn, vidComic5", "Phoenix, IntSkipOff, Heli, vidComic5", "Phoenix, IntSkipOff, chargeBoots, vidComic5" ],
             "item_count": 1
           },
           {
             "name": "T-Bolt: VidComic 5 100%",
-            "access_rules": [ "vidComic5, Phoenix" ],
+            "access_rules": [ "Phoenix, IntSkipOn, vidComic5", "Phoenix, IntSkipOff, Heli, vidComic5", "Phoenix, IntSkipOff, chargeBoots, vidComic5" ],
             "visibility_rules": [ "VCChecksOn, Bolt" ],
             "item_count": 1
           },
           {
             "name": "SP: Strive for Arcade Perfection",
             "visibility_rules": [ "VCChecksOn, SkillMaster" ],
-            "access_rules": [ "vidComic5, Phoenix" ],
+            "access_rules": [ "Phoenix, IntSkipOn, vidComic5", "Phoenix, IntSkipOff, Heli, vidComic5", "Phoenix, IntSkipOff, chargeBoots, vidComic5" ],
             "item_count": 1
           },
           {
             "name": "SP: Monkeying Around",
             "visibility_rules": [ "SkillMaster, Unstable", "SkillSimple, Unstable" ],
-            "access_rules": [ "tyhrraGuise, Phoenix" ],
+            "access_rules": [ "Phoenix, IntSkipOn, tyhrraGuise", "Phoenix, IntSkipOff, Heli, tyhrraGuise", "Phoenix, IntSkipOff, chargeBoots, tyhrraGuise" ],
             "item_count": 1
           },
           {
             "name": "Post Hideout Assault",
             "visibility_rules": ["Unstable" ],
-            "access_rules": [ "QwarksHideout, refractor, warpPad, hyperShot, Phoenix" ],
+            "access_rules": [ "QwarksHideout, refractor, warpPad, hyperShot, Phoenix, IntSkipOn", "QwarksHideout, refractor, warpPad, hyperShot, Phoenix, IntSkipOff, Heli", "QwarksHideout, refractor, warpPad, hyperShot, Phoenix, IntSkipOff, chargeBoots" ],
             "item_count": 1
           },
           {
@@ -493,7 +720,7 @@
           },
           {
             "name": "T-Bolt: Heat Street",
-            "visibility_rules": [ "ArenaOn, Bolt", "ArenaFirst, Bolt" ],
+            "visibility_rules": [ "ArenaOn, Bolt", "ArenaFirst, Bolt", "ArenaSecond, Bolt" ],
             "item_count": 1
           },
           {
@@ -1070,12 +1297,12 @@
         "sections": [
           {
             "name": "Received Bolt Grabber V2",
-            "access_rules": [ "hyperShot, Heli", "hyperShot, ThrustOn" ],
+            "access_rules": [ "hyperShot, Heli", "hyperShot, ThrustOn", "hyperShot, chargeBoots" ],
             "item_count": 1
           },
           {
             "name": "Received Box Breaker",
-            "access_rules": [ "hyperShot, Heli", "hyperShot, ThrustOn" ],
+            "access_rules": [ "hyperShot, Heli", "hyperShot, ThrustOn", "hyperShot, chargeBoots" ],
             "item_count": 1
           },
           {
@@ -1091,7 +1318,7 @@
           },
           {
             "name": "Escape the Exploding Ship",
-            "access_rules": [ "Heli", "ThrustOn" ],
+            "access_rules": [ "Heli", "ThrustOn", "chargeBoots" ],
             "item_count": 1
           }
         ]
@@ -1275,6 +1502,7 @@
           },
           {
             "name": "Received Warp Pad",
+            "access_rules": [ "gravBoots" ],
             "item_count": 1
           },
           {
@@ -2789,7 +3017,255 @@
           {
             "name": "Received RY3N0",
             "access_rules": [ "NanoCount:10" ],
-            "visibility_rules": [ "WepVendorOn, Unstable"],
+            "visibility_rules": [ "WepVendorOn"],
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ship Vendor",
+    "chest_unopened_img": "images/Question.png",
+    "chest_opened_img": "images/Q_Force.png",
+    "access_rules": [ "Phoenix, IntSkipOn", "Phoenix, IntSkipOff, Heli", "Phoenix, IntSkipOff, chargeBoots" ],
+    "children": [
+      {
+        "name": "Vendor",
+        "map_locations": [
+          {
+            "map": "Starship Phoenix",
+            "x": 406,
+            "y": 491
+          }
+        ],
+        "sections": [
+          {
+            "name": "Ship Vendor Wings 1",
+            "access_rules": [ "NanoCount:2" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Wings 2",
+            "access_rules": [ "NanoCount:2" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Wings 3",
+            "access_rules": [ "NanoCount:2" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Nose 1",
+            "access_rules": [ "NanoCount:3" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Nose 2",
+            "access_rules": [ "NanoCount:3" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Nose 3",
+            "access_rules": [ "NanoCount:3" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 1",
+            "access_rules": [ "NanoCount:4" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 2",
+            "access_rules": [ "NanoCount:4" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 3",
+            "access_rules": [ "NanoCount:4" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 4",
+            "access_rules": [ "NanoCount:5" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 5",
+            "access_rules": [ "NanoCount:5" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 6",
+            "access_rules": [ "NanoCount:5" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 7",
+            "access_rules": [ "NanoCount:6" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 8",
+            "access_rules": [ "NanoCount:6" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 9",
+            "access_rules": [ "NanoCount:6" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 10",
+            "access_rules": [ "NanoCount:7" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 11",
+            "access_rules": [ "NanoCount:7" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 12",
+            "access_rules": [ "NanoCount:7" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 13",
+            "access_rules": [ "NanoCount:8" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 14",
+            "access_rules": [ "NanoCount:8" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 15",
+            "access_rules": [ "NanoCount:8" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 16",
+            "access_rules": [ "NanoCount:9" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 17",
+            "access_rules": [ "NanoCount:9" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 18",
+            "access_rules": [ "NanoCount:9" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 19",
+            "access_rules": [ "NanoCount:10" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 20",
+            "access_rules": [ "NanoCount:10" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 21",
+            "access_rules": [ "NanoCount:10" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 22",
+            "access_rules": [ "NanoCount:11" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 23",
+            "access_rules": [ "NanoCount:11" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 24",
+            "access_rules": [ "NanoCount:11" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 25",
+            "access_rules": [ "NanoCount:12" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 26",
+            "access_rules": [ "NanoCount:12" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 27",
+            "access_rules": [ "NanoCount:12" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 28",
+            "access_rules": [ "NanoCount:13" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 29",
+            "access_rules": [ "NanoCount:13" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 30",
+            "access_rules": [ "NanoCount:13" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 31",
+            "access_rules": [ "NanoCount:14" ],
+            "visibility_rules": [ "ShipVendorOn"],
+            "item_count": 1
+          },
+          {
+            "name": "Ship Vendor Skin 32",
+            "access_rules": [ "NanoCount:14" ],
+            "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           }
         ]
@@ -2888,7 +3364,7 @@
       },
       {
         "name": "Armor Vendor",
-        "visibility_rules": ["Unstable, WepVendorOn"],
+        "visibility_rules": ["WepVendorOn"],
         "map_locations": [
           {
             "map": "Starship Phoenix",
@@ -2931,7 +3407,7 @@
           {
             "map": "Starship Phoenix",
             "x": 382,
-            "y": 494
+            "y": 450
           }
         ],
         "sections": [
@@ -3366,7 +3842,7 @@
         "sections": [
           {
             "name": "Titanium Bolt",
-        "visibility_rules": [ "ArenaOn, Bolt", "ArenaFirst, Bolt" ],
+        "visibility_rules": [ "ArenaOn, Bolt", "ArenaFirst, Bolt", "ArenaSecond, Bolt" ],
             "item_count": 1
           }
         ]
@@ -5048,12 +5524,12 @@
         "sections": [
           {
             "name": "Received Bolt Grabber V2",
-            "access_rules": [ "hyperShot, Heli", "hyperShot, ThrustOn" ],
+            "access_rules": [ "hyperShot, Heli", "hyperShot, ThrustOn", "hyperShot, chargeBoots" ],
             "item_count": 1
           },
           {
             "name": "Received Box Breaker",
-            "access_rules": [ "hyperShot, Heli", "hyperShot, ThrustOn" ],
+            "access_rules": [ "hyperShot, Heli", "hyperShot, ThrustOn", "hyperShot, chargeBoots" ],
             "item_count": 1
           }
         ]
@@ -5106,6 +5582,7 @@
         "sections": [
           {
             "name": "Vid-Comic 4",
+            "access_rules": [ "Heli", "ThrustOn", "chargeBoots" ],
             "item_count": 1
           }
         ]
@@ -5450,6 +5927,7 @@
           },
           {
             "name": "Received Warp Pad",
+            "access_rules": [ "gravBoots" ],
             "item_count": 1
           }
         ]
